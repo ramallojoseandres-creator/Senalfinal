@@ -2,23 +2,30 @@
 
 App IPTV premium para Android TV construida con **Jetpack Compose for TV**, arquitectura offline-first (Room + Retrofit), reproductor Media3 con zapping seamless y CI en GitHub Actions.
 
-## Backend
+## Backend (senal-server 2.0.1)
 
 Base URL: `http://185.192.20.245:3000/`
 
 | Endpoint | Uso |
 |---|---|
-| `GET /API/health` | Health check reactivo (banner “Reconectando…”) |
-| `GET /API/catalog` | Catálogo live/VOD cacheado en Room |
-| `POST /API/auth/login` | Token Bearer (opcional) |
-| `GET /API/epg/{channelId}` | EPG actual del OSD |
+| `GET /api/health` | Health check (`ok`, `version`, …) |
+| `POST /api/auth/login` | Login TV: `{ username, password, deviceId, deviceName, platform }` → JWT |
+| `GET /api/catalog` | Catálogo (requiere `Authorization: Bearer`) |
 
 Headers inyectados por `AuthInterceptor`:
 
 - `Authorization: Bearer <token>`
 - `X-Device-Id`
 - `X-Device-Name`
-- `X-Platform: android-tv`
+- `X-Device-Platform: android-tv`
+- `X-Device-Fingerprint`
+
+## Flujo de app
+
+1. Pantalla de **login** (usuario/contraseña del panel Señal).
+2. JWT se guarda en DataStore; el catálogo se cachea en Room.
+3. Si el token expira (401), la app vuelve al login sin crashear.
+4. Banner turquesa “Reconectando…” si `/api/health` falla.
 
 ## Arquitectura
 
@@ -29,9 +36,10 @@ app/src/main/java/com/senal/tv/
 ├── data/
 │   ├── local/     # Room entities/DAO
 │   ├── model/     # DTOs + domain
-│   └── repository/# Catalog / Health / EPG
+│   └── repository/# Auth / Catalog / Health / EPG
 ├── player/        # SenalExoPlayer (Media3, zap sin recreate)
 ├── ui/
+│   ├── login/     # Acceso TV
 │   ├── home/      # Reloj, mini-player, LazyRow VIVO/VOD
 │   ├── livetv/    # OSD + DPAD zapping + favoritos (hold OK)
 │   ├── vod/

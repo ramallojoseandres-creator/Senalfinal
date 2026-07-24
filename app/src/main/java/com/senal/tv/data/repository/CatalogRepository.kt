@@ -19,20 +19,19 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import retrofit2.HttpException
 import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Offline-first catalog source of truth.
- * 1) Emit Room cache instantly
- * 2) Refresh from /API/catalog in background
- * 3) On network failure, keep serving cache — zero empty loading states
+ * Offline-first catalog source of truth backed by /api/catalog (JWT required).
  */
 @Singleton
 class CatalogRepository @Inject constructor(
     private val api: SenalApi,
     private val catalogDao: CatalogDao,
     private val favoritesStore: FavoritesStore,
+    private val authRepository: AuthRepository,
     private val json: Json,
 ) {
 
@@ -56,10 +55,17 @@ class CatalogRepository @Inject constructor(
     suspend fun refresh(): Result<Catalog> = withContext(Dispatchers.IO) {
         runCatching {
             val dto = api.catalog()
+            if (dto.ok == false) {
+                error(dto.message ?: dto.error ?: "Catálogo no disponible")
+            }
             val favSet = favoritesStore.favorites.first()
             val domain = dto.toDomain(favSet)
             persist(dto, domain)
             domain.copy(fromCache = false)
+        }.onFailure { error ->
+            if (error is HttpException && error.code() == 401) {
+                authRepository.invalidateSession()
+            }
         }
     }
 

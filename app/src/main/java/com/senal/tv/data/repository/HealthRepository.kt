@@ -14,8 +14,8 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Reactive health probe against /API/health.
- * Never crashes the UI — only toggles a discrete reconnect banner.
+ * Reactive health probe against /api/health.
+ * Real payload: { ok, service, version, panel, db, time }
  */
 @Singleton
 class HealthRepository @Inject constructor(
@@ -26,8 +26,8 @@ class HealthRepository @Inject constructor(
     private val _isOnline = MutableStateFlow(true)
     val isOnline: StateFlow<Boolean> = _isOnline.asStateFlow()
 
-    private val _lastLatencyMs = MutableStateFlow<Long?>(null)
-    val lastLatencyMs: StateFlow<Long?> = _lastLatencyMs.asStateFlow()
+    private val _serverVersion = MutableStateFlow<String?>(null)
+    val serverVersion: StateFlow<String?> = _serverVersion.asStateFlow()
 
     init {
         startPolling()
@@ -43,21 +43,17 @@ class HealthRepository @Inject constructor(
     }
 
     suspend fun checkOnce(): Boolean {
-        val started = System.currentTimeMillis()
         return try {
             val response = api.health()
             val ok = response.ok == true ||
                 response.status.equals("ok", ignoreCase = true) ||
                 response.status.equals("healthy", ignoreCase = true) ||
-                response.status.equals("up", ignoreCase = true) ||
-                // Some backends return 200 with empty/minimal body
-                (response.status == null && response.ok == null)
+                response.status.equals("up", ignoreCase = true)
             _isOnline.value = ok
-            _lastLatencyMs.value = System.currentTimeMillis() - started
+            _serverVersion.value = response.version
             ok
         } catch (_: Exception) {
             _isOnline.value = false
-            _lastLatencyMs.value = null
             false
         }
     }

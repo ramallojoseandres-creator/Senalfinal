@@ -11,21 +11,21 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 
 /**
- * Backend contract for http://185.192.20.245:3000/
- * Paths mirror the /API/ surface used by Señal.
+ * Backend contract for senal-server 2.0.x at http://185.192.20.245:3000/
+ * Canonical paths use lowercase /api/ (Express).
  */
 interface SenalApi {
 
-    @GET("API/health")
+    @GET("api/health")
     suspend fun health(): HealthResponseDto
 
-    @GET("API/catalog")
-    suspend fun catalog(): CatalogResponseDto
-
-    @POST("API/auth/login")
+    @POST("api/auth/login")
     suspend fun login(@Body body: AuthRequestDto): AuthResponseDto
 
-    @GET("API/epg/{channelId}")
+    @GET("api/catalog")
+    suspend fun catalog(): CatalogResponseDto
+
+    @GET("api/epg/{channelId}")
     suspend fun epg(
         @Path("channelId") channelId: String,
         @Query("now") now: Boolean = true,
