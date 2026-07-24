@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Señal</string>
+    <string name="reconnect_banner">Reconectando…</string>
+    <string name="no_epg">No información</string>
+    <string name="category_live">VIVO</string>
+    <string name="category_vod">VOD</string>
+    <string name="favorites">Favoritos</string>
+    <string name="added_favorite">Añadido a favoritos</string>
+    <string name="removed_favorite">Eliminado de favoritos</string>
+    <string name="offline_cache">Catálogo en caché</string>
+    <string name="empty_catalog">Sin canales disponibles</string>
+    <string name="login_title">Acceso Android TV</string>
+    <string name="login_username">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_action">Entrar</string>
+    <string name="login_connecting">Conectando…</string>
+</resources>
