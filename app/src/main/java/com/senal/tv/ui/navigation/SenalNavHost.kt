@@ -47,7 +47,7 @@ class SessionViewModel @Inject constructor(
 ) : ViewModel() {
     val isLoggedIn: StateFlow<Boolean> = tokenStore.tokenFlow
         .map { !it.isNullOrBlank() }
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), false)
+        .stateIn(viewModelScope, SharingStarted.Eagerly, false)
 
     val authEvents = authRepository.events
 
@@ -63,12 +63,13 @@ fun SenalNavHost(
     val navController = rememberNavController()
     val isLoggedIn by sessionViewModel.isLoggedIn.collectAsStateWithLifecycle()
 
-    LaunchedEffect(sessionViewModel) {
+    LaunchedEffect(Unit) {
         sessionViewModel.authEvents.collect { event ->
+            val graphId = navController.graph.id
             when (event) {
                 AuthEvent.LoggedOut -> {
                     navController.navigate(Routes.LOGIN) {
-                        popUpTo(0) { inclusive = true }
+                        popUpTo(graphId) { inclusive = true }
                         launchSingleTop = true
                     }
                 }
@@ -82,29 +83,32 @@ fun SenalNavHost(
         }
     }
 
-    // Cold start: if token already present, skip login.
     LaunchedEffect(isLoggedIn) {
         val current = navController.currentBackStackEntry?.destination?.route
-        if (isLoggedIn && current == Routes.LOGIN) {
+        val graphId = runCatching { navController.graph.id }.getOrNull() ?: return@LaunchedEffect
+        if (isLoggedIn && (current == Routes.LOGIN || current == null)) {
             navController.navigate(Routes.HOME) {
                 popUpTo(Routes.LOGIN) { inclusive = true }
+                launchSingleTop = true
             }
         } else if (!isLoggedIn && current != null && current != Routes.LOGIN) {
             navController.navigate(Routes.LOGIN) {
-                popUpTo(0) { inclusive = true }
+                popUpTo(graphId) { inclusive = true }
+                launchSingleTop = true
             }
         }
     }
 
     NavHost(
         navController = navController,
-        startDestination = if (isLoggedIn) Routes.HOME else Routes.LOGIN,
+        startDestination = Routes.LOGIN,
     ) {
         composable(Routes.LOGIN) {
             LoginScreen(
                 onLoggedIn = {
                     navController.navigate(Routes.HOME) {
                         popUpTo(Routes.LOGIN) { inclusive = true }
+                        launchSingleTop = true
                     }
                 },
             )

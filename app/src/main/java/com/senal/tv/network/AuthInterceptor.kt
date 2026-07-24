@@ -10,14 +10,12 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Injects auth + device fingerprint headers expected by senal-server 2.0.x:
- * - Authorization: Bearer <token>
- * - X-Device-Id
- * - X-Device-Name
- * - X-Device-Platform: android-tv
- * - X-Device-Fingerprint
+ * Matches SEÑAL TV 1.8.4 auth wiring:
+ * - Authorization: Bearer <token> (when present)
+ * - Accept: application/json
  *
- * CORS Allow-Headers on the backend confirms these names (not X-Platform).
+ * Also sends device headers accepted by senal-server CORS
+ * (X-Device-Id / Name / Platform / Fingerprint) for login + device binding.
  */
 @Singleton
 class AuthInterceptor @Inject constructor(
@@ -30,12 +28,12 @@ class AuthInterceptor @Inject constructor(
         val token = runBlocking { tokenStore.getToken() }
 
         val builder = original.newBuilder()
+            .header("Accept", "application/json")
+            .header("User-Agent", "SEÑAL-TV/1.8.4 (Android; ${Build.MODEL})")
             .header(HEADER_DEVICE_ID, deviceIdentity.deviceId)
             .header(HEADER_DEVICE_NAME, deviceIdentity.deviceName)
             .header(HEADER_DEVICE_PLATFORM, PLATFORM_ANDROID_TV)
             .header(HEADER_DEVICE_FINGERPRINT, deviceIdentity.deviceId)
-            .header("Accept", "application/json")
-            .header("User-Agent", "Senal-AndroidTV/${Build.VERSION.RELEASE}")
 
         if (!token.isNullOrBlank()) {
             builder.header(HEADER_AUTHORIZATION, "Bearer $token")

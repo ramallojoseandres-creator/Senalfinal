@@ -40,7 +40,7 @@ fun PlayerSurface(
     }
 
     DisposableEffect(senalPlayer, playerView) {
-        playerView.player = senalPlayer.player
+        runCatching { playerView.player = senalPlayer.player }
         onDispose {
             playerView.player = null
         }
@@ -51,8 +51,10 @@ fun PlayerSurface(
             factory = { playerView },
             modifier = Modifier.fillMaxSize(),
             update = { view ->
-                if (view.player != senalPlayer.player) {
-                    view.player = senalPlayer.player
+                runCatching {
+                    if (view.player != senalPlayer.player) {
+                        view.player = senalPlayer.player
+                    }
                 }
             },
         )

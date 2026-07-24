@@ -15,11 +15,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -34,12 +34,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.tv.material3.ClickableSurfaceDefaults
-import androidx.tv.material3.Surface
-import androidx.tv.material3.Text
 import coil.compose.AsyncImage
 import com.senal.tv.data.model.Channel
 import com.senal.tv.data.model.VodItem
+import com.senal.tv.ui.components.FocusSurface
 import com.senal.tv.ui.components.PlayerSurface
 import com.senal.tv.ui.components.neonFocus
 import com.senal.tv.ui.theme.SenalBlack
@@ -144,7 +142,7 @@ fun HomeScreen(
                             text = if (state.isRefreshing) {
                                 "Sincronizando catálogo…"
                             } else {
-                                "Sin canales disponibles — se usará caché cuando exista"
+                                "Sin canales disponibles — inicia sesión o revisa el panel"
                             },
                             color = SenalMuted,
                             fontSize = 14.sp,
@@ -205,15 +203,10 @@ private fun MiniPlayerPanel(
     onOpen: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    Surface(
+    FocusSurface(
         onClick = onOpen,
-        modifier = modifier.neonFocus(),
-        shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(16.dp)),
-        colors = ClickableSurfaceDefaults.colors(
-            containerColor = SenalSurfaceElevated,
-            focusedContainerColor = SenalSurfaceElevated,
-        ),
-        scale = ClickableSurfaceDefaults.scale(focusedScale = 1f),
+        modifier = modifier.background(SenalSurfaceElevated, RoundedCornerShape(16.dp)),
+        cornerRadius = 16.dp,
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
             Box(
@@ -256,7 +249,7 @@ private fun MiniPlayerPanel(
                 }
             }
             Text(
-                text = "OK para pantalla completa",
+                text = "OK / toque para pantalla completa",
                 color = SenalMuted,
                 fontSize = 12.sp,
                 modifier = Modifier.padding(horizontal = 14.dp, vertical = 10.dp),
@@ -282,18 +275,13 @@ private fun ChannelCard(
     onClick: () -> Unit,
     onFocused: () -> Unit,
 ) {
-    Surface(
+    FocusSurface(
         onClick = onClick,
         modifier = Modifier
             .width(168.dp)
-            .neonFocus()
+            .background(SenalSurface, RoundedCornerShape(12.dp))
             .onFocusChanged { if (it.isFocused) onFocused() },
-        shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
-        colors = ClickableSurfaceDefaults.colors(
-            containerColor = SenalSurface,
-            focusedContainerColor = SenalSurface,
-        ),
-        scale = ClickableSurfaceDefaults.scale(focusedScale = 1f),
+        cornerRadius = 12.dp,
     ) {
         Column(modifier = Modifier.padding(12.dp)) {
             AsyncImage(
@@ -331,17 +319,12 @@ private fun VodCard(
     item: VodItem,
     onClick: () -> Unit,
 ) {
-    Surface(
+    FocusSurface(
         onClick = onClick,
         modifier = Modifier
             .width(140.dp)
-            .neonFocus(),
-        shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(12.dp)),
-        colors = ClickableSurfaceDefaults.colors(
-            containerColor = SenalSurface,
-            focusedContainerColor = SenalSurface,
-        ),
-        scale = ClickableSurfaceDefaults.scale(focusedScale = 1f),
+            .background(SenalSurface, RoundedCornerShape(12.dp)),
+        cornerRadius = 12.dp,
     ) {
         Column {
             AsyncImage(

@@ -65,7 +65,8 @@ class LoginViewModel @Inject constructor(
             _uiState.update { it.copy(isLoading = true, errorMessage = null) }
             val result = authRepository.login(state.username, state.password)
             result.onSuccess {
-                catalogRepository.refresh()
+                // Same post-login step as SEÑAL 1.8.4: pull authenticated playlist.m3u
+                catalogRepository.refresh(forceNetwork = true)
                 _uiState.update { it.copy(isLoading = false, loginSuccess = true) }
             }.onFailure { error ->
                 _uiState.update {

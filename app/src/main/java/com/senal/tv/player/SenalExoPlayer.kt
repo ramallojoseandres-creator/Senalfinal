@@ -1,6 +1,7 @@
 package com.senal.tv.player
 
 import android.content.Context
+import android.util.Log
 import androidx.media3.common.C
 import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackException
@@ -20,10 +21,8 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Long-lived Media3 player tuned for Android TV live zapping.
- *
- * Critical: [zapTo] only swaps [MediaItem] + prepare() — never release/recreate
- * the ExoPlayer instance between channels (eliminates black flash / jank).
+ * Long-lived Media3 player. [zapTo] swaps MediaItem without recreating the player.
+ * Built lazily and defensively — never crash the Activity if decoder init fails.
  */
 @OptIn(UnstableApi::class)
 @Singleton
@@ -43,37 +42,6 @@ class SenalExoPlayer @Inject constructor(
 
     private var currentUrl: String? = null
 
-    private val trackSelector = DefaultTrackSelector(
-        appContext,
-        AdaptiveTrackSelection.Factory(),
-    ).apply {
-        parameters = buildUponParameters()
-            .setForceHighestSupportedBitrate(false)
-            .setTunnelingEnabled(true)
-            .build()
-    }
-
-    private val renderersFactory = DefaultRenderersFactory(appContext)
-        .setExtensionRendererMode(DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER)
-        .setEnableDecoderFallback(true)
-
-    private val loadControl = DefaultLoadControl.Builder()
-        .setBufferDurationsMs(
-            /* minBufferMs = */ 2_500,
-            /* maxBufferMs = */ 15_000,
-            /* bufferForPlaybackMs = */ 750,
-            /* bufferForPlaybackAfterRebufferMs = */ 1_500,
-        )
-        .setPrioritizeTimeOverSizeThresholds(true)
-        .build()
-
-    val player: ExoPlayer = ExoPlayer.Builder(appContext, renderersFactory)
-        .setTrackSelector(trackSelector)
-        .setLoadControl(loadControl)
-        .setHandleAudioBecomingNoisy(true)
-        .setWakeMode(C.WAKE_MODE_NETWORK)
-        .build()
-
     private val listener = object : Player.Listener {
         override fun onIsPlayingChanged(isPlaying: Boolean) {
             _isPlaying.value = isPlaying
@@ -88,6 +56,7 @@ class SenalExoPlayer @Inject constructor(
 
         override fun onPlayerError(error: PlaybackException) {
             _errorMessage.value = error.message ?: "Error de reproducción"
+            Log.e(TAG, "Player error", error)
         }
 
         override fun onEvents(player: Player, events: Player.Events) {
@@ -99,64 +68,110 @@ class SenalExoPlayer @Inject constructor(
         }
     }
 
-    init {
-        player.playWhenReady = true
-        player.repeatMode = Player.REPEAT_MODE_OFF
-        player.videoScalingMode = C.VIDEO_SCALING_MODE_SCALE_TO_FIT
-        player.trackSelectionParameters = TrackSelectionParameters.Builder(appContext)
-            .setForceHighestSupportedBitrate(false)
-            .build()
-        player.addListener(listener)
+    /**
+     * Lazy + guarded construction. Returns null only if the device cannot create ExoPlayer.
+     */
+    val player: ExoPlayer by lazy {
+        createPlayer()
     }
 
-    /**
-     * Seamless channel change: reuse the same player instance.
-     */
-    fun zapTo(streamUrl: String, channelId: String? = null) {
-        if (streamUrl.isBlank()) return
-        if (streamUrl == currentUrl && player.playbackState != Player.STATE_IDLE) {
-            if (!player.isPlaying) player.play()
-            return
+    private fun createPlayer(): ExoPlayer {
+        val trackSelector = DefaultTrackSelector(
+            appContext,
+            AdaptiveTrackSelection.Factory(),
+        ).apply {
+            parameters = buildUponParameters()
+                .setForceHighestSupportedBitrate(false)
+                .setTunnelingEnabled(false)
+                .build()
         }
-        currentUrl = streamUrl
-        _errorMessage.value = null
 
-        val mediaItem = MediaItem.Builder()
-            .setUri(streamUrl)
-            .setMediaId(channelId ?: streamUrl)
+        val renderersFactory = DefaultRenderersFactory(appContext)
+            .setExtensionRendererMode(DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER)
+            .setEnableDecoderFallback(true)
+
+        val loadControl = DefaultLoadControl.Builder()
+            .setBufferDurationsMs(2_500, 15_000, 750, 1_500)
+            .setPrioritizeTimeOverSizeThresholds(true)
             .build()
 
-        player.setMediaItem(mediaItem, /* resetPosition = */ true)
-        player.prepare()
-        player.playWhenReady = true
+        return ExoPlayer.Builder(appContext, renderersFactory)
+            .setTrackSelector(trackSelector)
+            .setLoadControl(loadControl)
+            .setHandleAudioBecomingNoisy(true)
+            .setWakeMode(C.WAKE_MODE_NETWORK)
+            .build()
+            .also { exo ->
+                exo.playWhenReady = true
+                exo.repeatMode = Player.REPEAT_MODE_OFF
+                exo.videoScalingMode = C.VIDEO_SCALING_MODE_SCALE_TO_FIT
+                exo.trackSelectionParameters = TrackSelectionParameters.Builder(appContext)
+                    .setForceHighestSupportedBitrate(false)
+                    .build()
+                exo.addListener(listener)
+            }
+    }
+
+    fun zapTo(streamUrl: String, channelId: String? = null) {
+        if (streamUrl.isBlank()) return
+        try {
+            val exo = player
+            if (streamUrl == currentUrl && exo.playbackState != Player.STATE_IDLE) {
+                if (!exo.isPlaying) exo.play()
+                return
+            }
+            currentUrl = streamUrl
+            _errorMessage.value = null
+
+            val mediaItem = MediaItem.Builder()
+                .setUri(streamUrl)
+                .setMediaId(channelId ?: streamUrl)
+                .build()
+
+            exo.setMediaItem(mediaItem, /* resetPosition = */ true)
+            exo.prepare()
+            exo.playWhenReady = true
+        } catch (t: Throwable) {
+            Log.e(TAG, "zapTo failed", t)
+            _errorMessage.value = t.message ?: "No se pudo iniciar el reproductor"
+        }
     }
 
     fun pause() {
-        player.pause()
+        runCatching { player.pause() }
     }
 
     fun play() {
-        player.play()
+        runCatching { player.play() }
     }
 
     fun stop() {
-        player.stop()
-        currentUrl = null
+        runCatching {
+            player.stop()
+            currentUrl = null
+        }
     }
 
     fun updateBitrateEstimate() {
-        val format = player.videoFormat ?: player.audioFormat
-        val bitrate = format?.bitrate?.takeIf { it > 0 }
-        _bitrateMbps.value = if (bitrate != null) {
-            bitrate / 1_000_000.0
-        } else {
-            // Soft simulation when stream metadata lacks bitrate (common on some IPTV feeds)
-            if (player.isPlaying) 3.5 else 0.0
+        runCatching {
+            val format = player.videoFormat ?: player.audioFormat
+            val bitrate = format?.bitrate?.takeIf { it > 0 }
+            _bitrateMbps.value = if (bitrate != null) {
+                bitrate / 1_000_000.0
+            } else {
+                if (player.isPlaying) 3.5 else 0.0
+            }
         }
     }
 
     fun release() {
-        player.removeListener(listener)
-        player.release()
+        runCatching {
+            player.removeListener(listener)
+            player.release()
+        }
+    }
+
+    companion object {
+        private const val TAG = "SenalExoPlayer"
     }
 }

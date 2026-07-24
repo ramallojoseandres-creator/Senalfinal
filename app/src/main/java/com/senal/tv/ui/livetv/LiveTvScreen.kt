@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.tv.material3.Text
+import androidx.compose.material3.Text
 import com.senal.tv.ui.components.LiveOsd
 import com.senal.tv.ui.components.PlayerSurface
 import com.senal.tv.ui.theme.SenalBlack

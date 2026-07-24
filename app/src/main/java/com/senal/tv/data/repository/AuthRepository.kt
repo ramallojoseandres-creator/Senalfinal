@@ -29,6 +29,10 @@ class AuthRepository @Inject constructor(
     private val _events = MutableSharedFlow<AuthEvent>(extraBufferCapacity = 1)
     val events: SharedFlow<AuthEvent> = _events.asSharedFlow()
 
+    /**
+     * Same contract as SEÑAL 1.8.4 LoginRequest:
+     * username, password, deviceId, deviceName ("SEÑAL TV" by default).
+     */
     suspend fun login(username: String, password: String): Result<Unit> {
         return runCatching {
             val response = api.login(
@@ -36,12 +40,12 @@ class AuthRepository @Inject constructor(
                     username = username.trim(),
                     password = password,
                     deviceId = deviceIdentity.deviceId,
-                    deviceName = deviceIdentity.deviceName,
+                    deviceName = deviceIdentity.deviceName.ifBlank { "SEÑAL TV" },
                     platform = "android-tv",
                 ),
             )
             val token = response.resolvedToken()
-                ?: error(response.message ?: "Login sin token")
+                ?: error(response.message ?: response.error ?: "Login sin token")
             tokenStore.setToken(token)
             _events.emit(AuthEvent.LoggedIn)
         }.recoverCatching { error ->
@@ -67,6 +71,8 @@ class AuthRepository @Inject constructor(
                 body.contains("DEVICE_ID_REQUIRED") -> "Identificador de dispositivo requerido."
                 body.contains("VALIDATION") -> "Usuario y contraseña requeridos."
                 body.contains("UNAUTHORIZED") -> "Sesión no autorizada."
+                body.contains("DEVICE") && body.contains("limit", ignoreCase = true) ->
+                    "Límite de dispositivos alcanzado."
                 else -> error.message() ?: "Error de autenticación (${error.code()})"
             }
             return IllegalStateException(message)

@@ -14,6 +14,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -31,9 +32,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.tv.material3.ClickableSurfaceDefaults
-import androidx.tv.material3.Surface
-import androidx.tv.material3.Text
+import com.senal.tv.ui.components.FocusSurface
 import com.senal.tv.ui.components.neonFocus
 import com.senal.tv.ui.theme.SenalBlack
 import com.senal.tv.ui.theme.SenalDanger
@@ -59,9 +58,8 @@ fun LoginScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(
-                Brush.radialGradient(
+                Brush.verticalGradient(
                     colors = listOf(SenalSurfaceElevated, SenalBlack, SenalBlack),
-                    radius = 1200f,
                 ),
             ),
         contentAlignment = Alignment.Center,
@@ -82,7 +80,7 @@ fun LoginScreen(
                 letterSpacing = 4.sp,
             )
             Text(
-                text = "Acceso Android TV",
+                text = "Acceso Android TV / Tablet",
                 color = SenalNeon,
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Medium,
@@ -113,20 +111,14 @@ fun LoginScreen(
                 )
             }
 
-            Surface(
+            FocusSurface(
                 onClick = viewModel::login,
                 enabled = !state.isLoading,
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(top = 8.dp)
-                    .neonFocus(),
-                shape = ClickableSurfaceDefaults.shape(shape = RoundedCornerShape(14.dp)),
-                colors = ClickableSurfaceDefaults.colors(
-                    containerColor = SenalPrimary,
-                    focusedContainerColor = SenalNeon,
-                    disabledContainerColor = SenalSurface,
-                ),
-                scale = ClickableSurfaceDefaults.scale(focusedScale = 1f),
+                    .background(if (state.isLoading) SenalSurface else SenalPrimary, RoundedCornerShape(14.dp)),
+                cornerRadius = 14.dp,
             ) {
                 Text(
                     text = if (state.isLoading) "Conectando…" else "Entrar",

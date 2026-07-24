@@ -24,7 +24,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.tv.material3.Text
+import androidx.compose.material3.Text
 import coil.compose.AsyncImage
 import com.senal.tv.data.model.Channel
 import com.senal.tv.ui.theme.SenalBlack

@@ -24,9 +24,13 @@ class DeviceIdentity @Inject constructor(
     }
 
     val deviceName: String by lazy {
-        val model = Build.MODEL?.takeIf { it.isNotBlank() } ?: "AndroidTV"
-        val manufacturer = Build.MANUFACTURER?.takeIf { it.isNotBlank() } ?: "Unknown"
-        "$manufacturer $model".trim().take(64)
+        val model = Build.MODEL?.takeIf { it.isNotBlank() }
+        val manufacturer = Build.MANUFACTURER?.takeIf { it.isNotBlank() }
+        when {
+            model != null && manufacturer != null -> "$manufacturer $model".trim().take(64)
+            model != null -> model.take(64)
+            else -> "SEÑAL TV"
+        }
     }
 
     private fun generateAndPersist(): String {

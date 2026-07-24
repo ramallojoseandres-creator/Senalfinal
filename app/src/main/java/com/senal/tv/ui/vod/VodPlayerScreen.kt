@@ -17,7 +17,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import androidx.tv.material3.Text
+import androidx.compose.material3.Text
 import com.senal.tv.data.repository.CatalogRepository
 import com.senal.tv.player.SenalExoPlayer
 import com.senal.tv.ui.components.PlayerSurface

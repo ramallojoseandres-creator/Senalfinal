@@ -1,11 +1,11 @@
 package com.senal.tv.ui.theme
 
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
-import androidx.tv.material3.MaterialTheme
-import androidx.tv.material3.darkColorScheme
 
 data class SenalColors(
     val black: Color = SenalBlack,
@@ -30,7 +30,7 @@ private val DarkScheme = darkColorScheme(
     onBackground = SenalOnDark,
     surface = SenalSurface,
     onSurface = SenalOnDark,
-    border = SenalNeonDim,
+    error = SenalDanger,
 )
 
 @Composable
@@ -42,10 +42,4 @@ fun SenalTheme(content: @Composable () -> Unit) {
             content = content,
         )
     }
-}
-
-object SenalThemeTokens {
-    val colors: SenalColors
-        @Composable
-        get() = LocalSenalColors.current
 }

@@ -4,28 +4,35 @@ import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.focusable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.focus.FocusState
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.senal.tv.ui.theme.SenalNeon
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 
 /**
- * Perfect D-pad focus treatment for Android TV.
- * - Elastic scale to 1.05f via Spring
- * - Neon turquoise outer glow drawn behind (no RenderEffect blur — TV-optimized)
- * - renderEffect explicitly kept null for GPU friendliness on low-end sticks
+ * D-pad / touch focus treatment.
+ * Scale elástico + glow neon. No usa RenderEffect (evita crashes en API < 31 / SoCs TV).
  */
 fun Modifier.neonFocus(
     focusedScale: Float = 1.05f,
@@ -63,8 +70,6 @@ fun Modifier.neonFocus(
         .graphicsLayer {
             scaleX = scale
             scaleY = scale
-            // Explicitly no blur RenderEffect — cheaper on Amlogic/Rockchip SoCs
-            renderEffect = null
             clip = false
         }
         .drawBehind {
@@ -75,7 +80,7 @@ fun Modifier.neonFocus(
                         width = size.width + glowPadPx * 2,
                         height = size.height + glowPadPx * 2,
                     ),
-                    topLeft = androidx.compose.ui.geometry.Offset(-glowPadPx, -glowPadPx),
+                    topLeft = Offset(-glowPadPx, -glowPadPx),
                     cornerRadius = CornerRadius(cornerPx + glowPadPx / 2f),
                 )
                 drawRoundRect(
@@ -84,16 +89,42 @@ fun Modifier.neonFocus(
                         width = size.width + glowPadPx,
                         height = size.height + glowPadPx,
                     ),
-                    topLeft = androidx.compose.ui.geometry.Offset(-glowPadPx / 2f, -glowPadPx / 2f),
+                    topLeft = Offset(-glowPadPx / 2f, -glowPadPx / 2f),
                     cornerRadius = CornerRadius(cornerPx + glowPadPx / 4f),
                 )
             }
         }
         .then(
             if (focused) {
-                Modifier.border(borderWidth, glowColor, androidx.compose.foundation.shape.RoundedCornerShape(cornerRadius))
+                Modifier.border(borderWidth, glowColor, RoundedCornerShape(cornerRadius))
             } else {
                 Modifier
             },
         )
+}
+
+@Composable
+fun FocusSurface(
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+    enabled: Boolean = true,
+    cornerRadius: Dp = 12.dp,
+    content: @Composable () -> Unit,
+) {
+    val interaction = remember { MutableInteractionSource() }
+    Box(
+        modifier = modifier
+            .clip(RoundedCornerShape(cornerRadius))
+            .neonFocus(cornerRadius = cornerRadius)
+            .clickable(
+                enabled = enabled,
+                interactionSource = interaction,
+                indication = null,
+                role = Role.Button,
+                onClick = onClick,
+            )
+            .focusable(enabled = enabled, interactionSource = interaction),
+    ) {
+        content()
+    }
 }

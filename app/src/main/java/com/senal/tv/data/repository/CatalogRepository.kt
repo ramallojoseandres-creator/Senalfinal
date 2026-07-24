@@ -3,13 +3,13 @@ package com.senal.tv.data.repository
 import com.senal.tv.data.local.CatalogDao
 import com.senal.tv.data.local.CatalogEntity
 import com.senal.tv.data.local.ChannelEntity
+import com.senal.tv.data.local.M3uEntry
+import com.senal.tv.data.local.M3uParser
+import com.senal.tv.data.local.PlaylistSync
 import com.senal.tv.data.local.VodEntity
 import com.senal.tv.data.model.Catalog
-import com.senal.tv.data.model.CatalogResponseDto
 import com.senal.tv.data.model.Channel
 import com.senal.tv.data.model.VodItem
-import com.senal.tv.data.model.toDomain
-import com.senal.tv.network.SenalApi
 import com.senal.tv.util.FavoritesStore
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
@@ -17,22 +17,19 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withContext
-import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
-import retrofit2.HttpException
 import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Offline-first catalog source of truth backed by /api/catalog (JWT required).
+ * Offline-first catalog backed by the same source as SEÑAL TV 1.8.4:
+ * authenticated `GET /playlist.m3u` → Room cache.
  */
 @Singleton
 class CatalogRepository @Inject constructor(
-    private val api: SenalApi,
+    private val playlistSync: PlaylistSync,
     private val catalogDao: CatalogDao,
     private val favoritesStore: FavoritesStore,
     private val authRepository: AuthRepository,
-    private val json: Json,
 ) {
 
     val catalogFlow: Flow<Catalog> = combine(
@@ -52,27 +49,40 @@ class CatalogRepository @Inject constructor(
         )
     }.distinctUntilChanged()
 
-    suspend fun refresh(): Result<Catalog> = withContext(Dispatchers.IO) {
+    suspend fun refresh(forceNetwork: Boolean = true): Result<Catalog> = withContext(Dispatchers.IO) {
         runCatching {
-            val dto = api.catalog()
-            if (dto.ok == false) {
-                error(dto.message ?: dto.error ?: "Catálogo no disponible")
+            val sync = if (forceNetwork) {
+                playlistSync.refreshFromServer()
+            } else {
+                playlistSync.ensureCatalogReady(forceNetwork = false)
             }
-            val favSet = favoritesStore.favorites.first()
-            val domain = dto.toDomain(favSet)
-            persist(dto, domain)
-            domain.copy(fromCache = false)
-        }.onFailure { error ->
-            if (error is HttpException && error.code() == 401) {
-                authRepository.invalidateSession()
+
+            if (sync.entries.isEmpty()) {
+                // Try local cache before failing hard
+                val local = playlistSync.loadLocalOnly()
+                if (local.entries.isEmpty()) {
+                    if (sync.error?.contains("Sesión", ignoreCase = true) == true) {
+                        authRepository.invalidateSession()
+                    }
+                    error(sync.error ?: "Playlist vacía")
+                }
+                persistEntries(local.entries)
+                return@runCatching toCatalog(local.entries, fromCache = true)
             }
+
+            persistEntries(sync.entries)
+            toCatalog(sync.entries, fromCache = sync.source == "cache")
         }
     }
 
     suspend fun warmCacheOrNetwork(): Catalog = withContext(Dispatchers.IO) {
         val cached = loadFromRoom()
-        val network = refresh()
-        network.getOrElse {
+        if (cached != null && cached.live.isNotEmpty()) {
+            // Background refresh; ignore failures
+            runCatching { refresh(forceNetwork = true) }
+            return@withContext cached
+        }
+        refresh(forceNetwork = true).getOrElse {
             cached ?: Catalog(
                 live = emptyList(),
                 vod = emptyList(),
@@ -95,36 +105,90 @@ class CatalogRepository @Inject constructor(
         )
     }
 
-    private suspend fun persist(dto: CatalogResponseDto, domain: Catalog) {
-        val payload = CatalogEntity(
-            jsonPayload = json.encodeToString(dto),
-            cachedAtEpochMs = System.currentTimeMillis(),
-        )
+    private suspend fun persistEntries(entries: List<M3uEntry>) {
+        val favorites = favoritesStore.favorites.first()
+        val live = ArrayList<ChannelEntity>()
+        val vod = ArrayList<VodEntity>()
+
+        entries.forEachIndexed { index, entry ->
+            val id = entry.tvgId?.takeIf { it.isNotBlank() }
+                ?: ("m3u-" + (entry.url.hashCode().toUInt().toString(16)) + "-$index")
+            val category = entry.group?.takeIf { it.isNotBlank() } ?: "VIVO"
+            if (M3uParser.isVodGroup(entry.group)) {
+                vod += VodEntity(
+                    id = id,
+                    title = entry.title,
+                    posterUrl = entry.logo,
+                    streamUrl = entry.url,
+                    description = entry.group,
+                    category = category,
+                    sortOrder = index,
+                )
+            } else {
+                live += ChannelEntity(
+                    id = id,
+                    name = entry.title,
+                    number = entry.channelNumber ?: (index + 1),
+                    logoUrl = entry.logo,
+                    streamUrl = entry.url,
+                    category = category,
+                    epgNow = null,
+                    sortOrder = index,
+                )
+            }
+        }
+
         catalogDao.replaceCatalog(
-            payload = payload,
-            channels = domain.live.mapIndexed { index, ch ->
-                ChannelEntity(
-                    id = ch.id,
-                    name = ch.name,
-                    number = ch.number,
-                    logoUrl = ch.logoUrl,
-                    streamUrl = ch.streamUrl,
-                    category = ch.category,
-                    epgNow = ch.epgNow,
-                    sortOrder = index,
+            payload = CatalogEntity(
+                jsonPayload = "m3u:${entries.size}",
+                cachedAtEpochMs = System.currentTimeMillis(),
+            ),
+            channels = live,
+            vod = vod,
+        )
+        // Touch favorites so Flow recomputes isFavorite flags
+        favorites.size
+    }
+
+    private suspend fun toCatalog(entries: List<M3uEntry>, fromCache: Boolean): Catalog {
+        val favSet = favoritesStore.favorites.first()
+        val live = ArrayList<Channel>()
+        val vod = ArrayList<VodItem>()
+        entries.forEachIndexed { index, entry ->
+            val id = entry.tvgId?.takeIf { it.isNotBlank() }
+                ?: ("m3u-" + (entry.url.hashCode().toUInt().toString(16)) + "-$index")
+            val category = entry.group?.takeIf { it.isNotBlank() } ?: "VIVO"
+            if (M3uParser.isVodGroup(entry.group)) {
+                vod += VodItem(
+                    id = id,
+                    title = entry.title,
+                    posterUrl = entry.logo,
+                    streamUrl = entry.url,
+                    description = entry.group,
+                    category = category,
                 )
-            },
-            vod = domain.vod.mapIndexed { index, item ->
-                VodEntity(
-                    id = item.id,
-                    title = item.title,
-                    posterUrl = item.posterUrl,
-                    streamUrl = item.streamUrl,
-                    description = item.description,
-                    category = item.category,
-                    sortOrder = index,
+            } else {
+                live += Channel(
+                    id = id,
+                    name = entry.title,
+                    number = entry.channelNumber ?: (index + 1),
+                    logoUrl = entry.logo,
+                    streamUrl = entry.url,
+                    category = category,
+                    epgNow = null,
+                    isFavorite = favSet.contains(id),
                 )
-            },
+            }
+        }
+        return Catalog(
+            live = live.sortedBy { it.number },
+            vod = vod,
+            categories = buildList {
+                add("VIVO")
+                add("VOD")
+                live.map { it.category }.distinct().forEach { add(it) }
+            }.distinct(),
+            fromCache = fromCache,
         )
     }
 
