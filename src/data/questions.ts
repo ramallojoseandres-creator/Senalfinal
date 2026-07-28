@@ -1,3 +1,5 @@
+import { extraQuestions } from "@/data/bank";
+
 export type Choice = {
   id: string;
   text: string;
@@ -20,7 +22,7 @@ export type Question = {
   needsPlantilla?: boolean;
 };
 
-export const questions: Question[] = [
+const baseQuestions: Question[] = [
   {
     id: "q-cardio-01",
     subjectId: "cardio",
@@ -641,3 +643,6 @@ export const questions: Question[] = [
       "Riesgo suicida con plan requiere contención, evaluación urgente y posible hospitalización.",
   },
 ];
+
+/** Banco completo PuertoMir: demo + alta rentabilidad ampliado. */
+export const questions: Question[] = [...baseQuestions, ...extraQuestions];

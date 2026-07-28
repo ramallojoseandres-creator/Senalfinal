@@ -8,12 +8,15 @@ import {
   yieldMarks,
 } from "@/data/cto-method";
 import { simulacros } from "@/data/simulacros";
+import { questions } from "@/data/questions";
+import { getGradableOfficialQuestions } from "@/data/oficiales";
 
 export default function CampusDashboard() {
   const today = getTodayPlan("2026-07-28");
   const active = getActiveVuelta();
   const nextSim = simulacros.find((s) => s.status === "available");
   const topYield = yieldMarks.filter((y) => y.priority === "alta").slice(0, 5);
+  const bankSize = questions.length + getGradableOfficialQuestions().length;
 
   return (
     <div className="space-y-8">
@@ -21,7 +24,7 @@ export default function CampusDashboard() {
         <div className="noise opacity-[0.06]" />
         <div className="pointer-events-none absolute -right-16 top-0 h-64 w-64 rounded-full bg-[var(--signal)]/20 blur-3xl signal-orb" />
         <p className="relative text-[0.7rem] font-bold uppercase tracking-[0.28em] text-[var(--signal)]">
-          {active.name} · {active.phase}
+          {active.name} · {active.phase} · {bankSize}+ preguntas
         </p>
         <h1 className="relative display mt-4 max-w-3xl text-4xl md:text-6xl">
           Hoy no eliges: estudias esto
@@ -36,7 +39,9 @@ export default function CampusDashboard() {
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-white/45">Bloque</p>
-            <p className="mt-1 text-xl font-semibold">{today.hours} h · {today.yieldLabel}</p>
+            <p className="mt-1 text-xl font-semibold">
+              {today.hours} h · {today.yieldLabel}
+            </p>
           </div>
           <Link
             href={today.tasks[0]?.href ?? "/campus/generador"}
@@ -76,10 +81,23 @@ export default function CampusDashboard() {
             <Link href="/campus/calendario" className="btn btn-secondary">
               Ver semana dictada
             </Link>
+            <Link href="/campus/oficiales" className="btn btn-ghost">
+              Oficiales MIR
+            </Link>
           </div>
         </article>
 
         <div className="space-y-5 animate-rise animate-delay-2">
+          <div className="border-t border-[var(--line)] pt-5">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--muted)]">
+              Banco PuertoMir
+            </p>
+            <h2 className="display mt-2 text-3xl">{bankSize}+</h2>
+            <p className="mt-2 text-sm text-[var(--ink-soft)]">
+              Preguntas corregibles: demo ampliado + oficiales 2024/2025 con plantilla.
+            </p>
+          </div>
+
           <div className="border-t border-[var(--line)] pt-5">
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--muted)]">
               Vuelta activa
@@ -130,7 +148,11 @@ export default function CampusDashboard() {
             <div className="mb-2 flex items-center justify-between gap-2">
               <h3 className="display text-xl">{v.name}</h3>
               <span className="chip text-[10px]">
-                {v.status === "done" ? "Hecha" : v.status === "active" ? "Activa" : "Bloqueada"}
+                {v.status === "done"
+                  ? "Hecha"
+                  : v.status === "active"
+                    ? "Activa"
+                    : "Bloqueada"}
               </span>
             </div>
             <p className="text-xs font-bold text-[var(--signal)]">{v.phase}</p>

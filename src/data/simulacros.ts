@@ -4,6 +4,34 @@ export type { Simulacro } from "./simulacro-types";
 
 export const simulacros: Simulacro[] = [
   {
+    id: "sim-oficial-2025",
+    title: "Oficial MIR 2025 (cuadernillo)",
+    date: "2026-07-20",
+    durationMin: 270,
+    scoredQuestions: 200,
+    reserveQuestions: 10,
+    questionCount: 210,
+    status: "available",
+    cadence: "mensual",
+    vuelta: "v2",
+    description:
+      "Preguntas oficiales MIR 2025 con plantilla definitiva. Evalúa netos y percentil reales de banco oficial.",
+  },
+  {
+    id: "sim-oficial-2024",
+    title: "Oficial MIR 2024 (cuadernillo)",
+    date: "2026-07-22",
+    durationMin: 270,
+    scoredQuestions: 200,
+    reserveQuestions: 10,
+    questionCount: 210,
+    status: "available",
+    cadence: "mensual",
+    vuelta: "v2",
+    description:
+      "Cuadernillo oficial MIR 2024 corregible con plantilla definitiva del Ministerio.",
+  },
+  {
     id: "sim-24",
     title: "Simulacro 24 — Blanco oficial",
     date: "2026-07-12",
@@ -18,7 +46,7 @@ export const simulacros: Simulacro[] = [
     cadence: "quincenal",
     vuelta: "v2",
     description:
-      "Réplica MIR: 200 + 10 reserva, 4 h 30 min, cuadernillo de imágenes. Corregido con plantilla y percentil de cohorte.",
+      "Réplica MIR: 200 + 10 reserva, 4 h 30 min. Corregido con plantilla y percentil de cohorte.",
   },
   {
     id: "sim-25",
@@ -32,7 +60,21 @@ export const simulacros: Simulacro[] = [
     cadence: "quincenal",
     vuelta: "v2",
     description:
-      "Simulacro de 2ª vuelta. Distribución por peso MIR. Mide netos, percentil y puntos débiles.",
+      "Simulacro de 2ª vuelta. Distribución por peso MIR sobre banco ampliado PuertoMir.",
+  },
+  {
+    id: "sim-mixto-150",
+    title: "Evaluación mixta 150",
+    date: "2026-07-28",
+    durationMin: 195,
+    scoredQuestions: 150,
+    reserveQuestions: 0,
+    questionCount: 150,
+    status: "available",
+    cadence: "quincenal",
+    vuelta: "v2",
+    description:
+      "150 preguntas del banco total (oficiales + alta rentabilidad) con scoring MIR.",
   },
   {
     id: "sim-26",
@@ -60,6 +102,6 @@ export const simulacros: Simulacro[] = [
     cadence: "semanal",
     vuelta: "v3",
     description:
-      "Bloque reforzado de imágenes (≈30–35 ligadas). Prepara 3ª vuelta.",
+      "Bloque reforzado de imágenes. Prepara 3ª vuelta.",
   },
 ];

@@ -40,12 +40,17 @@ export function PracticeSession({
   const [, startTransition] = useTransition();
   const answersRef = useRef(answers);
   const finishedRef = useRef(false);
+  const secondsRef = useRef(0);
   const { setFocus } = useFocusMode();
   const isArena = mode === "simulacro" || mode === "exam";
 
   useEffect(() => {
     answersRef.current = answers;
   }, [answers]);
+
+  useEffect(() => {
+    secondsRef.current = seconds;
+  }, [seconds]);
 
   useEffect(() => {
     if (!isArena) return;
@@ -58,11 +63,43 @@ export function PracticeSession({
     finishedRef.current = true;
     setFinished(true);
     recordAttempt(questions, finalAnswers, label);
+    let nextReport: CompetitiveReport | null = null;
     if (competitive || mode === "simulacro") {
-      setReport(recordCompetitiveAttempt(questions, finalAnswers, label));
+      nextReport = recordCompetitiveAttempt(questions, finalAnswers, label);
+      setReport(nextReport);
     } else if (mode === "exam") {
-      setReport(buildCompetitiveReport(questions, finalAnswers));
+      nextReport = buildCompetitiveReport(questions, finalAnswers);
+      setReport(nextReport);
+    } else {
+      nextReport = buildCompetitiveReport(questions, finalAnswers);
     }
+
+    const graded = gradeSession(questions, finalAnswers);
+    const payload = nextReport ?? buildCompetitiveReport(questions, finalAnswers);
+    void fetch("/api/results", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        label,
+        mode,
+        net: graded.net,
+        total: graded.total,
+        correct: graded.correct,
+        wrong: graded.wrong,
+        blank: graded.blank,
+        score: graded.score,
+        percentile: payload.percentile,
+        questionCount: questions.length,
+        durationSec: secondsRef.current,
+        bySubject: payload.bySubject.map((s) => ({
+          subjectId: s.subjectId,
+          name: s.name,
+          nets: s.nets,
+          accuracy: s.accuracy,
+          percentile: s.percentile,
+        })),
+      }),
+    }).catch(() => undefined);
   }
 
   useEffect(() => {

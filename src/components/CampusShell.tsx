@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import { useFocusMode } from "@/components/FocusMode";
 
 const links = [
@@ -15,9 +16,27 @@ const links = [
   { href: "/campus/estadisticas", label: "Percentiles", icon: "◔" },
 ];
 
+type User = { id: string; name: string; email: string; role: string };
+
 export function CampusShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const router = useRouter();
   const { focus } = useFocusMode();
+  const [user, setUser] = useState<User | null>(null);
+
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => setUser(d?.user ?? null))
+      .catch(() => setUser(null));
+  }, [pathname]);
+
+  async function logout() {
+    await fetch("/api/auth/logout", { method: "POST" });
+    setUser(null);
+    router.push("/login");
+    router.refresh();
+  }
 
   if (focus) {
     return <div className="min-h-screen arena">{children}</div>;
@@ -29,10 +48,10 @@ export function CampusShell({ children }: { children: React.ReactNode }) {
         <div className="flex items-center justify-between px-5 py-5 md:block">
           <Link href="/" className="flex items-center gap-3">
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-[var(--brand)] text-sm font-bold text-white">
-              S
+              P
             </span>
             <div>
-              <p className="display text-lg leading-none">Señal MIR</p>
+              <p className="display text-lg leading-none">PuertoMir</p>
               <p className="text-[11px] text-[var(--muted)]">Campus alumno</p>
             </div>
           </Link>
@@ -55,9 +74,15 @@ export function CampusShell({ children }: { children: React.ReactNode }) {
               </Link>
             );
           })}
+          {user?.role === "admin" ? (
+            <Link href="/admin" className="nav-link whitespace-nowrap">
+              <span className="opacity-70">⚙</span>
+              Admin
+            </Link>
+          ) : null}
         </nav>
 
-        <div className="mt-auto hidden p-4 md:block">
+        <div className="mt-auto hidden space-y-3 p-4 md:block">
           <div className="panel p-4">
             <p className="text-xs font-bold uppercase tracking-wide text-[var(--muted)]">
               Vuelta activa
@@ -68,6 +93,18 @@ export function CampusShell({ children }: { children: React.ReactNode }) {
             </div>
             <p className="mt-2 text-xs text-[var(--muted)]">62% completada</p>
           </div>
+          {user ? (
+            <div className="px-1 text-sm">
+              <p className="font-semibold">{user.name}</p>
+              <button type="button" className="mt-1 text-xs font-semibold text-[var(--brand)]" onClick={logout}>
+                Cerrar sesión
+              </button>
+            </div>
+          ) : (
+            <Link href="/login" className="btn btn-secondary w-full !py-2 text-sm">
+              Iniciar sesión
+            </Link>
+          )}
         </div>
       </aside>
 
@@ -81,9 +118,16 @@ export function CampusShell({ children }: { children: React.ReactNode }) {
               No eliges qué estudiar: el plan diario te lo dicta
             </p>
           </div>
-          <Link href="/campus/generador" className="btn btn-primary !py-2.5 !px-4 text-sm">
-            Test a la carta
-          </Link>
+          <div className="flex items-center gap-2">
+            {!user ? (
+              <Link href="/login" className="btn btn-secondary !py-2.5 !px-4 text-sm">
+                Login
+              </Link>
+            ) : null}
+            <Link href="/campus/generador" className="btn btn-primary !py-2.5 !px-4 text-sm">
+              Test a la carta
+            </Link>
+          </div>
         </header>
         <main className="px-5 py-6 md:px-8 md:py-8">{children}</main>
       </div>

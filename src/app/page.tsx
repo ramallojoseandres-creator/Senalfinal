@@ -1,4 +1,8 @@
 import Link from "next/link";
+import { questions } from "@/data/questions";
+import { getGradableOfficialQuestions } from "@/data/oficiales";
+
+const bankSize = questions.length + getGradableOfficialQuestions().length;
 
 export default function HomePage() {
   return (
@@ -8,16 +12,18 @@ export default function HomePage() {
         <header className="relative z-10 mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-6 md:px-8">
           <div className="flex items-center gap-3">
             <span className="grid h-10 w-10 place-items-center rounded-xl bg-[var(--signal)] text-sm font-extrabold text-white">
-              S
+              P
             </span>
-            <p className="display text-xl leading-none text-white">Señal MIR</p>
+            <p className="display text-xl leading-none text-white">PuertoMir</p>
           </div>
-          <Link
-            href="/campus"
-            className="btn btn-primary !py-2.5 !px-4 text-sm"
-          >
-            Entrar al campus
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link href="/login" className="btn btn-ghost !border-white/20 !py-2.5 !px-4 text-sm !text-white">
+              Login
+            </Link>
+            <Link href="/campus" className="btn btn-primary !py-2.5 !px-4 text-sm">
+              Entrar al campus
+            </Link>
+          </div>
         </header>
 
         <div className="relative z-10 mx-auto flex min-h-[calc(100svh-5.5rem)] w-full max-w-6xl flex-col justify-end px-5 pb-16 pt-10 md:justify-center md:px-8 md:pb-24">
@@ -28,11 +34,11 @@ export default function HomePage() {
 
           <div className="relative max-w-2xl animate-rise">
             <h1 className="display mb-5 text-[clamp(3.4rem,11vw,6.8rem)] text-white">
-              Señal MIR
+              PuertoMir
             </h1>
             <p className="mb-8 max-w-lg text-lg leading-relaxed text-white/72 md:text-xl">
-              El campus que te dicta el día, te mide en netos y te empuja con
-              percentil de cohorte hasta la plaza.
+              El puerto de llegada a tu plaza MIR: calendario dictado, {bankSize}+
+              preguntas evaluables, simulacros oficiales y percentil de cohorte.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/campus" className="btn btn-primary sweep-shine">
@@ -88,16 +94,16 @@ export default function HomePage() {
             <div className="grid gap-10 md:grid-cols-3">
               {[
                 [
-                  "Calendario dictado",
-                  "Hoy no eliges: la plataforma asigna asignatura, horas y bloque según yield MIR.",
+                  "Banco masivo",
+                  `${bankSize}+ ítems corregibles: oficiales MIR 2024/2025 + banco de alta rentabilidad por asignatura.`,
                 ],
                 [
-                  "Simulacros idénticos",
-                  "210 ítems, 4h30, +3/−1/0. Arena a pantalla completa, sin distracciones.",
+                  "Simulacros oficiales",
+                  "Entra al arena con cuadernillos reales, scoring +3/−1/0 y temporizador de examen.",
                 ],
                 [
-                  "Netos + percentil",
-                  "Te ubica frente a miles de alumnos y marca asignaturas débiles para el día siguiente.",
+                  "Panel admin",
+                  "Crea alumnos, sigue netos y percentiles de cada evaluación desde el panel.",
                 ],
               ].map(([title, text], i) => (
                 <div key={title} className={`animate-rise animate-delay-${i + 1}`}>
@@ -106,9 +112,12 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <div className="mt-12">
+            <div className="mt-12 flex flex-wrap gap-3">
               <Link href="/campus" className="btn btn-accent">
                 Empezar en el campus
+              </Link>
+              <Link href="/login" className="btn btn-secondary">
+                Acceso admin / alumnos
               </Link>
             </div>
           </div>
@@ -117,7 +126,7 @@ export default function HomePage() {
 
       <footer className="px-5 py-10 text-sm text-[var(--muted)] md:px-8">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 md:flex-row md:items-center md:justify-between">
-          <p className="display text-lg text-[var(--ink)]">Señal MIR</p>
+          <p className="display text-lg text-[var(--ink)]">PuertoMir</p>
           <p>Preparación MIR · método por vueltas · métricas competitivas</p>
         </div>
       </footer>

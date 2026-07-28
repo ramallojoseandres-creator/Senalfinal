@@ -83,7 +83,7 @@ export function gradeSession(qs: Question[], answers: AnswerMap): SessionResult 
   };
 }
 
-const STORAGE_KEY = "senal-mir-progress-v1";
+const STORAGE_KEY = "puertomir-progress-v1";
 
 export type ProgressStore = {
   attempts: number;

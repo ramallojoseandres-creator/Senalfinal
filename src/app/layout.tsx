@@ -15,9 +15,9 @@ const body = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Señal MIR — El campus que dicta tu plaza",
+  title: "PuertoMir — El puerto hacia tu plaza MIR",
   description:
-    "La plataforma MIR más exigente: calendario dictado, simulacros idénticos al examen, netos y percentil de cohorte. Método por vueltas.",
+    "Campus MIR con calendario dictado, banco masivo de preguntas, simulacros oficiales, netos y percentil. Panel admin para alumnos y calificaciones.",
 };
 
 export default function RootLayout({

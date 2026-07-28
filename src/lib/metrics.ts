@@ -109,7 +109,7 @@ export function buildCompetitiveReport(
   };
 }
 
-const METRICS_KEY = "senal-mir-metrics-v1";
+const METRICS_KEY = "puertomir-metrics-v1";
 
 export type MetricsStore = {
   simulacros: {

@@ -4,8 +4,14 @@
     "pdfUrl": "https://mirial.es/images/examen-mir/Examen%20MIR%202024/Examen%20MIR%202024.pdf",
     "sourcePage": "https://mirial.es/examen-mir/24-examen-mir/174-descarga-todos-los-examen-mir-en-pdf",
     "parsed": 204,
-    "gradable": 0,
-    "annulled": [],
+    "gradable": 199,
+    "annulled": [
+      64,
+      68,
+      113,
+      180,
+      206
+    ],
     "missingNumbers": [
       2,
       3,
@@ -13,7 +19,8 @@
       142,
       143,
       171
-    ]
+    ],
+    "note": "Plantilla definitiva MIR 2024 V0 aplicada (anuladas 64,68,113,180,206)."
   },
   "questions": [
     {
@@ -41,13 +48,13 @@
           "text": "Síndrome de Cowden."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 1,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-004",
@@ -74,13 +81,13 @@
           "text": "Área de cerebritis retromastoidea."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 4,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-005",
@@ -107,13 +114,13 @@
           "text": "Enfermedad inflamatoria pélvica."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 5,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-006",
@@ -140,13 +147,13 @@
           "text": "Hemorragia causada por una discrasia sanguínea."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 6,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-007",
@@ -173,13 +180,13 @@
           "text": "La incontinencia"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 7,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-008",
@@ -206,13 +213,13 @@
           "text": "Derivación a cirugía para tratamiento quirúrgico."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 8,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-009",
@@ -239,13 +246,13 @@
           "text": "Rotura del tendón del pectoral mayor."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 9,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-010",
@@ -272,13 +279,13 @@
           "text": "Displasia epifisaria múltiple."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 10,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-011",
@@ -305,13 +312,13 @@
           "text": "Osteocondroma."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 11,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-012",
@@ -338,13 +345,13 @@
           "text": "Bloqueo AV de tercer grado."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 12,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-013",
@@ -371,13 +378,13 @@
           "text": "Taquicardia ventricular."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 13,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-014",
@@ -404,13 +411,13 @@
           "text": "Derrame pericárdico crónico."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 14,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-015",
@@ -437,13 +444,13 @@
           "text": "Fracaso renal agudo funcional secundario a"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 15,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-016",
@@ -470,13 +477,13 @@
           "text": "Neumonía intersticial inespecífica."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 16,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-017",
@@ -503,13 +510,13 @@
           "text": "Angioplastia percutánea."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 17,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-018",
@@ -536,13 +543,13 @@
           "text": "Se trata de un hallazgo no relevante en relación"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 18,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-019",
@@ -569,13 +576,13 @@
           "text": "Megacolon tóxico o infeccioso."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 19,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-020",
@@ -602,13 +609,13 @@
           "text": "Absceso retroperitoneal perirrenal por apendicitis"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 20,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-021",
@@ -635,13 +642,13 @@
           "text": "Crioglobulinemia."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 21,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-022",
@@ -668,13 +675,13 @@
           "text": "Tratamiento vasodilatador con prostaglandinas"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 22,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-023",
@@ -701,13 +708,13 @@
           "text": "Encefalitis viral."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 23,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-024",
@@ -734,13 +741,13 @@
           "text": "Endometriosis."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 24,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-025",
@@ -767,13 +774,13 @@
           "text": "Si los títulos de RPR permanecen positivos"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 25,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-026",
@@ -800,13 +807,13 @@
           "text": "Aumento en los niveles séricos de aminoácidos"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 26,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-027",
@@ -833,13 +840,13 @@
           "text": "Aumento de carnitina libre."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 27,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-028",
@@ -866,13 +873,13 @@
           "text": "La anisocoria que aumenta en condiciones de"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 28,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-029",
@@ -899,13 +906,13 @@
           "text": "En el sistema nefrourológico, reducción del tejido"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 29,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-030",
@@ -932,13 +939,13 @@
           "text": "La"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 30,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-031",
@@ -965,13 +972,13 @@
           "text": "El efecto estimulador de la ventilación del CO2"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 31,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-032",
@@ -998,13 +1005,13 @@
           "text": "Fosa pterigopalatina."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 32,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-033",
@@ -1031,13 +1038,13 @@
           "text": "Estatura alta."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 33,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-034",
@@ -1064,13 +1071,13 @@
           "text": "Mosaicismo germinal."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 34,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-035",
@@ -1097,13 +1104,13 @@
           "text": "No inducen cambio de isotipo."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 35,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-036",
@@ -1130,13 +1137,13 @@
           "text": "Lupus eritematoso neonatal – Anticuerpos antiSm."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 36,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-037",
@@ -1163,13 +1170,13 @@
           "text": "La expresión de la proteína Btk en monocitos es"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 37,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-038",
@@ -1196,13 +1203,13 @@
           "text": "Metilprednisolona 40 mg IM y desclorfeniramina"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 38,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-039",
@@ -1229,13 +1236,13 @@
           "text": "Puede comer pescado previamente congelado a -"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 39,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-040",
@@ -1262,13 +1269,13 @@
           "text": "El riesgo relativo."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 40,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-041",
@@ -1295,13 +1302,13 @@
           "text": "167."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 41,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-042",
@@ -1328,13 +1335,13 @@
           "text": "Análisis de minimización de costes."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 42,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-043",
@@ -1361,13 +1368,13 @@
           "text": "Ante un contacto de riesgo con un paciente con"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 43,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-044",
@@ -1394,13 +1401,13 @@
           "text": "Administrar gammaglobulinas polivalentes o"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 44,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-045",
@@ -1427,13 +1434,13 @@
           "text": "La incidencia de SARS-CoV-2 en la población"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 45,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-046",
@@ -1460,13 +1467,13 @@
           "text": "Apixaban."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 46,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-047",
@@ -1493,13 +1500,13 @@
           "text": "Docetaxel."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 47,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-048",
@@ -1526,13 +1533,13 @@
           "text": "Método"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 48,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-049",
@@ -1559,13 +1566,13 @@
           "text": "Debe descartarse el diagnóstico de anquilosis"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 49,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-050",
@@ -1592,13 +1599,13 @@
           "text": "Los"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 50,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-051",
@@ -1625,13 +1632,13 @@
           "text": "Cuando hay una infección activa en el lecho de la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 51,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-052",
@@ -1658,13 +1665,13 @@
           "text": "Realizar una gonioscopia para descartar la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 52,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-053",
@@ -1691,13 +1698,13 @@
           "text": "Los"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 53,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-054",
@@ -1724,13 +1731,13 @@
           "text": "Iniciar tratamiento con inyecciones intravítreas"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 54,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-055",
@@ -1757,13 +1764,13 @@
           "text": "Otitis externa aguda complicada que precisa"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 55,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-056",
@@ -1790,13 +1797,13 @@
           "text": "Vértigo posicional paroxístico benigno."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 56,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-057",
@@ -1823,13 +1830,13 @@
           "text": "Síndrome de Ramsay-Hunt se tratará con"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 57,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-058",
@@ -1856,13 +1863,13 @@
           "text": "Estudio para descartar preeclampsia."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 58,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-059",
@@ -1889,13 +1896,13 @@
           "text": "Dispositivo"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 59,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-060",
@@ -1922,13 +1929,13 @@
           "text": "Malformación renal feto 2."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 60,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-061",
@@ -1955,13 +1962,13 @@
           "text": "Diuréticos vía endovenosa."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 61,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-062",
@@ -1988,13 +1995,13 @@
           "text": "Diseminación peritoneal."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 62,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-063",
@@ -2021,13 +2028,13 @@
           "text": "Presencia de metrorragia."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 63,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-064",
@@ -2055,12 +2062,12 @@
         }
       ],
       "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
+      "explanation": "Pregunta anulada en la plantilla definitiva del Ministerio (MIR 2024).",
       "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
       "officialNumber": 64,
-      "annulled": false,
+      "annulled": true,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-065",
@@ -2087,13 +2094,13 @@
           "text": "Escarlatina."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 65,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-066",
@@ -2120,13 +2127,13 @@
           "text": "El tratamiento con inmunoglobulina intravenosa"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 66,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-067",
@@ -2153,13 +2160,13 @@
           "text": "Alcalosis"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 67,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-068",
@@ -2187,12 +2194,12 @@
         }
       ],
       "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
+      "explanation": "Pregunta anulada en la plantilla definitiva del Ministerio (MIR 2024).",
       "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
       "officialNumber": 68,
-      "annulled": false,
+      "annulled": true,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-069",
@@ -2219,13 +2226,13 @@
           "text": "Aislar al paciente al menos 5 días después de"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 69,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-070",
@@ -2252,13 +2259,13 @@
           "text": "Se ha observado un aumento ligero de la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 70,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-071",
@@ -2285,13 +2292,13 @@
           "text": "Cardiopatía congénita."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 71,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-072",
@@ -2318,13 +2325,13 @@
           "text": "Trastorno de ansiedad generalizada."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 72,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-073",
@@ -2351,13 +2358,13 @@
           "text": "Regresión."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 73,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-074",
@@ -2384,13 +2391,13 @@
           "text": "Antecedentes de agresividad."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 74,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-075",
@@ -2417,13 +2424,13 @@
           "text": "Dificultades académicas."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 75,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-076",
@@ -2450,13 +2457,13 @@
           "text": "Carbamazepina y terapia interpersonal."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 76,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-077",
@@ -2483,13 +2490,13 @@
           "text": "En la RM de estos pacientes esperamos encontrar"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 77,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-078",
@@ -2516,13 +2523,13 @@
           "text": "Presencia precoz de síntomas de disautonomía."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 78,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-079",
@@ -2549,13 +2556,13 @@
           "text": "La respuesta a inmunosupresores es mayor en"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 79,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-080",
@@ -2582,13 +2589,13 @@
           "text": "Si hay disminución de la secreción lacrimal en el"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 80,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-081",
@@ -2615,13 +2622,13 @@
           "text": "Neoplasia cerebral con fiebre paraneoplásica;"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 81,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-082",
@@ -2648,13 +2655,13 @@
           "text": "Tratamiento"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 82,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-083",
@@ -2681,13 +2688,13 @@
           "text": "El pronóstico habitualmente es favorable."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 83,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-084",
@@ -2714,13 +2721,13 @@
           "text": "Trombectomía mecánica."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 84,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-085",
@@ -2747,13 +2754,13 @@
           "text": "La estimulación eléctrica de los núcleos genera"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 85,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-086",
@@ -2780,13 +2787,13 @@
           "text": "pH en sangre."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 86,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-087",
@@ -2813,13 +2820,13 @@
           "text": "Shock obstructivo."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 87,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-088",
@@ -2846,13 +2853,13 @@
           "text": "Tendinosis"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 88,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-089",
@@ -2879,13 +2886,13 @@
           "text": "Meralgia parestésica derecha."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 89,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-090",
@@ -2912,13 +2919,13 @@
           "text": "Solicitar resonancia magnética y pautar, si no está"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 90,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-091",
@@ -2945,13 +2952,13 @@
           "text": "Patela alta."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 91,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-092",
@@ -2978,13 +2985,13 @@
           "text": "Compresión extravascular a consecuencia de un"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 92,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-093",
@@ -3011,13 +3018,13 @@
           "text": "Tratamiento farmacológico con tramadol."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 93,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-094",
@@ -3044,13 +3051,13 @@
           "text": "Terapia biológica con anti-TNF."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 94,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-095",
@@ -3077,13 +3084,13 @@
           "text": "Radiografía anteroposterior de rodillas y de"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 95,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-096",
@@ -3110,13 +3117,13 @@
           "text": "Infiltrado perivascular de polimorfonucleares."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 96,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-097",
@@ -3143,13 +3150,13 @@
           "text": "Hipertrofia del ventrículo izquierdo."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 97,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-098",
@@ -3176,13 +3183,13 @@
           "text": "Rotura de aneurisma de arteria cerebral media."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 98,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-099",
@@ -3209,13 +3216,13 @@
           "text": "Isquemia miocárdica aguda."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 99,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-100",
@@ -3242,13 +3249,13 @@
           "text": "Bloqueo de rama derecha del haz de His por"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 100,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-101",
@@ -3275,13 +3282,13 @@
           "text": "Hemorragia grave."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 101,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-102",
@@ -3308,13 +3315,13 @@
           "text": "Hemocultivos positivos persistentes durante 7-10"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 102,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-103",
@@ -3341,13 +3348,13 @@
           "text": "Pericarditis efusivo-constrictiva."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 103,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-104",
@@ -3374,13 +3381,13 @@
           "text": "Mitra-Clip."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 104,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-105",
@@ -3407,13 +3414,13 @@
           "text": "Realizar cateterismo y atrioseptostomía de"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 105,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-106",
@@ -3440,13 +3447,13 @@
           "text": "Liposucción."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 106,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-107",
@@ -3473,13 +3480,13 @@
           "text": "Neuropatía isquémica."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 107,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-108",
@@ -3506,13 +3513,13 @@
           "text": "Cirugía de sustitución valvular aórtica y raíz."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 108,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-109",
@@ -3539,13 +3546,13 @@
           "text": "Mastocitos."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 109,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-110",
@@ -3572,13 +3579,13 @@
           "text": "Insuficiencia cardíaca."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 110,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-111",
@@ -3605,13 +3612,13 @@
           "text": "Vibraciones vocales disminuidas con crepitantes"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 111,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-112",
@@ -3638,13 +3645,13 @@
           "text": "Broncodilatador β-agonista de acción prolongada"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 112,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-113",
@@ -3672,12 +3679,12 @@
         }
       ],
       "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
+      "explanation": "Pregunta anulada en la plantilla definitiva del Ministerio (MIR 2024).",
       "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
       "officialNumber": 113,
-      "annulled": false,
+      "annulled": true,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-115",
@@ -3704,13 +3711,13 @@
           "text": "Se debe realizar una prueba de esfuerzo"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 115,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-116",
@@ -3737,13 +3744,13 @@
           "text": "Presencia de cálculos de bilirrubina."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 116,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-117",
@@ -3770,13 +3777,13 @@
           "text": "Reparación laparoscópica TAPP (transabdominal"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 117,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-118",
@@ -3803,13 +3810,13 @@
           "text": "Síndrome del elevador del ano."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 118,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-119",
@@ -3836,13 +3843,13 @@
           "text": "La"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 119,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-120",
@@ -3869,13 +3876,13 @@
           "text": "Ustekinumab."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 120,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-121",
@@ -3902,13 +3909,13 @@
           "text": "Cuando se interviene mediante abordaje abierto"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 121,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-122",
@@ -3935,13 +3942,13 @@
           "text": "Esperar al resultado de la endoscopia para actuar"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 122,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-123",
@@ -3968,13 +3975,13 @@
           "text": "Quimioterapia exclusiva."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 123,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-124",
@@ -4001,13 +4008,13 @@
           "text": "Radioterapia dirigida al duodeno para controlar la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 124,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-125",
@@ -4034,13 +4041,13 @@
           "text": "Hernia crural."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 125,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-126",
@@ -4067,13 +4074,13 @@
           "text": "Tumoración maligna obstructiva de colédoco"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 126,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-127",
@@ -4100,13 +4107,13 @@
           "text": "Esofagograma con bario."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 127,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-128",
@@ -4133,13 +4140,13 @@
           "text": "La vacunación preoperatoria contra neumococo,"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 128,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-129",
@@ -4166,13 +4173,13 @@
           "text": "El intervalo de inicio de la infusión del"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 129,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-130",
@@ -4199,13 +4206,13 @@
           "text": "Proteinuria de 1 gramo en la orina de 24 horas."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 130,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-131",
@@ -4232,13 +4239,13 @@
           "text": "Iniciar"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 131,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-132",
@@ -4265,13 +4272,13 @@
           "text": "En la mayoría de los casos se asocia con la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 132,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-133",
@@ -4298,13 +4305,13 @@
           "text": "Corticoides a altas dosis junto con ciclofosfamida"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 133,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-134",
@@ -4331,13 +4338,13 @@
           "text": "Hay que iniciar tratamiento con bolus de"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 134,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-135",
@@ -4364,13 +4371,13 @@
           "text": "Nefrectomía radical derecha. Inmunoterapia"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 135,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-136",
@@ -4397,13 +4404,13 @@
           "text": "Solicitar TC ante la sospecha de abdomen agudo."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 136,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-137",
@@ -4430,13 +4437,13 @@
           "text": "Ecografía de pene."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 137,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-138",
@@ -4463,13 +4470,13 @@
           "text": "Biopsia prostática transperineal sistemática y"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 138,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-139",
@@ -4496,13 +4503,13 @@
           "text": "El cáncer de mama triple negativo es el subtipo"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 139,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-140",
@@ -4529,13 +4536,13 @@
           "text": "Hipercalcemia."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 140,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-141",
@@ -4562,13 +4569,13 @@
           "text": "HER2."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 141,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-144",
@@ -4595,13 +4602,13 @@
           "text": "Metástasis de carcinoma."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 144,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-145",
@@ -4628,13 +4635,13 @@
           "text": "Factor VII activado recombinante."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 145,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-146",
@@ -4661,13 +4668,13 @@
           "text": "Síndrome hemolítico urémico."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 146,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-147",
@@ -4694,13 +4701,13 @@
           "text": "Granulomatosis linfomatoide."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 147,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-148",
@@ -4727,13 +4734,13 @@
           "text": "En el cariotipo realizado precozmente tras un"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 148,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-149",
@@ -4760,13 +4767,13 @@
           "text": "Trazodona."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 149,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-150",
@@ -4793,13 +4800,13 @@
           "text": "Balance nitrogenado positivo."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 150,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-151",
@@ -4826,13 +4833,13 @@
           "text": "Ha empeorado la demencia y se debe añadir"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 151,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-152",
@@ -4859,13 +4866,13 @@
           "text": "Corticoesteroides inhalados en el EPOC estadio"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 152,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-153",
@@ -4892,13 +4899,13 @@
           "text": "La luna de miel aparece en el estadio 2, con la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 153,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-154",
@@ -4925,13 +4932,13 @@
           "text": "Se debe descartar un hipertiroidismo primario."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 154,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-155",
@@ -4958,13 +4965,13 @@
           "text": "Test de sobrecarga oral de glucosa con 100 gr de"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 155,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-156",
@@ -4991,13 +4998,13 @@
           "text": "Síndrome Stevens-Johnson."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 156,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-157",
@@ -5024,13 +5031,13 @@
           "text": "Doxazosina."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 157,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-158",
@@ -5057,13 +5064,13 @@
           "text": "Hipertiroidismo por beta-HCG durante la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 158,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-159",
@@ -5090,13 +5097,13 @@
           "text": "Cortisol libre urinario, metanefrinas fraccionadas"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 159,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-160",
@@ -5123,13 +5130,13 @@
           "text": "Es"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 160,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-161",
@@ -5156,13 +5163,13 @@
           "text": "En la mayoría de los casos, la fiebre precede al"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 161,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-162",
@@ -5189,13 +5196,13 @@
           "text": "Es"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 162,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-163",
@@ -5222,13 +5229,13 @@
           "text": "Ingreso"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 163,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-164",
@@ -5255,13 +5262,13 @@
           "text": "Si se confirma el diagnóstico, debe estudiar a los"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 164,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-165",
@@ -5288,13 +5295,13 @@
           "text": "Test de Coombs."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 165,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-166",
@@ -5321,13 +5328,13 @@
           "text": "La plasmaféresis no es útil en esta paciente."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 166,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-167",
@@ -5354,13 +5361,13 @@
           "text": "Determinación de proteína C reactiva."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 167,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-168",
@@ -5387,13 +5394,13 @@
           "text": "Histoplasmosis."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 168,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-169",
@@ -5420,13 +5427,13 @@
           "text": "Colangitis esclerosante primaria."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 169,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-170",
@@ -5453,13 +5460,13 @@
           "text": "La antibioterapia local se emplea como método"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 170,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-172",
@@ -5486,13 +5493,13 @@
           "text": "Iniciar doble terapia con inhibidores de integrasa."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 172,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-173",
@@ -5519,13 +5526,13 @@
           "text": "Miositis con cuerpos de inclusión."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 173,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-174",
@@ -5552,13 +5559,13 @@
           "text": "Una biopsia de la arteria temporal que muestre un"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 174,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-175",
@@ -5585,13 +5592,13 @@
           "text": "Dolor muscular."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 175,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-176",
@@ -5618,13 +5625,13 @@
           "text": "La adición al tratamiento de anticuerpos"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 176,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-177",
@@ -5651,13 +5658,13 @@
           "text": "Es jurídicamente aceptable un acuerdo entre el"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 177,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-178",
@@ -5684,13 +5691,13 @@
           "text": "Eutanasia."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 178,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-179",
@@ -5717,13 +5724,13 @@
           "text": "La metadona es un fármaco analgésico con"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 179,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-180",
@@ -5751,12 +5758,12 @@
         }
       ],
       "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
+      "explanation": "Pregunta anulada en la plantilla definitiva del Ministerio (MIR 2024).",
       "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
       "officialNumber": 180,
-      "annulled": false,
+      "annulled": true,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-181",
@@ -5783,13 +5790,13 @@
           "text": "La marca eléctrica es diagnóstica del lugar en el"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 181,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-182",
@@ -5816,13 +5823,13 @@
           "text": "Ingresar"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 182,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-183",
@@ -5849,13 +5856,13 @@
           "text": "Glucemia capilar postprandial 190 mg/dL."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 183,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-184",
@@ -5882,13 +5889,13 @@
           "text": "Repaglinida."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 184,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-185",
@@ -5915,13 +5922,13 @@
           "text": "Bloqueo del nervio pudendo."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 185,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-186",
@@ -5948,13 +5955,13 @@
           "text": "Pupilas mióticas."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 186,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-187",
@@ -5981,13 +5988,13 @@
           "text": "El riesgo de tromboembolia venosa con el"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 187,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-188",
@@ -6014,13 +6021,13 @@
           "text": "Pioglitazona."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 188,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-189",
@@ -6047,13 +6054,13 @@
           "text": "Neurotoxicidad por opioides. Reducir la dosis de"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 189,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-190",
@@ -6080,13 +6087,13 @@
           "text": "Ecocardiografía."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 190,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-191",
@@ -6113,13 +6120,13 @@
           "text": "Radiografía de columna lumbosacra."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 191,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-192",
@@ -6146,13 +6153,13 @@
           "text": "Solicitaría estudio microbiológico de esputo."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 192,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-193",
@@ -6179,13 +6186,13 @@
           "text": "Punción lavado peritoneal."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 193,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-194",
@@ -6212,13 +6219,13 @@
           "text": "Cantidad de células no estromales que componen"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 194,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-195",
@@ -6245,13 +6252,13 @@
           "text": "Nefropatía IgA."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "c",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 195,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-196",
@@ -6278,13 +6285,13 @@
           "text": "Candidiasis mucocutánea."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 196,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-197",
@@ -6311,13 +6318,13 @@
           "text": "Terapia fotodinámica para reducir el tamaño de la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 197,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-198",
@@ -6344,13 +6351,13 @@
           "text": "La mayoría de los hemangiomas infantiles tiene"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 198,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-199",
@@ -6377,13 +6384,13 @@
           "text": "Biológico con mecanismo de acción antiInterleucina 23."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 199,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-200",
@@ -6410,13 +6417,13 @@
           "text": "Localización"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 200,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-201",
@@ -6443,13 +6450,13 @@
           "text": "La mayoría de los casos curan de forma"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 201,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-202",
@@ -6476,13 +6483,13 @@
           "text": "Neuropatía cubital por atrapamiento en canal"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 202,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-203",
@@ -6509,13 +6516,13 @@
           "text": "Antiandrógenos inicialmente más análogos de la"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 203,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-204",
@@ -6542,13 +6549,13 @@
           "text": "Se iniciará profilaxis tromboembólica con"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 204,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-205",
@@ -6575,13 +6582,13 @@
           "text": "Anti-PM/SCL."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 205,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-206",
@@ -6609,12 +6616,12 @@
         }
       ],
       "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
+      "explanation": "Pregunta anulada en la plantilla definitiva del Ministerio (MIR 2024).",
       "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
       "officialNumber": 206,
-      "annulled": false,
+      "annulled": true,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-207",
@@ -6641,13 +6648,13 @@
           "text": "Significación estadística de la asociación."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 207,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-208",
@@ -6674,13 +6681,13 @@
           "text": "Ácido acetil salicílico 100 mg/día de forma"
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "a",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 208,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-209",
@@ -6707,13 +6714,13 @@
           "text": "Gen p53."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "b",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 209,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     },
     {
       "id": "mir2024-210",
@@ -6740,13 +6747,13 @@
           "text": "Disminución de hormonas gonadotróficas."
         }
       ],
-      "correctId": "",
-      "explanation": "Plantilla no vinculada. Corrige con el PDF oficial del Ministerio.",
-      "pearl": "Fuente: cuadernillo oficial (espejo Mirial) + plantilla pública.",
+      "correctId": "d",
+      "explanation": "Respuesta según plantilla oficial definitiva MIR 2024 (versión 0).",
+      "pearl": "Fuente: cuadernillo oficial + plantilla pública Ministerio.",
       "officialNumber": 210,
       "annulled": false,
       "source": "official",
-      "needsPlantilla": true
+      "needsPlantilla": false
     }
   ]
 }

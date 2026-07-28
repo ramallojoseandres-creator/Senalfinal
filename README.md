@@ -1,26 +1,24 @@
-# Señal MIR
+# PuertoMir
 
-Plataforma de estudios MIR con estilo campus CTO: dashboard por vueltas, generador de exámenes, simulacros, desgloses, guías por asignatura, estadísticas y calendario semanal.
+Campus de preparación MIR con metodología por vueltas, banco amplio de preguntas (oficiales + alta rentabilidad), simulacros, percentil competitivo y panel de administración.
 
-## Desarrollo
+## Arranque
 
 ```bash
 npm install
 npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000). El campus está en `/campus`.
+## Admin
 
-## Stack
+- URL: `/login` → `/admin`
+- Email: `ramallojoseandres@gmail.com`
+- Contraseña: `151595`
 
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS v4
+El admin puede crear alumnos y ver estadísticas/calificaciones. Las sesiones de alumnos autenticados se guardan en `data/store/`.
 
-## Notas
+## Scripts
 
-- Banco demo interno + **preguntas oficiales MIR** importadas desde los PDF de
-  [Mirial](https://mirial.es/examen-mir/24-examen-mir/174-descarga-todos-los-examen-mir-en-pdf)
-  (cuadernillos del Ministerio de Sanidad).
-- El scoring sigue la lógica MIR (+3 / −1 / 0). El progreso se guarda en `localStorage`.
-- Para regenerar oficiales: `pip install pymupdf && python scripts/import_mir_oficiales.py`
+```bash
+python scripts/import_mir_oficiales.py
+```

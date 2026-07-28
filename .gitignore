@@ -36,6 +36,9 @@ yarn-error.log*
 # raw MIR PDFs (re-download via scripts/import_mir_oficiales.py)
 /data/oficiales/*.pdf
 
+# runtime user store (admin/alumnos/calificaciones)
+/data/store/
+
 # vercel
 .vercel
 

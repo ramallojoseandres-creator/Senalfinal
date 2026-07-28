@@ -10,6 +10,7 @@ import { getGradableOfficialQuestions } from "@/data/oficiales";
 import { PracticeSession } from "@/components/PracticeSession";
 import { mirExamSpec } from "@/data/cto-method";
 import type { Question } from "@/data/questions";
+import { questions as demoBank } from "@/data/questions";
 
 export default function SimulacroDetailPage() {
   const params = useParams<{ id: string }>();
@@ -25,28 +26,36 @@ export default function SimulacroDetailPage() {
   );
 
   const exam = useMemo(() => {
-    const official = getGradableOfficialQuestions(2025);
+    if (!sim) return [] as Question[];
+
+    if (sim.id === "sim-oficial-2025") {
+      return getGradableOfficialQuestions(2025).slice(0, 210);
+    }
+    if (sim.id === "sim-oficial-2024") {
+      return getGradableOfficialQuestions(2024).slice(0, 210);
+    }
+    if (sim.id === "sim-mixto-150") {
+      return buildExam({ count: 150, mode: "simulacro" });
+    }
+
+    const official = getGradableOfficialQuestions();
     const demo = buildExam({
-      count: 80,
+      count: 120,
       mode: "simulacro",
       officialOnly: false,
     });
-    // Prefer official bank; fill with demo to approach MIR length in demo mode
     const merged: Question[] = [];
     const seen = new Set<string>();
-    for (const q of [...official, ...demo]) {
+    for (const q of [...official, ...demo, ...demoBank]) {
       if (seen.has(q.id) || !q.correctId) continue;
       seen.add(q.id);
       merged.push(q);
-      if (merged.length >= 60) break; // demo length (full 210 when bank grows)
+      if (merged.length >= Math.min(sim.questionCount, 180)) break;
     }
-    // Mark last 5 as "reserva" in topic label for pedagogy
     return merged.map((q, i) =>
-      i >= merged.length - 5
-        ? { ...q, topic: `${q.topic} · RESERVA` }
-        : q,
+      i >= merged.length - 5 ? { ...q, topic: `${q.topic} · RESERVA` } : q,
     );
-  }, []);
+  }, [sim]);
 
   if (!sim) {
     return (
@@ -84,21 +93,15 @@ export default function SimulacroDetailPage() {
           <p className="mt-3 text-[var(--ink-soft)]">{sim.description}</p>
 
           <ul className="mt-6 space-y-2 text-sm">
+            <li>· Preguntas en este intento: {exam.length}</li>
             <li>
-              · Formato objetivo MIR: {mirExamSpec.scoredQuestions} +{" "}
-              {mirExamSpec.reserveQuestions} reserva
+              · Formato scoring MIR: +{mirExamSpec.scoring.correct} /{" "}
+              {mirExamSpec.scoring.wrong} / {mirExamSpec.scoring.blank}
             </li>
-            <li>· Duración: {mirExamSpec.durationMin} minutos improrrogables</li>
-            <li>· 4 opciones · solo 1 correcta · blancos no penalizan</li>
-            <li>· Penalización: 3 fallos anulan 1 acierto (+3 / −1 / 0)</li>
-            <li>· Tras entregar: netos, percentil de cohorte e informe por asignatura</li>
+            <li>· Temporizador proporcional al tamaño del bloque</li>
+            <li>· Resultado con netos, percentil e informe por asignatura</li>
+            <li>· Si inicias sesión, la nota queda en tu expediente (visible para admin)</li>
           </ul>
-
-          <p className="mt-4 rounded-xl bg-[rgba(196,92,38,0.1)] px-4 py-3 text-sm">
-            Demo técnica: este intento usa {exam.length} preguntas del banco
-            (oficiales + demo) con temporizador proporcional. En producción serían
-            exactamente 210.
-          </p>
 
           <button
             type="button"
@@ -113,7 +116,6 @@ export default function SimulacroDetailPage() {
     );
   }
 
-  // Proportional timer: full MIR 270 min for 210 Q → scale for demo length
   const durationSec = Math.round(
     (exam.length / mirExamSpec.totalQuestions) * mirExamSpec.durationMin * 60,
   );
@@ -125,7 +127,7 @@ export default function SimulacroDetailPage() {
         label={sim.title}
         mode="simulacro"
         competitive
-        durationSec={Math.max(durationSec, 20 * 60)}
+        durationSec={Math.max(durationSec, 15 * 60)}
         subjectNames={subjectNames}
       />
     </div>
