@@ -1,9 +1,14 @@
 import { CampusShell } from "@/components/CampusShell";
+import { FocusModeProvider } from "@/components/FocusMode";
 
 export default function CampusLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <CampusShell>{children}</CampusShell>;
+  return (
+    <FocusModeProvider>
+      <CampusShell>{children}</CampusShell>
+    </FocusModeProvider>
+  );
 }

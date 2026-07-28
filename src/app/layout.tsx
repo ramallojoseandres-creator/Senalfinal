@@ -1,23 +1,23 @@
 import type { Metadata } from "next";
-import { Fraunces, Manrope } from "next/font/google";
+import { Syne, Outfit } from "next/font/google";
 import "./globals.css";
 
-const display = Fraunces({
+const display = Syne({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["600", "700", "800"],
 });
 
-const body = Manrope({
+const body = Outfit({
   variable: "--font-body",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
-  title: "Señal MIR — Campus de preparación",
+  title: "Señal MIR — El campus que dicta tu plaza",
   description:
-    "Plataforma de estudios MIR estilo campus: simulacros, generador de exámenes, desgloses, guías y seguimiento de vueltas.",
+    "La plataforma MIR más exigente: calendario dictado, simulacros idénticos al examen, netos y percentil de cohorte. Método por vueltas.",
 };
 
 export default function RootLayout({

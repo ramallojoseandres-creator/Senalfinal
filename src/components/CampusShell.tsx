@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useFocusMode } from "@/components/FocusMode";
 
 const links = [
   { href: "/campus", label: "Hoy dictado", icon: "◈" },
@@ -16,13 +17,18 @@ const links = [
 
 export function CampusShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const { focus } = useFocusMode();
+
+  if (focus) {
+    return <div className="min-h-screen arena">{children}</div>;
+  }
 
   return (
     <div className="min-h-screen md:grid md:grid-cols-[240px_1fr]">
-      <aside className="border-b border-[var(--line)] bg-[rgba(255,252,246,0.72)] backdrop-blur md:sticky md:top-0 md:h-screen md:border-b-0 md:border-r">
+      <aside className="border-b border-[var(--line)] bg-[rgba(255,255,255,0.55)] backdrop-blur md:sticky md:top-0 md:h-screen md:border-b-0 md:border-r">
         <div className="flex items-center justify-between px-5 py-5 md:block">
           <Link href="/" className="flex items-center gap-3">
-            <span className="grid h-9 w-9 place-items-center rounded-full bg-[var(--brand)] text-sm font-bold text-white">
+            <span className="grid h-9 w-9 place-items-center rounded-xl bg-[var(--brand)] text-sm font-bold text-white">
               S
             </span>
             <div>

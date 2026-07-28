@@ -102,11 +102,11 @@ export default function SimulacroDetailPage() {
 
           <button
             type="button"
-            className="btn btn-accent mt-6 w-full"
+            className="btn btn-accent mt-6 w-full sweep-shine"
             onClick={() => setStarted(true)}
             disabled={exam.length === 0}
           >
-            Empezar en condiciones de examen
+            Entrar al arena de examen
           </button>
         </div>
       </div>
