@@ -4,14 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
-  { href: "/campus", label: "Dashboard", icon: "◈" },
-  { href: "/campus/generador", label: "Generador", icon: "⎇" },
-  { href: "/campus/simulacros", label: "Simulacros", icon: "◎" },
-  { href: "/campus/asignaturas", label: "Asignaturas", icon: "▣" },
-  { href: "/campus/desgloses", label: "Desgloses", icon: "≡" },
-  { href: "/campus/oficiales", label: "Oficiales MIR", icon: "§" },
-  { href: "/campus/estadisticas", label: "Estadísticas", icon: "◔" },
+  { href: "/campus", label: "Hoy dictado", icon: "◈" },
   { href: "/campus/calendario", label: "Calendario", icon: "▦" },
+  { href: "/campus/simulacros", label: "Simulacros", icon: "◎" },
+  { href: "/campus/generador", label: "Test a la carta", icon: "⎇" },
+  { href: "/campus/oficiales", label: "Oficiales MIR", icon: "§" },
+  { href: "/campus/desgloses", label: "Desgloses", icon: "≡" },
+  { href: "/campus/asignaturas", label: "Guías", icon: "▣" },
+  { href: "/campus/estadisticas", label: "Percentiles", icon: "◔" },
 ];
 
 export function CampusShell({ children }: { children: React.ReactNode }) {
@@ -69,14 +69,14 @@ export function CampusShell({ children }: { children: React.ReactNode }) {
         <header className="flex items-center justify-between gap-4 border-b border-[var(--line)] px-5 py-4 md:px-8">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--muted)]">
-              Preparación MIR
+              Método por vueltas · netos + percentil
             </p>
             <p className="font-semibold text-[var(--ink-soft)]">
-              Plan personalizado · netos y blancos bajo control
+              No eliges qué estudiar: el plan diario te lo dicta
             </p>
           </div>
           <Link href="/campus/generador" className="btn btn-primary !py-2.5 !px-4 text-sm">
-            Nuevo test
+            Test a la carta
           </Link>
         </header>
         <main className="px-5 py-6 md:px-8 md:py-8">{children}</main>

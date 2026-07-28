@@ -1,103 +1,106 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { subjects } from "@/data/subjects";
+import Link from "next/link";
+import { emptyMetrics, loadMetrics } from "@/lib/metrics";
 import { loadProgress, emptyProgress } from "@/lib/exam";
+import { getActiveVuelta } from "@/data/cto-method";
 
 function subscribe() {
   return () => {};
 }
 
 export default function EstadisticasPage() {
+  const metrics = useSyncExternalStore(subscribe, loadMetrics, emptyMetrics);
   const progress = useSyncExternalStore(subscribe, loadProgress, emptyProgress);
-
-  const totalAnswers = progress.correct + progress.wrong + progress.blank;
-  const accuracy =
-    progress.correct + progress.wrong > 0
-      ? Math.round(
-          (progress.correct / (progress.correct + progress.wrong)) * 100,
-        )
-      : 0;
-
-  const subjectStats = subjects
-    .map((s) => {
-      const stat = progress.bySubject[s.id];
-      const total = stat?.total ?? 0;
-      const rate =
-        total > 0 ? Math.round(((stat?.correct ?? 0) / total) * 100) : null;
-      return { ...s, total, rate, wrong: stat?.wrong ?? 0 };
-    })
-    .sort((a, b) => (a.rate ?? 101) - (b.rate ?? 101));
+  const active = getActiveVuelta();
+  const last = metrics.lastReport;
+  const history = metrics.simulacros;
 
   return (
     <div className="space-y-6 animate-rise">
       <div>
-        <p className="chip mb-3">Evolución</p>
-        <h1 className="display text-4xl">Estadísticas</h1>
+        <p className="chip mb-3">Métricas competitivas</p>
+        <h1 className="display text-4xl">Netos, percentil e informe</h1>
         <p className="mt-2 max-w-2xl text-[var(--ink-soft)]">
-          Curva de netos, blancos y asignaturas débiles — la base del calendario
-          personalizado de la 3ª vuelta.
+          No buscamos un 10 académico: medimos competitividad frente a la
+          cohorte. Estás en {active.name} — {active.evaluationCadence}.
         </p>
       </div>
 
-      <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {[
-          ["Sesiones", String(progress.attempts)],
-          ["Respuestas", String(totalAnswers)],
-          ["Aciertos", `${accuracy}%`],
-          ["Blancos", String(progress.blank)],
-        ].map(([label, value]) => (
-          <article key={label} className="panel p-5">
-            <p className="text-xs uppercase tracking-wide text-[var(--muted)]">
-              {label}
-            </p>
-            <p className="display text-3xl">{value}</p>
-          </article>
-        ))}
-      </section>
-
-      <section className="panel p-6">
-        <h2 className="display mb-4 text-2xl">Por asignatura</h2>
-        {totalAnswers === 0 ? (
-          <p className="text-[var(--ink-soft)]">
-            Aún no hay datos. Completa un test en el generador o un simulacro para
-            ver tu mapa de rendimiento.
+      {last ? (
+        <section className="panel p-6 md:p-8">
+          <p className="text-xs font-bold uppercase tracking-wide text-[var(--muted)]">
+            Último informe · {last.label}
           </p>
-        ) : (
-          <div className="space-y-4">
-            {subjectStats
-              .filter((s) => s.total > 0)
-              .map((s) => (
-                <div key={s.id}>
-                  <div className="mb-1 flex items-center justify-between text-sm">
-                    <span className="font-semibold">{s.name}</span>
-                    <span className="text-[var(--muted)]">
-                      {s.rate}% · {s.total} preg. · {s.wrong} fallos
-                    </span>
-                  </div>
-                  <div className="progress-bar">
-                    <span
-                      style={{
-                        width: `${s.rate ?? 0}%`,
-                        background: s.color,
-                      }}
-                    />
-                  </div>
-                </div>
-              ))}
+          <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              ["Netos", String(last.result.net)],
+              ["Percentil", `p${last.percentile}`],
+              ["Puesto ~", last.rankApprox.toLocaleString("es-ES")],
+              ["Cohorte", last.cohortSize.toLocaleString("es-ES")],
+            ].map(([k, v]) => (
+              <div key={k} className="rounded-2xl bg-[rgba(11,95,99,0.08)] p-4">
+                <p className="text-xs uppercase text-[var(--muted)]">{k}</p>
+                <p className="display text-3xl">{v}</p>
+              </div>
+            ))}
           </div>
-        )}
-      </section>
+          <p className="mt-4 text-sm text-[var(--ink-soft)]">{last.message}</p>
+
+          <h2 className="display mt-8 mb-4 text-2xl">Por asignatura</h2>
+          <div className="space-y-3">
+            {last.bySubject.map((s) => (
+              <div key={s.subjectId}>
+                <div className="mb-1 flex flex-wrap justify-between gap-2 text-sm">
+                  <span className="font-semibold">
+                    {s.name} · {s.verdict}
+                  </span>
+                  <span className="text-[var(--muted)]">
+                    p{s.percentile} · netos {s.nets}
+                  </span>
+                </div>
+                <div className="progress-bar">
+                  <span style={{ width: `${s.percentile}%`, background: s.color }} />
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {last.weak.length ? (
+            <div className="mt-6 rounded-2xl bg-[rgba(196,92,38,0.1)] p-4">
+              <p className="font-semibold">Puntos débiles (personaliza el repaso)</p>
+              <p className="mt-1 text-sm">
+                {last.weak.map((w) => w.name).join(" · ")}
+              </p>
+              <Link href="/campus/generador" className="btn btn-accent mt-3 !py-2 !px-3 text-sm">
+                Test a la carta de refuerzo
+              </Link>
+            </div>
+          ) : null}
+        </section>
+      ) : (
+        <section className="panel p-8">
+          <h2 className="display text-2xl">Aún no hay informe competitivo</h2>
+          <p className="mt-2 text-[var(--ink-soft)]">
+            Completa un simulacro o un examen para ver netos, percentil frente a
+            cohorte e informe por asignatura.
+          </p>
+          <Link href="/campus/simulacros" className="btn btn-primary mt-5">
+            Ir a simulacros
+          </Link>
+        </section>
+      )}
 
       <section className="panel p-6">
-        <h2 className="display mb-4 text-2xl">Historial reciente</h2>
-        {progress.history.length === 0 ? (
-          <p className="text-[var(--ink-soft)]">Sin sesiones registradas todavía.</p>
+        <h2 className="display mb-4 text-2xl">Evolución de simulacros</h2>
+        {history.length === 0 ? (
+          <p className="text-[var(--ink-soft)]">Sin simulacros registrados todavía.</p>
         ) : (
           <ul className="space-y-3">
-            {progress.history.map((h, i) => (
+            {history.map((h) => (
               <li
-                key={`${h.date}-${i}`}
+                key={h.id}
                 className="flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-[var(--line)] bg-white/40 px-4 py-3"
               >
                 <div>
@@ -107,12 +110,25 @@ export default function EstadisticasPage() {
                   </p>
                 </div>
                 <p className="font-bold text-[var(--brand)]">
-                  Netos {h.net} / {h.total * 3}
+                  Netos {h.net} · p{h.percentile}
                 </p>
               </li>
             ))}
           </ul>
         )}
+      </section>
+
+      <section className="grid gap-4 sm:grid-cols-3">
+        {[
+          ["Sesiones practice", String(progress.attempts)],
+          ["Aciertos acumulados", String(progress.correct)],
+          ["Fallos acumulados", String(progress.wrong)],
+        ].map(([k, v]) => (
+          <article key={k} className="panel p-5">
+            <p className="text-xs uppercase text-[var(--muted)]">{k}</p>
+            <p className="display text-3xl">{v}</p>
+          </article>
+        ))}
       </section>
     </div>
   );

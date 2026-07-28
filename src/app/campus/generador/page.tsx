@@ -63,11 +63,11 @@ export default function GeneradorPage() {
   return (
     <div className="mx-auto max-w-4xl space-y-6 animate-rise">
       <div>
-        <p className="chip mb-3">Herramienta clásica CTO</p>
+        <p className="chip mb-3">Evaluación continua · test a la carta</p>
         <h1 className="display text-4xl">Generador de exámenes</h1>
         <p className="mt-2 text-[var(--ink-soft)]">
-          Personaliza por asignatura, dificultad y modo. Ideal para la evaluación
-          diaria (50+50) o bloques de refuerzo.
+          Mini-exámenes de 30 o 50 preguntas del tema que acabas de estudiar hoy.
+          También alimenta la evaluación diaria 50 del tema + 50 aleatorias.
         </p>
       </div>
 
@@ -97,13 +97,50 @@ export default function GeneradorPage() {
         </p>
       </section>
 
+      <section className="panel p-5">
+        <p className="mb-3 text-sm font-bold">Presets CTO</p>
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            className="btn btn-secondary !py-2 !px-3 text-sm"
+            onClick={() => {
+              setCount(30);
+              setMode("practice");
+            }}
+          >
+            Test a la carta · 30
+          </button>
+          <button
+            type="button"
+            className="btn btn-secondary !py-2 !px-3 text-sm"
+            onClick={() => {
+              setCount(50);
+              setMode("practice");
+            }}
+          >
+            Test a la carta · 50
+          </button>
+          <button
+            type="button"
+            className="btn btn-secondary !py-2 !px-3 text-sm"
+            onClick={() => {
+              setCount(50);
+              setMode("exam");
+              setOfficialOnly(false);
+            }}
+          >
+            Evaluación del día · 50
+          </button>
+        </div>
+      </section>
+
       <section className="grid gap-4 md:grid-cols-3">
         <label className="panel block p-5">
           <span className="mb-2 block text-sm font-bold">Nº de preguntas</span>
           <input
             type="range"
             min={5}
-            max={40}
+            max={50}
             value={count}
             onChange={(e) => setCount(Number(e.target.value))}
             className="w-full"

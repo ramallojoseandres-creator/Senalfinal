@@ -39,14 +39,14 @@ export default function HomePage() {
       <main className="relative z-10">
         <section className="relative mx-auto grid min-h-[78vh] w-full max-w-6xl items-end gap-10 px-5 pb-16 pt-8 md:grid-cols-[1.05fr_0.95fr] md:items-center md:px-8 md:pb-24">
           <div className="animate-rise">
-            <p className="chip mb-5">Método por vueltas · IA de refuerzo</p>
+            <p className="chip mb-5">4 vueltas · calendario dictado · percentil</p>
             <h1 className="display mb-5 max-w-xl text-5xl leading-[1.02] text-[var(--ink)] md:text-6xl lg:text-7xl">
               Señal MIR
             </h1>
             <p className="mb-8 max-w-lg text-lg leading-relaxed text-[var(--ink-soft)] md:text-xl">
-              Prepárate como en un campus CTO: simulacros semanales, generador
-              inteligente, desgloses comentados y un plan de vueltas que prioriza
-              tus fallos.
+              Replica el modelo CTO: la plataforma dicta el estudio diario,
+              evalúa con simulacros idénticos al MIR y te empuja con netos y
+              percentil de cohorte.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/campus" className="btn btn-primary">
@@ -104,35 +104,37 @@ export default function HomePage() {
 
         <section id="metodo" className="mx-auto w-full max-w-6xl px-5 py-16 md:px-8">
           <div className="mb-10 max-w-2xl animate-fade">
-            <p className="chip mb-4">Método</p>
-            <h2 className="display text-3xl md:text-4xl">Tres vueltas. Una plaza.</h2>
+            <p className="chip mb-4">Metodología</p>
+            <h2 className="display text-3xl md:text-4xl">Cuatro vueltas. Una plaza.</h2>
             <p className="mt-3 text-[var(--ink-soft)]">
-              Estructura clásica de campus MIR: estudio razonado, consolidación
-              con simulacros y sprint final personalizado.
+              Hiperestructurado y directivo: contacto, intensivo, repaso y cierre.
+              El alumno no decide qué estudiar; el calendario milimétrico lo marca.
             </p>
           </div>
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {[
               {
                 title: "1ª Vuelta",
-                text: "Guías diarias por asignatura, perlas y primeras baterías de test.",
+                text: "Contacto con el material y clases de base. Simulacros mensuales.",
               },
               {
                 title: "2ª Vuelta",
-                text: "Simulacros semanales, corrección en plantilla y refuerzo de fallos.",
+                text: "Estudio intensivo, esquemas y memorización. Simulacros quincenales.",
               },
               {
                 title: "3ª Vuelta",
-                text: "Calendario personalizado según tu curva de aciertos y blancos.",
+                text: "Repaso de alta rentabilidad y fallos crónicos. Arranque semanal.",
+              },
+              {
+                title: "4ª Vuelta",
+                text: "Cierre fotográfico pre-MIR. Simulacros semanales (sábados).",
               },
             ].map((item, i) => (
               <article
                 key={item.title}
-                className={`panel p-6 animate-rise animate-delay-${i + 1}`}
+                className={`panel p-6 animate-rise animate-delay-${Math.min(i + 1, 3)}`}
               >
-                <p className="mb-3 text-sm font-bold text-[var(--accent)]">
-                  0{i + 1}
-                </p>
+                <p className="mb-3 text-sm font-bold text-[var(--accent)]">0{i + 1}</p>
                 <h3 className="display mb-2 text-2xl">{item.title}</h3>
                 <p className="text-[var(--ink-soft)]">{item.text}</p>
               </article>
@@ -149,12 +151,12 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              ["Generador de exámenes", "Filtra por asignatura, año y dificultad."],
-              ["Simulacros", "210 preguntas, plantilla y posición relativa."],
-              ["Desgloses", "Oficiales ordenados por tema y convocatoria."],
-              ["Guías / Recuerdas", "Estudio diario con intocables y perlas."],
-              ["Estadísticas", "Curva de netos, blancos y asignaturas débiles."],
-              ["Calendario", "Plan semanal alineado con tu vuelta activa."],
+              ["Calendario dictado", "Qué estudiar hoy, con horas según rentabilidad."],
+              ["Simulacros MIR", "210 ítems, 4h30, +3/−1, percentil de cohorte."],
+              ["Netos + percentil", "Te ubica frente a miles de alumnos, no frente a un 10."],
+              ["Informe por asignatura", "Fuerte en Pediatría, débil en Neuro: el repaso se personaliza."],
+              ["Test a la carta", "30/50 preguntas del tema del día para afianzar."],
+              ["Desgloses oficiales", "Preguntas reales de convocatorias anteriores."],
             ].map(([title, text]) => (
               <article key={title} className="panel p-5">
                 <h3 className="mb-2 text-lg font-bold">{title}</h3>
