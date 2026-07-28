@@ -9,7 +9,7 @@ const links = [
   { href: "/campus/simulacros", label: "Simulacros", icon: "◎" },
   { href: "/campus/asignaturas", label: "Asignaturas", icon: "▣" },
   { href: "/campus/desgloses", label: "Desgloses", icon: "≡" },
-  { href: "/campus/oficiales", label: "Oficiales MIR", icon: "📄" },
+  { href: "/campus/oficiales", label: "Oficiales MIR", icon: "§" },
   { href: "/campus/estadisticas", label: "Estadísticas", icon: "◔" },
   { href: "/campus/calendario", label: "Calendario", icon: "▦" },
 ];
