@@ -1,10 +1,12 @@
 import { questions, type Question } from "@/data/questions";
+import { getGradableOfficialQuestions } from "@/data/oficiales";
 
 export type ExamConfig = {
   subjectIds?: string[];
   count: number;
   difficulty?: 1 | 2 | 3;
   officialOnly?: boolean;
+  officialYear?: number;
   mode: "practice" | "exam" | "simulacro";
 };
 
@@ -21,17 +23,18 @@ export type SessionResult = {
 };
 
 export function buildExam(config: ExamConfig): Question[] {
-  let pool = [...questions];
+  const official = getGradableOfficialQuestions(config.officialYear);
+  let pool: Question[] = config.officialOnly
+    ? [...official]
+    : [...questions, ...official];
 
-  if (config.subjectIds?.length) {
+  if (!config.officialOnly && config.subjectIds?.length) {
     pool = pool.filter((q) => config.subjectIds!.includes(q.subjectId));
   }
-  if (config.difficulty) {
+  if (config.difficulty && !config.officialOnly) {
     pool = pool.filter((q) => q.difficulty === config.difficulty);
   }
-  if (config.officialOnly) {
-    pool = pool.filter((q) => typeof q.year === "number");
-  }
+  pool = pool.filter((q) => Boolean(q.correctId));
 
   // shuffle
   for (let i = pool.length - 1; i > 0; i -= 1) {
@@ -50,6 +53,10 @@ export function gradeSession(qs: Question[], answers: AnswerMap): SessionResult 
 
   for (const q of qs) {
     const a = answers[q.id];
+    if (!q.correctId) {
+      blank += 1;
+      continue;
+    }
     if (!a) {
       blank += 1;
     } else if (a === q.correctId) {

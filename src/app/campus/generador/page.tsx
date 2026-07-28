@@ -145,9 +145,10 @@ export default function GeneradorPage() {
           onChange={(e) => setOfficialOnly(e.target.checked)}
         />
         <span>
-          <strong>Solo estilo desglose / convocatoria</strong>
+          <strong>Solo oficiales MIR</strong>
           <span className="block text-sm text-[var(--muted)]">
-            Preguntas con año MIR asociado
+            Banco parseado desde cuadernillos oficiales (Mirial) + plantilla del
+            Ministerio
           </span>
         </span>
       </label>

@@ -19,7 +19,7 @@ export default function CampusDashboard() {
       </section>
 
       <section className="grid gap-4 lg:grid-cols-3">
-        <article className="panel p-6 lg:col-span-2 animate-rise animate-delay-1">
+        <article className="panel p-6 animate-rise animate-delay-1">
           <div className="mb-5 flex items-start justify-between gap-4">
             <div>
               <p className="text-xs font-bold uppercase tracking-wide text-[var(--muted)]">
@@ -42,6 +42,19 @@ export default function CampusDashboard() {
 
         <article className="panel p-6 animate-rise animate-delay-2">
           <p className="text-xs font-bold uppercase tracking-wide text-[var(--muted)]">
+            Oficiales MIR
+          </p>
+          <h2 className="display mt-1 text-2xl">Cuadernillos reales</h2>
+          <p className="mt-2 text-sm text-[var(--ink-soft)]">
+            Preguntas oficiales importadas desde Mirial + plantilla del Ministerio.
+          </p>
+          <Link href="/campus/oficiales" className="btn btn-secondary mt-6 w-full">
+            Abrir oficiales
+          </Link>
+        </article>
+
+        <article className="panel p-6 animate-rise animate-delay-3">
+          <p className="text-xs font-bold uppercase tracking-wide text-[var(--muted)]">
             Próximo simulacro
           </p>
           <h2 className="display mt-1 text-2xl">
@@ -50,16 +63,6 @@ export default function CampusDashboard() {
           <p className="mt-2 text-sm text-[var(--ink-soft)]">
             {nextSim?.description}
           </p>
-          <div className="mt-5 flex gap-4 text-sm">
-            <div>
-              <p className="text-[var(--muted)]">Preguntas</p>
-              <p className="font-bold">{nextSim?.questionCount}</p>
-            </div>
-            <div>
-              <p className="text-[var(--muted)]">Duración</p>
-              <p className="font-bold">{nextSim?.durationMin} min</p>
-            </div>
-          </div>
           <Link
             href={`/campus/simulacros/${nextSim?.id ?? ""}`}
             className="btn btn-accent mt-6 w-full"

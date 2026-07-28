@@ -33,6 +33,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# raw MIR PDFs (re-download via scripts/import_mir_oficiales.py)
+/data/oficiales/*.pdf
+
 # vercel
 .vercel
 

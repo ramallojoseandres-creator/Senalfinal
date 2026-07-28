@@ -19,4 +19,8 @@ Abre [http://localhost:3000](http://localhost:3000). El campus está en `/campus
 
 ## Notas
 
-Los contenidos médicos son de demostración (banco reducido). El scoring sigue la lógica MIR (+3 / −1 / 0) y el progreso se guarda en `localStorage`.
+- Banco demo interno + **preguntas oficiales MIR** importadas desde los PDF de
+  [Mirial](https://mirial.es/examen-mir/24-examen-mir/174-descarga-todos-los-examen-mir-en-pdf)
+  (cuadernillos del Ministerio de Sanidad).
+- El scoring sigue la lógica MIR (+3 / −1 / 0). El progreso se guarda en `localStorage`.
+- Para regenerar oficiales: `pip install pymupdf && python scripts/import_mir_oficiales.py`

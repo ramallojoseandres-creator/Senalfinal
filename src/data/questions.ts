@@ -14,6 +14,10 @@ export type Question = {
   correctId: string;
   explanation: string;
   pearl?: string;
+  officialNumber?: number;
+  annulled?: boolean;
+  source?: "demo" | "official" | string;
+  needsPlantilla?: boolean;
 };
 
 export const questions: Question[] = [
