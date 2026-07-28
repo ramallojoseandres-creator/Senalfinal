@@ -1,0 +1,6602 @@
+[
+  {
+    "id": "pm-cardio-001",
+    "subjectId": "cardio",
+    "topic": "Síndromes coronarios",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Varón de 58 años con angina de esfuerzo. Coronariografía: estenosis del 80% en DA proximal. FE 55%. ¿Tratamiento de elección?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo antianginosos sin revascularización"
+      },
+      {
+        "id": "b",
+        "text": "ICP o cirugía según Heart Team y anatomía"
+      },
+      {
+        "id": "c",
+        "text": "Trombólisis ambulatoria"
+      },
+      {
+        "id": "d",
+        "text": "Betabloqueante en monoterapia exclusiva"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La enfermedad significativa de DA proximal se beneficia de revascularización (ICP/CABG) según anatomía y Heart Team.",
+    "pearl": "DA proximal = territorio crítico.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-002",
+    "subjectId": "cardio",
+    "topic": "Síndromes coronarios",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "IAMCEST anterior de 45 min de evolución. Centro con sala de hemodinámica a 20 min. ¿Qué hacer?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Fibrinolisis inmediata"
+      },
+      {
+        "id": "b",
+        "text": "Angioplastia primaria preferente"
+      },
+      {
+        "id": "c",
+        "text": "Heparina sola y observación"
+      },
+      {
+        "id": "d",
+        "text": "Prueba de esfuerzo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Si la angioplastia primaria es factible en <120 min desde el primer contacto médico, es de elección.",
+    "pearl": "Puerta-balón: objetivo <90 min.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-003",
+    "subjectId": "cardio",
+    "topic": "Insuficiencia cardíaca",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "IC-FEr sintomática. ¿Qué cuarteto reduce mortalidad?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Digoxina + diurético + AAS + estatinas"
+      },
+      {
+        "id": "b",
+        "text": "ARNI/IECA + BB + ARM + iSGLT2"
+      },
+      {
+        "id": "c",
+        "text": "Calcioantagonista + nitrato + digoxina + diurético"
+      },
+      {
+        "id": "d",
+        "text": "Solo diuréticos a demanda"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La cuádruple terapia modificadora de pronóstico es el estándar en IC-FEr.",
+    "pearl": "iSGLT2 también en IC-FEp seleccionada.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-004",
+    "subjectId": "cardio",
+    "topic": "Arritmias",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "FA de novo, hemodinámicamente inestable con PAS 70. Actitud inmediata:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Digoxina IV"
+      },
+      {
+        "id": "b",
+        "text": "Cardioversión eléctrica urgente"
+      },
+      {
+        "id": "c",
+        "text": "Observación 48 h"
+      },
+      {
+        "id": "d",
+        "text": "Ablación electiva"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La inestabilidad hemodinámica indica cardioversión eléctrica inmediata.",
+    "pearl": "Inestable = CVE, no fármacos primero.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-005",
+    "subjectId": "cardio",
+    "topic": "Arritmias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Prevención de ictus en FA no valvular. CHA2DS2-VASc 4. Mejor opción:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "AAS 100 mg"
+      },
+      {
+        "id": "b",
+        "text": "Anticoagulación oral (AVK o ACOD)"
+      },
+      {
+        "id": "c",
+        "text": "Clopidogrel solo"
+      },
+      {
+        "id": "d",
+        "text": "Ninguna prevención"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Con CHA2DS2-VASc ≥2 en varón o ≥3 en mujer, anticoagular.",
+    "pearl": "ACOD preferibles a AVK en la mayoría.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-006",
+    "subjectId": "cardio",
+    "topic": "Valvulopatías",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Estenosis aórtica grave sintomática (disnea, FE 60%). Tratamiento definitivo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo diuréticos"
+      },
+      {
+        "id": "b",
+        "text": "Sustitución valvular (quirúrgica o TAVI según riesgo)"
+      },
+      {
+        "id": "c",
+        "text": "Betabloqueante como cura"
+      },
+      {
+        "id": "d",
+        "text": "Ejercicio intenso supervisado"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La EAo grave sintomática tiene indicación de reemplazo valvular.",
+    "pearl": "Soplo + síncope/angina/disnea = pensar EAo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-007",
+    "subjectId": "cardio",
+    "topic": "Hipertensión",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Crisis hipertensiva con encefalopatía. Objetivo inmediato:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bajar PA a normal en 5 minutos"
+      },
+      {
+        "id": "b",
+        "text": "Reducción controlada de PA media ~20-25% en primeras horas"
+      },
+      {
+        "id": "c",
+        "text": "Suspender todo antihipertensivo"
+      },
+      {
+        "id": "d",
+        "text": "Solo observación"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "En emergencia hipertensiva se reduce de forma controlada para evitar hipoperfusión.",
+    "pearl": "Emergencia ≠ urgencia hipertensiva.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-008",
+    "subjectId": "cardio",
+    "topic": "Insuficiencia cardíaca",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Edema agudo de pulmón hipertensivo. Primeras medidas:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Suero fisiológico a chorro"
+      },
+      {
+        "id": "b",
+        "text": "Oxígeno/VNI, nitratos si PA alta, diurético de asa"
+      },
+      {
+        "id": "c",
+        "text": "Digoxina oral"
+      },
+      {
+        "id": "d",
+        "text": "Betabloqueante IV inmediato siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Oxigenación, vasodilatación si hipertenso y diurético son pilares iniciales.",
+    "pearl": "VNI reduce trabajo respiratorio.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-009",
+    "subjectId": "cardio",
+    "topic": "Síndromes coronarios",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "SCASEST con troponina elevada y GRACE alto. Estrategia:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alta a domicilio"
+      },
+      {
+        "id": "b",
+        "text": "Estrategia invasiva precoz"
+      },
+      {
+        "id": "c",
+        "text": "Solo AAS sin heparina"
+      },
+      {
+        "id": "d",
+        "text": "Ergometría al ingreso"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Alto riesgo → coronariografía precoz según guías.",
+    "pearl": "Troponina + riesgo = invasivo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-010",
+    "subjectId": "cardio",
+    "topic": "Arritmias",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "TV monomorfa estable. Fármaco de primera línea frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Verapamilo"
+      },
+      {
+        "id": "b",
+        "text": "Procainamida o amiodarona según contexto / CVE"
+      },
+      {
+        "id": "c",
+        "text": "Adenosina como única opción"
+      },
+      {
+        "id": "d",
+        "text": "Digoxina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "TV estable: antiarrítmicos o cardioversión; evitar verapamilo.",
+    "pearl": "QRS ancho = TV hasta demostrar lo contrario.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-011",
+    "subjectId": "cardio",
+    "topic": "Valvulopatías",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Insuficiencia mitral aguda post-IAM por rotura de músculo papilar. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observación"
+      },
+      {
+        "id": "b",
+        "text": "Estabilización + cirugía urgente"
+      },
+      {
+        "id": "c",
+        "text": "Solo diuréticos orales"
+      },
+      {
+        "id": "d",
+        "text": "Anticoagulación aislada"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La rotura de músculo papilar es emergencia quirúrgica.",
+    "pearl": "Soplo nuevo + shock post-IAM = pensar mecánica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-012",
+    "subjectId": "cardio",
+    "topic": "Hipertensión",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "HTA en embarazo (preeclampsia). Fármaco seguro habitual:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "IECA"
+      },
+      {
+        "id": "b",
+        "text": "Labetalol / nifedipino / metildopa según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Espironolactona"
+      },
+      {
+        "id": "d",
+        "text": "ARA-II"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "IECA/ARA-II están contraindicados en gestación.",
+    "pearl": "Preeclampsia: PA + proteinuria ± síntomas.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-013",
+    "subjectId": "cardio",
+    "topic": "Insuficiencia cardíaca",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "IC descompensada con FA RVR y FE reducida. Control de frecuencia inicial frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Verapamilo preferente"
+      },
+      {
+        "id": "b",
+        "text": "Betabloqueante IV o digoxina según perfil"
+      },
+      {
+        "id": "c",
+        "text": "Adenosina en bolo único curativo"
+      },
+      {
+        "id": "d",
+        "text": "Solo AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "En FE reducida se evitan calcioantagonistas no dihidropiridínicos.",
+    "pearl": "Digoxina útil si hipoperfusión o FE baja.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-014",
+    "subjectId": "cardio",
+    "topic": "Síndromes coronarios",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Doble antiagregación tras stent farmacológico (sin alto riesgo hemorrágico). Duración típica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3 días"
+      },
+      {
+        "id": "b",
+        "text": "Generalmente 6-12 meses según contexto"
+      },
+      {
+        "id": "c",
+        "text": "De por vida siempre sin excepción"
+      },
+      {
+        "id": "d",
+        "text": "Nunca más de 1 mes"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "DAPT suele mantenerse 6–12 meses individualizando riesgo.",
+    "pearl": "AAS se mantiene a largo plazo en la mayoría.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-015",
+    "subjectId": "cardio",
+    "topic": "Arritmias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Bradicardia sintomática por bloqueo AV completo. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Atropina ± marcapasos"
+      },
+      {
+        "id": "b",
+        "text": "Solo observación"
+      },
+      {
+        "id": "c",
+        "text": "Verapamilo"
+      },
+      {
+        "id": "d",
+        "text": "Digoxina"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Bloqueo AV completo sintomático requiere atropina y/o marcapasos.",
+    "pearl": "Atropina puede fallar en bloqueos infranodales.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-001",
+    "subjectId": "neumo",
+    "topic": "EPOC",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "EPOC con agudización infecciosa leve-moderada. Antibiótico frecuente si indicado:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Vancomicina siempre"
+      },
+      {
+        "id": "b",
+        "text": "Amoxicilina-clavulánico o macrólido según guía local"
+      },
+      {
+        "id": "c",
+        "text": "Itraconazol"
+      },
+      {
+        "id": "d",
+        "text": "Aciclovir"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Las agudizaciones bacterianas se tratan según gérmenes habituales y guías locales.",
+    "pearl": "Criterios Anthonisen orientan antibiótico.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-002",
+    "subjectId": "neumo",
+    "topic": "EPOC",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Oxigenoterapia continua domiciliaria. Criterio clásico en estable:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "SatO2 94% sin criterios"
+      },
+      {
+        "id": "b",
+        "text": "PaO2 ≤55 mmHg o ≤60 con cor pulmonale/polglobulia"
+      },
+      {
+        "id": "c",
+        "text": "Cualquier disnea"
+      },
+      {
+        "id": "d",
+        "text": "FEF25-75 reducido"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "LTOT mejora supervivencia en hipoxemia grave crónica.",
+    "pearl": "Usar ≥15 h/día.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-003",
+    "subjectId": "neumo",
+    "topic": "Asma",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Crisis asmática grave. Tratamiento inicial clave:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Betabloqueante"
+      },
+      {
+        "id": "b",
+        "text": "SABA nebulizado/inhalado + corticoides sistémicos ± O2"
+      },
+      {
+        "id": "c",
+        "text": "Solo suero"
+      },
+      {
+        "id": "d",
+        "text": "Teofilina como única terapia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Broncodilatadores de acción corta y corticoides son la base.",
+    "pearl": "Valorar Magnesio IV en grave.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-004",
+    "subjectId": "neumo",
+    "topic": "Asma",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Asma mal controlada a pesar de dosis media CI+LABA. Siguiente paso frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Suspender todo"
+      },
+      {
+        "id": "b",
+        "text": "Subir escalón: dosis alta / LAMA / biológicos según fenotipo"
+      },
+      {
+        "id": "c",
+        "text": "Solo antihistamínicos"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico crónico siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "El escalón terapéutico y fenotipado guían el tratamiento.",
+    "pearl": "Eos / IgE orientan biológicos.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-005",
+    "subjectId": "neumo",
+    "topic": "Neumonías",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "NAC CURB-65 = 3. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tratamiento ambulatorio sin más"
+      },
+      {
+        "id": "b",
+        "text": "Ingreso hospitalario"
+      },
+      {
+        "id": "c",
+        "text": "Solo paracetamol"
+      },
+      {
+        "id": "d",
+        "text": "Observación domiciliaria obligatoria"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "CURB-65 ≥2 suele indicar ingreso; ≥3 alto riesgo.",
+    "pearl": "Urea, FR, PA, edad, confusión.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-006",
+    "subjectId": "neumo",
+    "topic": "Neumonías",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Sospecha de Legionella. Antibiótico de elección añadido/alternativa:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Amoxicilina sola"
+      },
+      {
+        "id": "b",
+        "text": "Macrólido o quinolona"
+      },
+      {
+        "id": "c",
+        "text": "Metronidazol"
+      },
+      {
+        "id": "d",
+        "text": "Aminoglucósido solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Legionella requiere cobertura atípica (macrólido/FQ).",
+    "pearl": "Antígeno urinario útil.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-007",
+    "subjectId": "neumo",
+    "topic": "TEP",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "TEP de riesgo intermedio-alto con inestabilidad. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo medias elásticas"
+      },
+      {
+        "id": "b",
+        "text": "Anticoagulación; fibrinolisis si shock/paro seleccionado"
+      },
+      {
+        "id": "c",
+        "text": "AAS en monoterapia"
+      },
+      {
+        "id": "d",
+        "text": "Cirugía siempre primero"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Anticoagular; trombolisis en TEP de alto riesgo.",
+    "pearl": "Wells + dímero + angioTC.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-008",
+    "subjectId": "neumo",
+    "topic": "TEP",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Prevención de TEP en cirugía mayor ortopédica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Profilaxis farmacológica ± mecánica según riesgo"
+      },
+      {
+        "id": "c",
+        "text": "Solo deambulación el día 15"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico profiláctico anticoagula"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La tromboprofilaxis reduce TEV postoperatorio.",
+    "pearl": "HBPM frecuente en ortopedia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-009",
+    "subjectId": "neumo",
+    "topic": "Cáncer de pulmón",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Nódulo pulmonar sospechoso en fumador. Primera prueba de estadificación local habitual:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "RX sola basta"
+      },
+      {
+        "id": "b",
+        "text": "TC tórax ± PET-TC según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Colonoscopia"
+      },
+      {
+        "id": "d",
+        "text": "Eco abdominal exclusiva"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La TC (y PET cuando proceda) estratifica nódulos/estadio.",
+    "pearl": "Biopsia según accesibilidad.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-010",
+    "subjectId": "neumo",
+    "topic": "Cáncer de pulmón",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "CPNM avanzado con mutación EGFR. Tratamiento dirigido típico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo quimioterapia clásica sin más"
+      },
+      {
+        "id": "b",
+        "text": "Inhibidores de tirosina quinasa EGFR"
+      },
+      {
+        "id": "c",
+        "text": "Solo radioterapia paliativa sin sistémico"
+      },
+      {
+        "id": "d",
+        "text": "Betabloqueante"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Las terapias dirigidas cambian el pronóstico en mutaciones driver.",
+    "pearl": "Pedir panel molecular.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-011",
+    "subjectId": "neumo",
+    "topic": "EPOC",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Indicación frecuente de VMNI en EPOC agudizada:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "pH <7,35 con hipercapnia tras tratamiento médico"
+      },
+      {
+        "id": "b",
+        "text": "Sat 98% con PaCO2 normal"
+      },
+      {
+        "id": "c",
+        "text": "Neumotórax a tensión sin drenar"
+      },
+      {
+        "id": "d",
+        "text": "Parada respiratoria sin vía aérea"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "La VMNI está indicada en acidosis hipercápnica por agudización EPOC.",
+    "pearl": "Contraindicada si necesidad de IOT inmediata.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-012",
+    "subjectId": "neumo",
+    "topic": "Asma",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Diagnóstico de asma en adulto. Prueba clave:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo IgE total"
+      },
+      {
+        "id": "b",
+        "text": "Espirometría con prueba broncodilatadora / variabilidad"
+      },
+      {
+        "id": "c",
+        "text": "Hemograma solo"
+      },
+      {
+        "id": "d",
+        "text": "Rx tórax diagnostica asma"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La obstrucción reversible apoya el diagnóstico.",
+    "pearl": "Peak-flow útil en seguimiento.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-013",
+    "subjectId": "neumo",
+    "topic": "Neumonías",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Neumonía aspirativa. Cobertura habitual adicional:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo macrólido"
+      },
+      {
+        "id": "b",
+        "text": "Anaerobios según contexto (p.ej. amoxi-clav / otros)"
+      },
+      {
+        "id": "c",
+        "text": "Antifúngico siempre"
+      },
+      {
+        "id": "d",
+        "text": "Antivírico siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La aspiración implica flora oro/gastrointestinal.",
+    "pearl": "Factores: disminución consciencia, disfagia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-014",
+    "subjectId": "neumo",
+    "topic": "TEP",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Dímero-D negativo con probabilidad clínica baja de TEP. Interpretación:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Confirma TEP"
+      },
+      {
+        "id": "b",
+        "text": "Ayuda a excluir TEP"
+      },
+      {
+        "id": "c",
+        "text": "Obliga a fibrinolisis"
+      },
+      {
+        "id": "d",
+        "text": "Indica anticoagulación indefinida"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "VPN alto del dímero en baja probabilidad.",
+    "pearl": "No usar dímero para 'confirmar'.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-015",
+    "subjectId": "neumo",
+    "topic": "Cáncer de pulmón",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Síndrome de vena cava superior. Causa frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Asma"
+      },
+      {
+        "id": "b",
+        "text": "Neoplasia torácica (pulmón/linfoma)"
+      },
+      {
+        "id": "c",
+        "text": "EPOC leve"
+      },
+      {
+        "id": "d",
+        "text": "Rinitis"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "SVCS suele deberse a compresión tumoral mediastínica.",
+    "pearl": "Edema facial + circulación colateral.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-001",
+    "subjectId": "digestivo",
+    "topic": "Hepatitis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Hepatitis B crónica HBeAg+, carga alta, ALT elevada. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Antivirales (entecavir/tenofovir) según guías"
+      },
+      {
+        "id": "c",
+        "text": "Solo interferón siempre obligatorio"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La hepatitis B con criterios de tratamiento requiere antivirales potentes.",
+    "pearl": "Vacuna previene.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-002",
+    "subjectId": "digestivo",
+    "topic": "Hepatitis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Profilaxis postexposición VHB en no vacunado:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo observación"
+      },
+      {
+        "id": "b",
+        "text": "Inmunoglobulina + vacuna según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Aciclovir"
+      },
+      {
+        "id": "d",
+        "text": "Amoxicilina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La inmunización pasiva + activa reduce transmisión.",
+    "pearl": "Serología del fuente importa.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-003",
+    "subjectId": "digestivo",
+    "topic": "IBD",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Colitis ulcerosa grave. Corticoides IV sin respuesta. Siguiente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alta"
+      },
+      {
+        "id": "b",
+        "text": "Rescue: infliximab/ciclosporina o cirugía"
+      },
+      {
+        "id": "c",
+        "text": "Solo mesalazina oral"
+      },
+      {
+        "id": "d",
+        "text": "Metformina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "El brote grave refractario precisa terapia de rescate o colectomía.",
+    "pearl": "Megacolon tóxico = urgencia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-004",
+    "subjectId": "digestivo",
+    "topic": "IBD",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Crohn ileal con estenosis sintomática fibrostenótica. Opciones:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo AAS"
+      },
+      {
+        "id": "b",
+        "text": "Endoscópica/quirúrgica ± médico según caso"
+      },
+      {
+        "id": "c",
+        "text": "Solo probióticos"
+      },
+      {
+        "id": "d",
+        "text": "Erradicar H. pylori cura Crohn"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Las estenosis fijas suelen requerir intervención mecánica.",
+    "pearl": "Inflamatoria vs fibrótica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-005",
+    "subjectId": "digestivo",
+    "topic": "Páncreas",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Pancreatitis aguda. Primer pilar:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cirugía inmediata siempre"
+      },
+      {
+        "id": "b",
+        "text": "Soporte: fluidos, analgesia, nutrición precoz, causa"
+      },
+      {
+        "id": "c",
+        "text": "Antibiótico profiláctico siempre"
+      },
+      {
+        "id": "d",
+        "text": "Nutrición parenteral obligatoria día 1"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "El manejo es de soporte; antibiótico no rutinario.",
+    "pearl": "BISAP/Marshall estratifican.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-006",
+    "subjectId": "digestivo",
+    "topic": "Páncreas",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Pancreatitis biliar con coledocolitiasis y colangitis. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observar 2 semanas"
+      },
+      {
+        "id": "b",
+        "text": "CPRE urgente + colecistectomía en el ingreso cuando proceda"
+      },
+      {
+        "id": "c",
+        "text": "Solo dieta absoluta indefinida"
+      },
+      {
+        "id": "d",
+        "text": "Quimioterapia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La colangitis requiere drenaje biliar precoz.",
+    "pearl": "Tríada de Charcot.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-007",
+    "subjectId": "digestivo",
+    "topic": "Úlcera péptica",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Úlcera duodenal H. pylori+. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo omeprazol 3 días"
+      },
+      {
+        "id": "b",
+        "text": "Erradicación (IBP + antibióticos) según esquema"
+      },
+      {
+        "id": "c",
+        "text": "Cirugía siempre"
+      },
+      {
+        "id": "d",
+        "text": "Sucralfato solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Erradicar H. pylori cura la mayoría de úlceras duodenales.",
+    "pearl": "Comprobar erradicación si alto riesgo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-008",
+    "subjectId": "digestivo",
+    "topic": "Úlcera péptica",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "HDA por úlcera con Forrest Ia. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alta inmediata"
+      },
+      {
+        "id": "b",
+        "text": "Endoscopia terapéutica + IBP IV + resuscitación"
+      },
+      {
+        "id": "c",
+        "text": "Solo suero oral"
+      },
+      {
+        "id": "d",
+        "text": "Colonoscopia primera"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Sangrado activo requiere terapia endoscópica.",
+    "pearl": "Forrest orienta riesgo resangrado.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-009",
+    "subjectId": "digestivo",
+    "topic": "Cirrosis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Ascitis a tensión en cirrótico. Tratamiento inicial típico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Diuréticos ± paracentesis según volumen"
+      },
+      {
+        "id": "b",
+        "text": "IECA a altas dosis"
+      },
+      {
+        "id": "c",
+        "text": "Betabloqueante como único gesto"
+      },
+      {
+        "id": "d",
+        "text": "Trasplante inmediato sin más"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Restricción de sal, espironolactona ± furosemida; paracentesis si tense.",
+    "pearl": "Albúmina en paracentesis grandes.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-010",
+    "subjectId": "digestivo",
+    "topic": "Cirrosis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Profilaxis secundaria de varices tras sangrado:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Betabloqueante no selectivo ± ligadura"
+      },
+      {
+        "id": "c",
+        "text": "AAS"
+      },
+      {
+        "id": "d",
+        "text": "Omeprazol solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "NSBB + ligadura reducen resangrado.",
+    "pearl": "Profilaxis primaria si varices grandes.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-011",
+    "subjectId": "digestivo",
+    "topic": "Hepatitis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Hepatitis A aguda. Tratamiento específico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Antivirales crónicos"
+      },
+      {
+        "id": "b",
+        "text": "Soporte; suele autolimitarse"
+      },
+      {
+        "id": "c",
+        "text": "Interferón indefinido"
+      },
+      {
+        "id": "d",
+        "text": "Trasplante siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "VHA es autolimitada; soporte y prevención con vacuna.",
+    "pearl": "No cronifica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-012",
+    "subjectId": "digestivo",
+    "topic": "IBD",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Mantener remisión en CU izquierda leve-moderada:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ciclosporina oral crónica siempre"
+      },
+      {
+        "id": "b",
+        "text": "Mesalazina (topica/oral) frecuente"
+      },
+      {
+        "id": "c",
+        "text": "Quimioterapia"
+      },
+      {
+        "id": "d",
+        "text": "Insulina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los 5-ASA son base en CU leve-moderada.",
+    "pearl": "Corticoides no son mantenimiento.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-013",
+    "subjectId": "digestivo",
+    "topic": "Páncreas",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Criterio de gravedad en pancreatitis (ejemplo):",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Amilasa >100 siempre grave"
+      },
+      {
+        "id": "b",
+        "text": "Fallo orgánico / necrosis infectada"
+      },
+      {
+        "id": "c",
+        "text": "Lipasa detectable"
+      },
+      {
+        "id": "d",
+        "text": "Dolor leve"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La gravedad la marca el fallo orgánico y complicaciones locales.",
+    "pearl": "Amilasa no correlaciona con severidad.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-014",
+    "subjectId": "digestivo",
+    "topic": "Cirrosis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Encefalopatía hepática. Tratamiento de primera línea:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lactulosa ± rifaximina según caso"
+      },
+      {
+        "id": "b",
+        "text": "AAS"
+      },
+      {
+        "id": "c",
+        "text": "Omeprazol solo"
+      },
+      {
+        "id": "d",
+        "text": "Suero hipertónico siempre"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Lactulosa es el pilar; buscar precipitantes.",
+    "pearl": "Infección, sangrado, sedantes precipitán.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-015",
+    "subjectId": "digestivo",
+    "topic": "Úlcera péptica",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Profilaxis de úlcera por AINE en alto riesgo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Añadir IBP o usar COXIB según riesgo"
+      },
+      {
+        "id": "b",
+        "text": "Duplicar AINE"
+      },
+      {
+        "id": "c",
+        "text": "Suspender comida"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "IBP reduce úlceras por AINE en de riesgo.",
+    "pearl": "Historia de úlcera = alto riesgo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-001",
+    "subjectId": "neuro",
+    "topic": "Ictus",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Ictus isquémico <4,5 h, sin contraindicaciones. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "AAS solo y alta"
+      },
+      {
+        "id": "b",
+        "text": "Trombólisis IV con alteplasa si cumple criterios"
+      },
+      {
+        "id": "c",
+        "text": "Heparina a dosis plena siempre"
+      },
+      {
+        "id": "d",
+        "text": "Cirugía de carótida urgente siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La rtPA IV en ventana es estándar si elegible.",
+    "pearl": "Trombectomía en oclusión gran vaso.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-002",
+    "subjectId": "neuro",
+    "topic": "Ictus",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Prevención secundaria post-ictus aterotrombótico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Antiagregación + control FRCV + estatina"
+      },
+      {
+        "id": "c",
+        "text": "Anticoagulación siempre aunque sin FA"
+      },
+      {
+        "id": "d",
+        "text": "Solo fisioterapia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Antiagregar y controlar factores de riesgo.",
+    "pearl": "FA → anticoagular.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-003",
+    "subjectId": "neuro",
+    "topic": "Epilepsia",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Status epilepticus convulsivo. Primer fármaco IV habitual:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Fenitoína oral"
+      },
+      {
+        "id": "b",
+        "text": "Benzodiacepina IV (lorazepam/diazepam/midazolam)"
+      },
+      {
+        "id": "c",
+        "text": "Haloperidol"
+      },
+      {
+        "id": "d",
+        "text": "Suero glucosado solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "BZD IV son primera línea en status.",
+    "pearl": "Luego FAS / valproato / levetiracetam.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-004",
+    "subjectId": "neuro",
+    "topic": "Epilepsia",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Crisis tónico-clónica de novo única tras privación de sueño en joven. ¿FAE crónico inmediato siempre?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sí siempre de por vida"
+      },
+      {
+        "id": "b",
+        "text": "No necesariamente; individualizar riesgo de recurrencia"
+      },
+      {
+        "id": "c",
+        "text": "Cirugía inmediata"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Una crisis provocada/aislada no implica FAE indefinido automático.",
+    "pearl": "EEG y RM orientan.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-005",
+    "subjectId": "neuro",
+    "topic": "Cefaleas",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Migraña con aura típica. Tratamiento agudo de elección frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Opioides crónicos"
+      },
+      {
+        "id": "b",
+        "text": "AINE/triptanes según intensidad"
+      },
+      {
+        "id": "c",
+        "text": "Betabloqueante en la crisis"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Analgésicos/triptanes para el ataque; profilaxis si frecuentes.",
+    "pearl": "Aura <60 min típica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-006",
+    "subjectId": "neuro",
+    "topic": "Cefaleas",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Cefalea en racimos. Tratamiento agudo eficaz:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Paracetamol solo suele bastar"
+      },
+      {
+        "id": "b",
+        "text": "Oxígeno alto flujo y/o sumatriptán SC"
+      },
+      {
+        "id": "c",
+        "text": "IECA"
+      },
+      {
+        "id": "d",
+        "text": "Diurético"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "O2 y sumatriptán SC abortan el cluster.",
+    "pearl": "Verapamilo en profilaxis.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-007",
+    "subjectId": "neuro",
+    "topic": "Parkinson",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Parkinson inicial en >65 años sintomático. Fármaco habitual:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Haloperidol"
+      },
+      {
+        "id": "b",
+        "text": "Levodopa"
+      },
+      {
+        "id": "c",
+        "text": "Metoclopramida"
+      },
+      {
+        "id": "d",
+        "text": "Litio"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Levodopa es el más eficaz; agonistas en jóvenes seleccionados.",
+    "pearl": "Evitar neurolépticos típicos.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-008",
+    "subjectId": "neuro",
+    "topic": "Parkinson",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Fluctuaciones motoras en Parkinson avanzado. Estrategias:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Suspender levodopa definitivamente"
+      },
+      {
+        "id": "b",
+        "text": "Ajustar dosis/fracción, agonistas, ICOMT, bombas, cirugía"
+      },
+      {
+        "id": "c",
+        "text": "Solo fisioterapia sin fármacos"
+      },
+      {
+        "id": "d",
+        "text": "AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Las complicaciones motoras requieren optimización compleja.",
+    "pearl": "ON-OFF y discinesias.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-009",
+    "subjectId": "neuro",
+    "topic": "Esclerosis múltiple",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Brote agudo de EM con déficit discapacitante:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Corticoides a dosis altas (p.ej. metilprednisolona)"
+      },
+      {
+        "id": "c",
+        "text": "Antibiótico"
+      },
+      {
+        "id": "d",
+        "text": "Quimioterapia rutinaria del brote"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los corticoides acortan el brote.",
+    "pearl": "RM con gadolinio muestra actividad.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-010",
+    "subjectId": "neuro",
+    "topic": "Esclerosis múltiple",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Diagnóstico de EM. Criterio clave moderno:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo una RM normal"
+      },
+      {
+        "id": "b",
+        "text": "Diseminación en espacio y tiempo (McDonald)"
+      },
+      {
+        "id": "c",
+        "text": "Solo LCR sin clínica"
+      },
+      {
+        "id": "d",
+        "text": "Rx cráneo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "McDonald combina clínica + RM ± LCR.",
+    "pearl": "Bandas oligoclonales apoyan.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-011",
+    "subjectId": "neuro",
+    "topic": "Ictus",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Hemorragia intraparenquimatosa con HTA marcada. Objetivo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Subir PA"
+      },
+      {
+        "id": "b",
+        "text": "Control de PA según guías, revertir anticoagulación si aplica"
+      },
+      {
+        "id": "c",
+        "text": "Trombólisis"
+      },
+      {
+        "id": "d",
+        "text": "Heparina plena"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Controlar PA y coagulopatía es prioritario.",
+    "pearl": "TC urgente diferencia isquemia/hemorragia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-012",
+    "subjectId": "neuro",
+    "topic": "Epilepsia",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Mujer en edad fértil con epilepsia. FAE de mejor perfil teratogénico relativo frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Valproato preferente"
+      },
+      {
+        "id": "b",
+        "text": "Lamotrigina / levetiracetam suelen preferirse frente a valproato"
+      },
+      {
+        "id": "c",
+        "text": "Fenitoína siempre primera"
+      },
+      {
+        "id": "d",
+        "text": "Topiramato a dosis altas sin consejo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Evitar valproato en gestantes si posible.",
+    "pearl": "Ácido fólico preconcepcional.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-013",
+    "subjectId": "neuro",
+    "topic": "Cefaleas",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Cefalea en trueno. Primera prueba:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Analgésico y alta"
+      },
+      {
+        "id": "b",
+        "text": "TC craneal urgente ± PL si sospecha HSA"
+      },
+      {
+        "id": "c",
+        "text": "Rx senos"
+      },
+      {
+        "id": "d",
+        "text": "Eco-Doppler solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Descartar HSA ante cefalea thunderclap.",
+    "pearl": "PL si TC precoz negativa y alta sospecha.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-014",
+    "subjectId": "neuro",
+    "topic": "Parkinson",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Temblor esencial vs Parkinson. Dato a favor de esencial:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Temblor de reposo asimétrico + bradicinesia"
+      },
+      {
+        "id": "b",
+        "text": "Temblor de acción/postural, mejora con alcohol a menudo"
+      },
+      {
+        "id": "c",
+        "text": "Rigidez en rueda dentada dominante"
+      },
+      {
+        "id": "d",
+        "text": "Inestabilidad postural precoz"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "El TE es postural/acción; Parkinson es de reposo + otros signos.",
+    "pearl": "Propranolol/primidona en TE.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-015",
+    "subjectId": "neuro",
+    "topic": "Ictus",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "AIT con estenosis carotídea sintomática >70%. Prevención:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo AAS sin valorar cirugía"
+      },
+      {
+        "id": "b",
+        "text": "Endarterectomía/stent precoz + médico"
+      },
+      {
+        "id": "c",
+        "text": "Anticoagulación siempre"
+      },
+      {
+        "id": "d",
+        "text": "Nada"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La revascularización carotídea precoz reduce ictus en estenosis grave sintomática.",
+    "pearl": "Mejor en las primeras 2 semanas.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-001",
+    "subjectId": "endo",
+    "topic": "Diabetes",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Cetoacidosis diabética. Tratamiento inicial clave:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Insulina SC solo"
+      },
+      {
+        "id": "b",
+        "text": "Fluidos IV + insulina IV + reposición de K según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Suero glucosado primero siempre sin insulina"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Fluidos e insulina IV con monitorización de K son pilares.",
+    "pearl": "No olvidar potasio.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-002",
+    "subjectId": "endo",
+    "topic": "Diabetes",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Objetivo HbA1c habitual en adulto no frágil:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Menor de 5% siempre"
+      },
+      {
+        "id": "b",
+        "text": "Individualizar; frecuentemente alrededor de 7%"
+      },
+      {
+        "id": "c",
+        "text": "HbA1c 10% aceptable siempre"
+      },
+      {
+        "id": "d",
+        "text": "No medir nunca"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "El objetivo se individualiza; cerca de 7% en muchos adultos.",
+    "pearl": "Hipoglucemia limita intensidad.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-003",
+    "subjectId": "endo",
+    "topic": "Diabetes",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Fármaco que reduce eventos CV y hospitalización por IC en DM2:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Glibenclamida preferente"
+      },
+      {
+        "id": "b",
+        "text": "iSGLT2 (empagliflozina/dapagliflozina)"
+      },
+      {
+        "id": "c",
+        "text": "Repaglinida sola"
+      },
+      {
+        "id": "d",
+        "text": "Acarbosa como primera opción CV"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "iSGLT2 tienen beneficio cardiorrenal demostrado.",
+    "pearl": "GLP-1 también CV en muchos.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-004",
+    "subjectId": "endo",
+    "topic": "Tiroides",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Hipotiroidismo primario. Laboratorio típico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "TSH baja + T4 alta"
+      },
+      {
+        "id": "b",
+        "text": "TSH alta + T4 libre baja"
+      },
+      {
+        "id": "c",
+        "text": "TSH normal + T3 altísima siempre"
+      },
+      {
+        "id": "d",
+        "text": "Calcitonina alta diagnostica"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "TSH elevada con T4L baja = hipotiroidismo primario.",
+    "pearl": "Anticuerpos TPO en Hashimoto.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-005",
+    "subjectId": "endo",
+    "topic": "Tiroides",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Tormenta tiroidea. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo levotiroxina"
+      },
+      {
+        "id": "b",
+        "text": "ATD + betabloqueante + yodo (secuencia) + soporte y corticoides"
+      },
+      {
+        "id": "c",
+        "text": "Yodo antes que ATD siempre"
+      },
+      {
+        "id": "d",
+        "text": "Radioyodo urgente en tormenta"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Secuencia: bloquear síntesis, luego yodo, soporte.",
+    "pearl": "Cirugía/radioyodo no en agudo inestable.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-006",
+    "subjectId": "endo",
+    "topic": "Tiroides",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Nódulo tiroideo sospechoso. Próximo paso frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tiroidectomía inmediata siempre"
+      },
+      {
+        "id": "b",
+        "text": "Ecografía + PAAF según TIRADS/ATA"
+      },
+      {
+        "id": "c",
+        "text": "Solo TSH basta"
+      },
+      {
+        "id": "d",
+        "text": "Quimioterapia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La PAAF según características ecográficas.",
+    "pearl": "Nódulo frío no implica cáncer siempre.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-007",
+    "subjectId": "endo",
+    "topic": "Suprarrenal",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Insuficiencia adrenal aguda. Tratamiento inmediato:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Esperar cortisol"
+      },
+      {
+        "id": "b",
+        "text": "Hidrocortisona IV + fluidos sin retrasar por tests"
+      },
+      {
+        "id": "c",
+        "text": "Solo fludrocortisona oral"
+      },
+      {
+        "id": "d",
+        "text": "Insulina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Tratar ante sospecha; no demorar corticoides.",
+    "pearl": "HiperK + hipoNa orientan.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-008",
+    "subjectId": "endo",
+    "topic": "Suprarrenal",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Sospecha de Cushing. Primer paso bioquímico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo clínica"
+      },
+      {
+        "id": "b",
+        "text": "Cribado: cortisol libre urinario, salival nocturno o freestyle con dexametasona"
+      },
+      {
+        "id": "c",
+        "text": "HbA1c sola"
+      },
+      {
+        "id": "d",
+        "text": "PSA"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Confirmar hipercortisolismo y luego origen.",
+    "pearl": "Iatrogenia es causa frecuente.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-009",
+    "subjectId": "endo",
+    "topic": "Hipófisis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Acromegalia. Marcador útil:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "PSA"
+      },
+      {
+        "id": "b",
+        "text": "IGF-1 y GH post-supresión"
+      },
+      {
+        "id": "c",
+        "text": "Troponina"
+      },
+      {
+        "id": "d",
+        "text": "BNP solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "IGF-1 elevado apoya acromegalia.",
+    "pearl": "RM hipofisaria tras bioquímica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-010",
+    "subjectId": "endo",
+    "topic": "Hipófisis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Diabetes insípida central. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Litio"
+      },
+      {
+        "id": "b",
+        "text": "Desmopresina"
+      },
+      {
+        "id": "c",
+        "text": "IECA"
+      },
+      {
+        "id": "d",
+        "text": "Insulina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La desmopresina sustituye ADH.",
+    "pearl": "Test de sed diferencia nefrogénica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-011",
+    "subjectId": "endo",
+    "topic": "Osteoporosis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Primera línea frecuente en alto riesgo de fractura:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Calcio solo sin más"
+      },
+      {
+        "id": "b",
+        "text": "Bifosfonatos (alendronato) si no hay contraindicación"
+      },
+      {
+        "id": "c",
+        "text": "Altas dosis de vitamina A"
+      },
+      {
+        "id": "d",
+        "text": "Fluoruro"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Bifosfonatos reducen fracturas vertebrales y de cadera.",
+    "pearl": "DEXA + FRAX estratifican.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-012",
+    "subjectId": "endo",
+    "topic": "Osteoporosis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Denosumab. Efecto principal:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Análogo de PTH oral"
+      },
+      {
+        "id": "b",
+        "text": "Inhibe RANKL y reduce resorción"
+      },
+      {
+        "id": "c",
+        "text": "Estimula TSH"
+      },
+      {
+        "id": "d",
+        "text": "Bloquea insulina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Denosumab es anticuerpo anti-RANKL.",
+    "pearl": "No olvidar calcio y vitamina D.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-013",
+    "subjectId": "endo",
+    "topic": "Diabetes",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Hipoglucemia grave inconsciente. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Más insulina"
+      },
+      {
+        "id": "b",
+        "text": "Glucagón IM/SC o glucosa IV"
+      },
+      {
+        "id": "c",
+        "text": "Metformina"
+      },
+      {
+        "id": "d",
+        "text": "Suero fisiológico solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Glucosa IV o glucagón si no hay vía.",
+    "pearl": "Educar a familiares.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-014",
+    "subjectId": "endo",
+    "topic": "Diabetes",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Metformina. Contraindicación relativa clásica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Obesidad"
+      },
+      {
+        "id": "b",
+        "text": "ERC avanzada / riesgo de acidosis láctica"
+      },
+      {
+        "id": "c",
+        "text": "HbA1c 7%"
+      },
+      {
+        "id": "d",
+        "text": "Normopeso"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Ajustar o evitar en filtrado bajo.",
+    "pearl": "Primera línea en muchos DM2.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-015",
+    "subjectId": "endo",
+    "topic": "Tiroides",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Hipertiroidismo por Graves. Tratamiento inicial frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Levotiroxina"
+      },
+      {
+        "id": "b",
+        "text": "ATD (metimazol) y betabloqueante"
+      },
+      {
+        "id": "c",
+        "text": "Insulina"
+      },
+      {
+        "id": "d",
+        "text": "Radioyodo el día 1 sin preparación"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Metimazol habitual; PTU en primer trimestre.",
+    "pearl": "Oftalmopatía requiere enfoque especial.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-001",
+    "subjectId": "nefro",
+    "topic": "IRA",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "IRA prerrenal. Hallazgo típico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Sodio urinario alto >40 siempre"
+      },
+      {
+        "id": "b",
+        "text": "Sodio urinario bajo, FENa baja, respuesta a volumen"
+      },
+      {
+        "id": "c",
+        "text": "Cilindros eritrocitarios densos"
+      },
+      {
+        "id": "d",
+        "text": "Eosinófilos en orina siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Prerrenal: hipoperfusión con orina concentrada y Na bajo.",
+    "pearl": "Tratar la causa.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-002",
+    "subjectId": "nefro",
+    "topic": "IRA",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Indicación de diálisis urgente (AEIOU):",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Creatinina 1.2 asintomática"
+      },
+      {
+        "id": "b",
+        "text": "Acidosis grave, electrolitos, intoxicaciones, overload, uremia sintomática"
+      },
+      {
+        "id": "c",
+        "text": "Solo urea 40"
+      },
+      {
+        "id": "d",
+        "text": "Hipertensión leve"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "AEIOU marca urgencia dialítica.",
+    "pearl": "No esperar solo a números mágicos.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-003",
+    "subjectId": "nefro",
+    "topic": "ERC",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Anemia de ERC. Tratamiento habitual:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hierro y agentes estimulantes de eritropoyesis según protocolo"
+      },
+      {
+        "id": "b",
+        "text": "Transfusión semanal rutinaria"
+      },
+      {
+        "id": "c",
+        "text": "Cloranfenicol"
+      },
+      {
+        "id": "d",
+        "text": "Vitamina C a megadosis"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Corregir hierro y usar AEE si indicado.",
+    "pearl": "Objetivo de Hb individualizado.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-004",
+    "subjectId": "nefro",
+    "topic": "ERC",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Objetivo de PA frecuente en ERC con albuminuria:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "180/110"
+      },
+      {
+        "id": "b",
+        "text": "A menudo <130/80 según guías e individualización"
+      },
+      {
+        "id": "c",
+        "text": "No tratar nunca"
+      },
+      {
+        "id": "d",
+        "text": "Solo diuréticos sin IECA"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "IECA/ARA-II son base si hay albuminuria.",
+    "pearl": "Vigilar K y FG al inicio.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-005",
+    "subjectId": "nefro",
+    "topic": "Glomerulonefritis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "GN postestreptocócica. Clínica típica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hematuria, HTA y edemas tras infección"
+      },
+      {
+        "id": "b",
+        "text": "Proteinuria nefrótica pura sin más"
+      },
+      {
+        "id": "c",
+        "text": "Solo cólico"
+      },
+      {
+        "id": "d",
+        "text": "ITU recurrente"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Síndrome nefrítico postinfeccioso clásico.",
+    "pearl": "ASLO puede apoyar.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-006",
+    "subjectId": "nefro",
+    "topic": "Glomerulonefritis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Síndrome nefrótico. Criterio:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Proteinuria >3.5 g/día + hipoalbuminemia ± edemas"
+      },
+      {
+        "id": "b",
+        "text": "Hematuria microscópica sola"
+      },
+      {
+        "id": "c",
+        "text": "FG 90 sin proteinuria"
+      },
+      {
+        "id": "d",
+        "text": "Piuria"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Nefrótico = proteinuria masiva + hipoalbuminemia.",
+    "pearl": "Membranosa, cambios mínimos, etc.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-007",
+    "subjectId": "nefro",
+    "topic": "Litiasis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Cólico nefrítico no complicado. Manejo inicial:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cirugía inmediata siempre"
+      },
+      {
+        "id": "b",
+        "text": "Analgesia + hidratación + filtro; imagen según caso"
+      },
+      {
+        "id": "c",
+        "text": "Antibiótico siempre"
+      },
+      {
+        "id": "d",
+        "text": "IECA"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La analgesia es prioritaria; alfa-bloqueante en algunos.",
+    "pearl": "Fiebre = complicado.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-008",
+    "subjectId": "nefro",
+    "topic": "Litiasis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Cálculo úrico. Medida útil:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Acidificar orina"
+      },
+      {
+        "id": "b",
+        "text": "Alcalinizar orina + hidratación"
+      },
+      {
+        "id": "c",
+        "text": "Solo calcio IV"
+      },
+      {
+        "id": "d",
+        "text": "Quimioterapia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los úricos se disuelven alcalinizando.",
+    "pearl": "El pH urinario es clave.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-009",
+    "subjectId": "nefro",
+    "topic": "Trastornos hidroelectrolíticos",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Hiperkalemia grave con ECG alterado. Primero:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo resinas"
+      },
+      {
+        "id": "b",
+        "text": "Estabilizar membrana (gluconato cálcico) + desplazar K"
+      },
+      {
+        "id": "c",
+        "text": "Suero con K"
+      },
+      {
+        "id": "d",
+        "text": "Espironolactona"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "El calcio IV protege el miocardio ya.",
+    "pearl": "Luego insulina con glucosa, etc.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-010",
+    "subjectId": "nefro",
+    "topic": "Trastornos hidroelectrolíticos",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Hiponatremia grave sintomática (convulsiones):",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Suero hipotónico"
+      },
+      {
+        "id": "b",
+        "text": "Bolo de salino hipertónico controlado"
+      },
+      {
+        "id": "c",
+        "text": "Restricción hídrica sola suficiente de inmediato"
+      },
+      {
+        "id": "d",
+        "text": "Desmopresina siempre primero"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Síntomas graves: NaCl 3% en bolo protocolizado.",
+    "pearl": "Evitar corrección excesiva (ODS).",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-011",
+    "subjectId": "nefro",
+    "topic": "IRA",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Nefritis intersticial alérgica. Pista:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Eosinófilos, rash, fármacos recientes"
+      },
+      {
+        "id": "b",
+        "text": "Cilindros eritrocitarios moldeados densos"
+      },
+      {
+        "id": "c",
+        "text": "Litiasis visible"
+      },
+      {
+        "id": "d",
+        "text": "Proteinuria 15 g"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Fármacos (AINE, antibióticos) frecuentes.",
+    "pearl": "Retirar el ofensor.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-012",
+    "subjectId": "nefro",
+    "topic": "ERC",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Hiperfosfatemia en ERC. Manejo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Más fosfato en dieta"
+      },
+      {
+        "id": "b",
+        "text": "Restricción + quelantes de fósforo"
+      },
+      {
+        "id": "c",
+        "text": "Vitamina D sin control siempre"
+      },
+      {
+        "id": "d",
+        "text": "Calcio IV a chorro"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Controlar P reduce riesgo óseo-vascular.",
+    "pearl": "Quelantes con o sin calcio.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-013",
+    "subjectId": "nefro",
+    "topic": "Glomerulonefritis",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Sospecha de vasculitis ANCA con IRA rápida:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observar meses"
+      },
+      {
+        "id": "b",
+        "text": "Inmunosupresión urgente tras estudio"
+      },
+      {
+        "id": "c",
+        "text": "Solo AAS"
+      },
+      {
+        "id": "d",
+        "text": "Diuréticos solos"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Las RPGN requieren diagnóstico e inmunosupresión precoz.",
+    "pearl": "La biopsia renal es clave.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-014",
+    "subjectId": "nefro",
+    "topic": "Litiasis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Infección + obstrucción urinaria. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Analgesia y alta"
+      },
+      {
+        "id": "b",
+        "text": "Drenaje urgente (nefrostomía/catéter) + antibióticos"
+      },
+      {
+        "id": "c",
+        "text": "Solo cultivo ambulatorio"
+      },
+      {
+        "id": "d",
+        "text": "LEOC inmediata siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Obstrucción infectada = urgencia urológica.",
+    "pearl": "Sepsis urinaria.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-015",
+    "subjectId": "nefro",
+    "topic": "Trastornos hidroelectrolíticos",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "SIADH. Tratamiento de primera en leve:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Suero hipotónico a chorro"
+      },
+      {
+        "id": "b",
+        "text": "Restricción hídrica"
+      },
+      {
+        "id": "c",
+        "text": "Desmopresina"
+      },
+      {
+        "id": "d",
+        "text": "Furosemida + sal siempre primero"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La restricción hídrica es base en SIADH leve.",
+    "pearl": "Tolvaptán en seleccionados.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-001",
+    "subjectId": "infec",
+    "topic": "Sepsis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Sepsis con hipotensión tras fluidos. Siguiente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Más suero indefinido sin vasopresor"
+      },
+      {
+        "id": "b",
+        "text": "Noradrenalina como vasopresor de primera"
+      },
+      {
+        "id": "c",
+        "text": "Dopamina preferente siempre"
+      },
+      {
+        "id": "d",
+        "text": "Solo paracetamol"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Noradrenalina es de primera línea en shock séptico.",
+    "pearl": "Hour-1 bundle.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-002",
+    "subjectId": "infec",
+    "topic": "Sepsis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Bundle inicial de sepsis:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Cultivos + antibiótico precoz + lactato + fluidos"
+      },
+      {
+        "id": "b",
+        "text": "Esperar antibiograma 72 h para empezar"
+      },
+      {
+        "id": "c",
+        "text": "Solo oxígeno"
+      },
+      {
+        "id": "d",
+        "text": "Cirugía siempre"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Antibiótico empírico precoz salva vidas.",
+    "pearl": "Cultivos antes si no retrasa.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-003",
+    "subjectId": "infec",
+    "topic": "VIH",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Profilaxis preexposición (PrEP) eficaz:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "AAS"
+      },
+      {
+        "id": "b",
+        "text": "TDF/FTC (o equivalentes) según indicación"
+      },
+      {
+        "id": "c",
+        "text": "Vitamina C"
+      },
+      {
+        "id": "d",
+        "text": "Azitromicina diaria"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "PrEP reduce adquisición de VIH.",
+    "pearl": "La adherencia es crítica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-004",
+    "subjectId": "infec",
+    "topic": "VIH",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Inicio de TAR en VIH:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Esperar CD4 <50 siempre"
+      },
+      {
+        "id": "b",
+        "text": "Lo antes posible tras el diagnóstico en la mayoría"
+      },
+      {
+        "id": "c",
+        "text": "Solo cuando haya SIDA"
+      },
+      {
+        "id": "d",
+        "text": "Monoterapia con AZT"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Tratar pronto a casi todos.",
+    "pearl": "Triple terapia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-005",
+    "subjectId": "infec",
+    "topic": "TB",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Tuberculosis pulmonar sensible. Esquema intensivo clásico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo isoniacida 2 semanas"
+      },
+      {
+        "id": "b",
+        "text": "HRZE 2 meses + HR 4 meses"
+      },
+      {
+        "id": "c",
+        "text": "Vancomicina 6 meses"
+      },
+      {
+        "id": "d",
+        "text": "Ciprofloxacino solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Esquema 2HRZE/4HR si sensible.",
+    "pearl": "Aislar si bacilífero.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-006",
+    "subjectId": "infec",
+    "topic": "TB",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Quimioprofilaxis de infección latente frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Rifampicina+pirazinamida siempre 2 días"
+      },
+      {
+        "id": "b",
+        "text": "Isoniacida o esquemas cortos con rifamicinas según guía"
+      },
+      {
+        "id": "c",
+        "text": "Amoxicilina"
+      },
+      {
+        "id": "d",
+        "text": "Nistatina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Tratar la latente evita enfermedad.",
+    "pearl": "Descartar activa antes.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-007",
+    "subjectId": "infec",
+    "topic": "Antibióticos",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Sospecha de meningitis bacteriana comunitaria. Empírico típico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Amoxicilina oral"
+      },
+      {
+        "id": "b",
+        "text": "Ceftriaxona/cefotaxima ± vancomicina ± ampicilina según edad/riesgo"
+      },
+      {
+        "id": "c",
+        "text": "Solo aciclovir"
+      },
+      {
+        "id": "d",
+        "text": "Metronidazol solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Cubrir neumococo/meningococo ± listeria.",
+    "pearl": "PL tras TC si hay contraindicación.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-008",
+    "subjectId": "infec",
+    "topic": "Antibióticos",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Celulitis no purulenta típica. Cobertura:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Antipseudomónico siempre"
+      },
+      {
+        "id": "b",
+        "text": "Estreptococo ± MSSA (cefalexina/amoxi-clav)"
+      },
+      {
+        "id": "c",
+        "text": "Solo antifúngico"
+      },
+      {
+        "id": "d",
+        "text": "Antivírico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Estreptococos beta-hemolíticos dominan las no purulentas.",
+    "pearl": "Purulenta: pensar SARM local.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-009",
+    "subjectId": "infec",
+    "topic": "Infecciones nosocomiales",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Neumonía asociada a ventilación. Cobertura empírica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Amoxicilina sola"
+      },
+      {
+        "id": "b",
+        "text": "Según riesgo de resistencias/Pseudomonas y MRSA local"
+      },
+      {
+        "id": "c",
+        "text": "Solo oseltamivir"
+      },
+      {
+        "id": "d",
+        "text": "Nistatina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La NAVM requiere empírico amplio local.",
+    "pearl": "Desescalar con cultivos.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-010",
+    "subjectId": "infec",
+    "topic": "Infecciones nosocomiales",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "C. difficile. Primeras medidas:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Antiperistálticos rutinarios"
+      },
+      {
+        "id": "b",
+        "text": "Vancomicina oral o fidaxomicina según gravedad; aislar"
+      },
+      {
+        "id": "c",
+        "text": "Metronidazol IV siempre preferente hoy"
+      },
+      {
+        "id": "d",
+        "text": "Cirugía inmediata siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Vancomicina VO es estándar actual frecuente.",
+    "pearl": "Suspender el antibiótico ofensor.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-011",
+    "subjectId": "infec",
+    "topic": "Sepsis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Fuente abdominal con peritonitis. Clave:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo antibiótico sin control de foco"
+      },
+      {
+        "id": "b",
+        "text": "Control de foco quirúrgico/drenaje + antibiótico"
+      },
+      {
+        "id": "c",
+        "text": "Observación"
+      },
+      {
+        "id": "d",
+        "text": "AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Sin control de foco el antibiótico falla.",
+    "pearl": "Source control.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-012",
+    "subjectId": "infec",
+    "topic": "VIH",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Profilaxis de PCP si CD4 <200:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Cotrimoxazol"
+      },
+      {
+        "id": "c",
+        "text": "Aciclovir"
+      },
+      {
+        "id": "d",
+        "text": "Isoniacida sola para PCP"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "TMP-SMX previene Pneumocystis.",
+    "pearl": "También toxoplasma si IgG+.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-013",
+    "subjectId": "infec",
+    "topic": "TB",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Meningitis tuberculosa. Añadido frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo HRZE sin más"
+      },
+      {
+        "id": "b",
+        "text": "Corticoides adyuvantes"
+      },
+      {
+        "id": "c",
+        "text": "AAS"
+      },
+      {
+        "id": "d",
+        "text": "Insulina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los corticoides mejoran el desenlace en meníngea.",
+    "pearl": "LCR: linfocitos, glucosa baja.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-014",
+    "subjectId": "infec",
+    "topic": "Antibióticos",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Endocarditis sobre válvula nativa por estreptococo sensible:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3 días de amoxicilina oral"
+      },
+      {
+        "id": "b",
+        "text": "Penicilina/ceftriaxona ± gentamicina según protocolo de larga duración"
+      },
+      {
+        "id": "c",
+        "text": "Solo AAS"
+      },
+      {
+        "id": "d",
+        "text": "Vancomicina 24 h"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Tratamientos prolongados IV según germen y válvula.",
+    "pearl": "Criterios de Duke.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-015",
+    "subjectId": "infec",
+    "topic": "Sepsis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Neutropenia febril. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Esperar cultivo 48 h sin antibiótico"
+      },
+      {
+        "id": "b",
+        "text": "Antibiótico antipseudomónico empírico inmediato"
+      },
+      {
+        "id": "c",
+        "text": "Solo paracetamol"
+      },
+      {
+        "id": "d",
+        "text": "Antifúngico en el minuto 0 siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Urgencia: empírico anti-Pseudomonas ya.",
+    "pearl": "MASCC estratifica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-001",
+    "subjectId": "heme",
+    "topic": "Anemias",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Anemia ferropénica. Laboratorio típico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ferritina alta, VCM alto"
+      },
+      {
+        "id": "b",
+        "text": "Ferritina baja, VCM bajo, HCM bajo"
+      },
+      {
+        "id": "c",
+        "text": "B12 baja siempre"
+      },
+      {
+        "id": "d",
+        "text": "Reticulocitos 20% sin sangrado"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Ferropenia: microcítica hipocrómica, ferritina baja.",
+    "pearl": "Buscar sangrado digestivo/gine.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-002",
+    "subjectId": "heme",
+    "topic": "Anemias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Anemia megaloblástica por B12. Hallazgo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "VCM bajo"
+      },
+      {
+        "id": "b",
+        "text": "VCM alto ± neuropatía"
+      },
+      {
+        "id": "c",
+        "text": "Ferritina siempre baja"
+      },
+      {
+        "id": "d",
+        "text": "HbA1c diagnostica"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "B12/folato producen macrocitosis.",
+    "pearl": "Anticuerpos anti-FI en perniciosa.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-003",
+    "subjectId": "heme",
+    "topic": "Anemias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Crisis hemolítica. Laboratorio:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bilirrubina directa aislada sin LDH"
+      },
+      {
+        "id": "b",
+        "text": "LDH alta, BI alta, haptoglobina baja, reticulocitos altos"
+      },
+      {
+        "id": "c",
+        "text": "Ferritina normaliza todo"
+      },
+      {
+        "id": "d",
+        "text": "VCM 70 fijo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Hemólisis = destrucción + regeneración.",
+    "pearl": "Coombs diferencia inmune.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-004",
+    "subjectId": "heme",
+    "topic": "Leucemias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "LLA en niño. Tratamiento base:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo observación"
+      },
+      {
+        "id": "b",
+        "text": "Quimioterapia protocolizada multiagente"
+      },
+      {
+        "id": "c",
+        "text": "Solo AAS"
+      },
+      {
+        "id": "d",
+        "text": "Radioyodo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La LLA pediátrica tiene alta curabilidad con QT.",
+    "pearl": "El inmunofenotipo es clave.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-005",
+    "subjectId": "heme",
+    "topic": "Leucemias",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "LMC. Tratamiento dirigido:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hidroxiurea sola definitiva"
+      },
+      {
+        "id": "b",
+        "text": "Inhibidores de tirosina quinasa BCR-ABL"
+      },
+      {
+        "id": "c",
+        "text": "Solo transfusiones"
+      },
+      {
+        "id": "d",
+        "text": "Esplenectomía de primera"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los ITK transformaron la LMC.",
+    "pearl": "Cromosoma Filadelfia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-006",
+    "subjectId": "heme",
+    "topic": "Linfomas",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Linfoma Hodgkin clásico. Célula típica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Reed-Sternberg"
+      },
+      {
+        "id": "b",
+        "text": "Plasma cell exclusiva"
+      },
+      {
+        "id": "c",
+        "text": "Blastos Auer"
+      },
+      {
+        "id": "d",
+        "text": "Reed-Sternberg"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "RS CD15+/CD30+ típicas.",
+    "pearl": "ABVD histórico.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-007",
+    "subjectId": "heme",
+    "topic": "Linfomas",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Linfoma agresivo sintomático. Principio:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observar 10 años"
+      },
+      {
+        "id": "b",
+        "text": "Inmunoquimioterapia según histología (R-CHOP en DLBCL)"
+      },
+      {
+        "id": "c",
+        "text": "Solo antibiótico"
+      },
+      {
+        "id": "d",
+        "text": "Dieta"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los agresivos se tratan con intención curativa.",
+    "pearl": "Estadio con PET.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-008",
+    "subjectId": "heme",
+    "topic": "Coagulación",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "TVP proximal. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "AAS solo"
+      },
+      {
+        "id": "b",
+        "text": "Anticoagulación"
+      },
+      {
+        "id": "c",
+        "text": "Amoxicilina"
+      },
+      {
+        "id": "d",
+        "text": "Ejercicio intenso el día 1 sin anticoagular"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Anticoagular la TVP proximal.",
+    "pearl": "Duración según provocada o no.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-009",
+    "subjectId": "heme",
+    "topic": "Coagulación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Hemofilia A grave con sangrado. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Plasma fresco siempre preferente hoy"
+      },
+      {
+        "id": "b",
+        "text": "Factor VIII (o emicizumab en profilaxis moderna)"
+      },
+      {
+        "id": "c",
+        "text": "Vitamina K sola"
+      },
+      {
+        "id": "d",
+        "text": "AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Reponer el factor deficiente.",
+    "pearl": "Evitar IM y AAS.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-010",
+    "subjectId": "heme",
+    "topic": "Transfusión",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Umbral transfusional frecuente en estable sin cardiopatía:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hb <12 siempre"
+      },
+      {
+        "id": "b",
+        "text": "A menudo Hb <7 g/dL"
+      },
+      {
+        "id": "c",
+        "text": "Hematocrito 45 obligatorio"
+      },
+      {
+        "id": "d",
+        "text": "Plaquetas 400k"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Estrategia restrictiva segura en muchos estables.",
+    "pearl": "Individualizar en SCA/sangrado.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-011",
+    "subjectId": "heme",
+    "topic": "Transfusión",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Reacción hemolítica aguda. Primer paso:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Acelerar transfusión"
+      },
+      {
+        "id": "b",
+        "text": "Parar transfusión + soporte + comprobar identidad"
+      },
+      {
+        "id": "c",
+        "text": "Antihistamínico solo y seguir"
+      },
+      {
+        "id": "d",
+        "text": "Diurético obligatorio sin parar"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Detener y verificar es lo primero.",
+    "pearl": "Error clerical frecuente.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-012",
+    "subjectId": "heme",
+    "topic": "Anemias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Talasemia minor. Rasgo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "VCM bajo con GR elevados; ferritina no necesariamente baja"
+      },
+      {
+        "id": "b",
+        "text": "Ferritina siempre 2"
+      },
+      {
+        "id": "c",
+        "text": "Macrocitosis"
+      },
+      {
+        "id": "d",
+        "text": "Blastos"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "No tratar con hierro a ciegas.",
+    "pearl": "Electroforesis de Hb.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-013",
+    "subjectId": "heme",
+    "topic": "Leucemias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "LLC asintomática en estadio precoz:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "QT inmediata siempre"
+      },
+      {
+        "id": "b",
+        "text": "Vigilancia activa frecuente"
+      },
+      {
+        "id": "c",
+        "text": "Trasplante el día 1"
+      },
+      {
+        "id": "d",
+        "text": "Radioterapia total"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Muchas LLC iniciales se observan.",
+    "pearl": "Tratar si síntomas o citopenias.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-014",
+    "subjectId": "heme",
+    "topic": "Coagulación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "INR 8 sin sangrado con AVK. Actitud típica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Más warfarina"
+      },
+      {
+        "id": "b",
+        "text": "Omitir dosis ± vitamina K según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Plasma siempre"
+      },
+      {
+        "id": "d",
+        "text": "Heparina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Vitamina K oral en INR muy altos sin sangrado.",
+    "pearl": "Sangrado grave: PCC + vitamina K.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-015",
+    "subjectId": "heme",
+    "topic": "Linfomas",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Síntomas B:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo prurito"
+      },
+      {
+        "id": "b",
+        "text": "Fiebre, sudoración nocturna, pérdida de peso"
+      },
+      {
+        "id": "c",
+        "text": "Hipertensión"
+      },
+      {
+        "id": "d",
+        "text": "Disuria"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los síntomas B afectan estadificación y pronóstico.",
+    "pearl": "Pel-Ebstein clásico en Hodgkin.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-001",
+    "subjectId": "reuma",
+    "topic": "AR",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "AR. Anticuerpo más específico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ANA"
+      },
+      {
+        "id": "b",
+        "text": "Anti-CCP (ACPA)"
+      },
+      {
+        "id": "c",
+        "text": "ASLO"
+      },
+      {
+        "id": "d",
+        "text": "ANCA"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "ACPA es muy específico de AR.",
+    "pearl": "FR menos específico.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-002",
+    "subjectId": "reuma",
+    "topic": "AR",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Tratamiento de fondo de primera línea frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo AINE crónicos"
+      },
+      {
+        "id": "b",
+        "text": "Metotrexato"
+      },
+      {
+        "id": "c",
+        "text": "Prednisona indefinida sola a altas dosis"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "MTX es el ancla del tratamiento de la AR.",
+    "pearl": "Ácido fólico reduce toxicidad.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-003",
+    "subjectId": "reuma",
+    "topic": "LES",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Pista de LES:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Anti-CCP"
+      },
+      {
+        "id": "b",
+        "text": "ANA + clínica multisistémica; anti-dsDNA/Sm apoyan"
+      },
+      {
+        "id": "c",
+        "text": "HLA-B27 siempre"
+      },
+      {
+        "id": "d",
+        "text": "Factor reumatoide exclusivo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "ANA sensibles; dsDNA/Sm más específicos.",
+    "pearl": "Nefritis lúpica grave.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-004",
+    "subjectId": "reuma",
+    "topic": "LES",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Nefritis lúpica proliferativa. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo hidroxicloroquina"
+      },
+      {
+        "id": "b",
+        "text": "Inmunosupresión (MMF/ciclofosfamida) + corticoides según clase"
+      },
+      {
+        "id": "c",
+        "text": "AAS solo"
+      },
+      {
+        "id": "d",
+        "text": "Observar proteinuria 5 g"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Clases III/IV requieren inmunosupresión.",
+    "pearl": "La biopsia clasifica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-005",
+    "subjectId": "reuma",
+    "topic": "Espondiloartritis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Espondilitis anquilosante. Marcador genético:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "HLA-B27 asociado"
+      },
+      {
+        "id": "b",
+        "text": "Anti-CCP"
+      },
+      {
+        "id": "c",
+        "text": "ANCA"
+      },
+      {
+        "id": "d",
+        "text": "ACA"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "HLA-B27 se asocia fuertemente.",
+    "pearl": "Dolor inflamatorio axial.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-006",
+    "subjectId": "reuma",
+    "topic": "Espondiloartritis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Axial refractario a AINE:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Triplicar AINE"
+      },
+      {
+        "id": "b",
+        "text": "Anti-TNF u otros biológicos según guía"
+      },
+      {
+        "id": "c",
+        "text": "Solo opioides"
+      },
+      {
+        "id": "d",
+        "text": "Quimioterapia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los biológicos cambian el axial refractario.",
+    "pearl": "Ejercicio y AINE primero.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-007",
+    "subjectId": "reuma",
+    "topic": "Vasculitis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Arteritis de células gigantes. Urgencia:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observar visión"
+      },
+      {
+        "id": "b",
+        "text": "Corticoides inmediatos ante sospecha"
+      },
+      {
+        "id": "c",
+        "text": "Solo AAS sin esteroide"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "No retrasar corticoides si hay amaurosis o sospecha.",
+    "pearl": "PCR/VSG elevadas.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-008",
+    "subjectId": "reuma",
+    "topic": "Vasculitis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Granulomatosis con poliangeítis. ANCA típico:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "p-ANCA MPO siempre exclusivo"
+      },
+      {
+        "id": "b",
+        "text": "c-ANCA / PR3 frecuente"
+      },
+      {
+        "id": "c",
+        "text": "ACA"
+      },
+      {
+        "id": "d",
+        "text": "Anti-Jo1"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "PR3-ANCA clásico en GPA.",
+    "pearl": "Vías altas + pulmón + riñón.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-009",
+    "subjectId": "reuma",
+    "topic": "Artrosis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Tratamiento inicial de artrosis de rodilla:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Biológico anti-TNF primero"
+      },
+      {
+        "id": "b",
+        "text": "Educación, ejercicio, peso, analgesia tópica/oral"
+      },
+      {
+        "id": "c",
+        "text": "MTX"
+      },
+      {
+        "id": "d",
+        "text": "Ciclofosfamida"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Lo no farmacológico es la base.",
+    "pearl": "Prótesis si refractaria grave.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-010",
+    "subjectId": "reuma",
+    "topic": "Artrosis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Signo radiológico de artrosis:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Erosiones marginales simétricas típicas de AR"
+      },
+      {
+        "id": "b",
+        "text": "Pinzamiento, osteofitos, esclerosis subcondral"
+      },
+      {
+        "id": "c",
+        "text": "Lesión lítica pura"
+      },
+      {
+        "id": "d",
+        "text": "Vértebra ivory siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los osteofitos definen OA radiológica.",
+    "pearl": "Clínica y radio no siempre coinciden.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-011",
+    "subjectId": "reuma",
+    "topic": "AR",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Contraindicación relativa de anti-TNF:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "AR activa"
+      },
+      {
+        "id": "b",
+        "text": "Infección activa o TB latente no tratada"
+      },
+      {
+        "id": "c",
+        "text": "FR positivo"
+      },
+      {
+        "id": "d",
+        "text": "Anti-CCP positivo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Descartar TB latente antes de biológicos.",
+    "pearl": "Vacunas actualizadas.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-012",
+    "subjectId": "reuma",
+    "topic": "LES",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Fármaco útil en casi todo LES:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Metformina"
+      },
+      {
+        "id": "b",
+        "text": "Hidroxicloroquina"
+      },
+      {
+        "id": "c",
+        "text": "Digoxina"
+      },
+      {
+        "id": "d",
+        "text": "Omeprazol como DMARD"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "HCQ reduce brotes y trombosis.",
+    "pearl": "Fondo de ojo periódico.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-013",
+    "subjectId": "reuma",
+    "topic": "Espondiloartritis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Dactilitis sugiere:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Artrosis pura"
+      },
+      {
+        "id": "b",
+        "text": "Espectro de espondiloartritis/psoriásica"
+      },
+      {
+        "id": "c",
+        "text": "Gota tofácea exclusiva"
+      },
+      {
+        "id": "d",
+        "text": "Fibromialgia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Dedo en salchicha = SpA/APs.",
+    "pearl": "Piel y uñas.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-014",
+    "subjectId": "reuma",
+    "topic": "Vasculitis",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Púrpura de Schönlein-Henoch (IgA). Órganos típicos:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo hígado"
+      },
+      {
+        "id": "b",
+        "text": "Piel, articulaciones, digestivo, riñón"
+      },
+      {
+        "id": "c",
+        "text": "Solo tiroides"
+      },
+      {
+        "id": "d",
+        "text": "Solo médula"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Vasculitis IgA multisistémica.",
+    "pearl": "Postinfecciosa frecuente en niños.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-015",
+    "subjectId": "reuma",
+    "topic": "AR",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Meta del treat-to-target en AR:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Dolor ocasional aceptable indefinido"
+      },
+      {
+        "id": "b",
+        "text": "Remisión o baja actividad"
+      },
+      {
+        "id": "c",
+        "text": "Destruir articulaciones"
+      },
+      {
+        "id": "d",
+        "text": "Solo analgésicos"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Tratar a objetivo mejora el desenlace.",
+    "pearl": "Reevaluar cada 1-3 meses al inicio.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-001",
+    "subjectId": "gine",
+    "topic": "Gestación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Preeclampsia grave. Actitud definitiva:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observar a término siempre"
+      },
+      {
+        "id": "b",
+        "text": "Maduración ± finalización según semana + MgSO4 si indica"
+      },
+      {
+        "id": "c",
+        "text": "IECA de elección"
+      },
+      {
+        "id": "d",
+        "text": "Ejercicio intenso"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "El parto es el tratamiento definitivo.",
+    "pearl": "MgSO4 previene eclampsia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-002",
+    "subjectId": "gine",
+    "topic": "Gestación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Amenaza de parto pretérmino. Medida clave:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Corticoides antenatales ± tocolisis breve para madurar"
+      },
+      {
+        "id": "c",
+        "text": "Oxitocina para acelerar siempre"
+      },
+      {
+        "id": "d",
+        "text": "Misoprostol rutinario"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los corticoides mejoran la madurez pulmonar fetal.",
+    "pearl": "Atosiban/nifedipino según protocolo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-003",
+    "subjectId": "gine",
+    "topic": "Gestación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Diabetes gestacional. Primer escalón:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Insulina siempre el día 1"
+      },
+      {
+        "id": "b",
+        "text": "Dieta y control glucémico; insulina/metformina si falla"
+      },
+      {
+        "id": "c",
+        "text": "Glibenclamida preferente sin dieta"
+      },
+      {
+        "id": "d",
+        "text": "Nada"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Estilo de vida primero.",
+    "pearl": "Cribado con O Sullivan/SOG.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-004",
+    "subjectId": "gine",
+    "topic": "Parto",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Distocia de hombros. Maniobra inicial:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tracción cefálica potente"
+      },
+      {
+        "id": "b",
+        "text": "Maniobra de McRoberts ± presión suprapúbica"
+      },
+      {
+        "id": "c",
+        "text": "Cesárea sin intentos en sala"
+      },
+      {
+        "id": "d",
+        "text": "Kristeller fuerte"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "McRoberts es primera línea.",
+    "pearl": "Evitar tracción excesiva (plexo).",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-005",
+    "subjectId": "gine",
+    "topic": "Parto",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Hemorragia postparto atónica. Primero:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observar"
+      },
+      {
+        "id": "b",
+        "text": "Masaje uterino + oxitocina ± otros uterotónicos"
+      },
+      {
+        "id": "c",
+        "text": "Solo suero"
+      },
+      {
+        "id": "d",
+        "text": "Histerectomía inmediata siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Atonía: masaje y uterotónicos.",
+    "pearl": "4T: tono, tejido, trauma, trombina.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-006",
+    "subjectId": "gine",
+    "topic": "Cáncer ginecológico",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Cribado de cérvix estándar moderno:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ca-125 anual en todas"
+      },
+      {
+        "id": "b",
+        "text": "Citología/HPV según edad y protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Mamografía cervical"
+      },
+      {
+        "id": "d",
+        "text": "Eco endovaginal anual obligatoria"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "HPV/citología según programa.",
+    "pearl": "La vacuna HPV previene.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-007",
+    "subjectId": "gine",
+    "topic": "Cáncer ginecológico",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Cáncer de endometrio. Síntoma guía:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Dolor de rodilla"
+      },
+      {
+        "id": "b",
+        "text": "Sangrado posmenopáusico"
+      },
+      {
+        "id": "c",
+        "text": "Tos"
+      },
+      {
+        "id": "d",
+        "text": "Disuria aislada"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Todo sangrado posmenopáusico se investiga.",
+    "pearl": "Biopsia endometrial.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-008",
+    "subjectId": "gine",
+    "topic": "Cáncer ginecológico",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Marcador útil en epitelial de ovario:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "PSA"
+      },
+      {
+        "id": "b",
+        "text": "CA-125 (no diagnóstico aislado)"
+      },
+      {
+        "id": "c",
+        "text": "AFP siempre en epitelial"
+      },
+      {
+        "id": "d",
+        "text": "BHCG exclusiva"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "CA-125 ayuda más al seguimiento que al screening.",
+    "pearl": "Clínica + imagen + cirugía.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-009",
+    "subjectId": "gine",
+    "topic": "Anticoncepción",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Contraindicación de ACO combinados:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Acné"
+      },
+      {
+        "id": "b",
+        "text": "Trombofilia / TEV previo / migraña con aura"
+      },
+      {
+        "id": "c",
+        "text": "Dismenorrea"
+      },
+      {
+        "id": "d",
+        "text": "Edad 22"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "El riesgo trombótico limita los combinados.",
+    "pearl": "Solo gestágeno como alternativa.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-010",
+    "subjectId": "gine",
+    "topic": "Anticoncepción",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "DIU de cobre. Mecanismo principal:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Abortivo hormonal"
+      },
+      {
+        "id": "b",
+        "text": "Efecto espermicida/inflamatorio local"
+      },
+      {
+        "id": "c",
+        "text": "Bloqueo de FSH"
+      },
+      {
+        "id": "d",
+        "text": "Antagonista de GnRH"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Es anticonceptivo de larga duración.",
+    "pearl": "También sirve como anticoncepción de urgencia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-011",
+    "subjectId": "gine",
+    "topic": "SOP",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "SOP. Criterios de Rotterdam (2 de 3):",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo obesidad"
+      },
+      {
+        "id": "b",
+        "text": "Oligoanovulación, hiperandrogenismo, morfología ovárica"
+      },
+      {
+        "id": "c",
+        "text": "CA-125 alto"
+      },
+      {
+        "id": "d",
+        "text": "BHCG alta"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Rotterdam define el SOP.",
+    "pearl": "Metformina/anticonceptivos según meta.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-012",
+    "subjectId": "gine",
+    "topic": "SOP",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Inducción de ovulación frecuente en SOP:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tamoxifeno solo siempre"
+      },
+      {
+        "id": "b",
+        "text": "Letrozol o clomifeno según guía"
+      },
+      {
+        "id": "c",
+        "text": "GnRH continuo"
+      },
+      {
+        "id": "d",
+        "text": "Metotrexato"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Letrozol es primera línea en muchos centros.",
+    "pearl": "Perder peso ayuda.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-013",
+    "subjectId": "gine",
+    "topic": "Gestación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Embarazo ectópico estable. Opción médica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Oxitocina"
+      },
+      {
+        "id": "b",
+        "text": "Metotrexato si cumple criterios"
+      },
+      {
+        "id": "c",
+        "text": "Misoprostol rutinario"
+      },
+      {
+        "id": "d",
+        "text": "AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "MTX en ectópico seleccionado.",
+    "pearl": "beta-hCG y hemodinámica guían.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-014",
+    "subjectId": "gine",
+    "topic": "Gestación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Rubéola en gestante no inmune. Prevención:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Antiviral"
+      },
+      {
+        "id": "b",
+        "text": "Vacunar antes del embarazo; no vacuna viva en gestación"
+      },
+      {
+        "id": "c",
+        "text": "Amoxicilina"
+      },
+      {
+        "id": "d",
+        "text": "Vitamina A a megadosis"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Vacuna MMR preconcepcional.",
+    "pearl": "Infección = riesgo malformativo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-015",
+    "subjectId": "gine",
+    "topic": "Parto",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "RPM pretérmino. Medidas frecuentes:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Parto inmediato siempre <34 sem"
+      },
+      {
+        "id": "b",
+        "text": "Corticoides, antibióticos, vigilancia ± tocolisis breve"
+      },
+      {
+        "id": "c",
+        "text": "Nada"
+      },
+      {
+        "id": "d",
+        "text": "Oxitocina a chorro"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Latencia con corticoides/ATB según semana.",
+    "pearl": "Descartar corioamnionitis.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-001",
+    "subjectId": "pedia",
+    "topic": "Neonatología",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Ictericia neonatal fisiológica. Rasgo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Aparece el día 1 siempre patológica"
+      },
+      {
+        "id": "b",
+        "text": "Aparece tras 24 h, no muy intensa, resuelve"
+      },
+      {
+        "id": "c",
+        "text": "Bilirrubina directa dominante siempre"
+      },
+      {
+        "id": "d",
+        "text": "Kernicterus fisiológico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Antes de 24 h = patológica hasta demostrar lo contrario.",
+    "pearl": "Fototerapia según nomograma.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-002",
+    "subjectId": "pedia",
+    "topic": "Neonatología",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "SDR del prematuro. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Antibiótico solo"
+      },
+      {
+        "id": "b",
+        "text": "Surfactante ± soporte respiratorio"
+      },
+      {
+        "id": "c",
+        "text": "Insulina"
+      },
+      {
+        "id": "d",
+        "text": "Digoxina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Déficit de surfactante.",
+    "pearl": "Corticoides antenatales previenen.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-003",
+    "subjectId": "pedia",
+    "topic": "Infecciones pediátricas",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Bronquiolitis por VRS. Pilar:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Antibiótico rutinario"
+      },
+      {
+        "id": "b",
+        "text": "Soporte respiratorio e hidratación"
+      },
+      {
+        "id": "c",
+        "text": "Oseltamivir siempre"
+      },
+      {
+        "id": "d",
+        "text": "Corticoides sistémicos rutinarios siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Soporte; no antibiótico rutinario.",
+    "pearl": "Palivizumab en alto riesgo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-004",
+    "subjectId": "pedia",
+    "topic": "Infecciones pediátricas",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Otitis media aguda. Tratamiento frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Vancomicina oral"
+      },
+      {
+        "id": "b",
+        "text": "Amoxicilina a dosis altas si está indicado"
+      },
+      {
+        "id": "c",
+        "text": "Aciclovir"
+      },
+      {
+        "id": "d",
+        "text": "Nistatina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Neumococo/H. influenzae habituales.",
+    "pearl": "Observación en seleccionados.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-005",
+    "subjectId": "pedia",
+    "topic": "Vacunas",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Vacuna triple vírica. Tipo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Inactivada"
+      },
+      {
+        "id": "b",
+        "text": "Virus vivos atenuados"
+      },
+      {
+        "id": "c",
+        "text": "Toxoidesolo"
+      },
+      {
+        "id": "d",
+        "text": "Subunidad bacteriana pura"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "MMR es viva: cuidado en inmunodeprimidos/embarazo.",
+    "pearl": "Sarampión-paperas-rubéola.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-006",
+    "subjectId": "pedia",
+    "topic": "Vacunas",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Contraindicación verdadera frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Llanto tras dosis previa"
+      },
+      {
+        "id": "b",
+        "text": "Anafilaxia a componente / inmunodepresión grave en vivas"
+      },
+      {
+        "id": "c",
+        "text": "Infección leve con febrícula (a menudo no contraindica)"
+      },
+      {
+        "id": "d",
+        "text": "Prematuridad per se siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Distinguir precaución de contraindicación.",
+    "pearl": "Calendario oficial.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-007",
+    "subjectId": "pedia",
+    "topic": "Crecimiento",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Retraso de crecimiento. Primeras evaluaciones:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo hormona de crecimiento el día 1"
+      },
+      {
+        "id": "b",
+        "text": "Historia, curva, cribado de celiaquía/tiroides/etc."
+      },
+      {
+        "id": "c",
+        "text": "Quimioterapia"
+      },
+      {
+        "id": "d",
+        "text": "Yeso"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La causa más frecuente es nutricional/psicosocial.",
+    "pearl": "Percentiles seriales.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-008",
+    "subjectId": "pedia",
+    "topic": "Crecimiento",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Pubertad precoz verdadera. Estudio:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Evaluar eje: edad ósea, analítica, RM si indica"
+      },
+      {
+        "id": "c",
+        "text": "Solo dieta"
+      },
+      {
+        "id": "d",
+        "text": "Orquiectomía"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Central frente a periférica.",
+    "pearl": "Análogos de GnRH en central seleccionada.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-009",
+    "subjectId": "pedia",
+    "topic": "Urgencias",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Laringitis/crup. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Amoxicilina"
+      },
+      {
+        "id": "b",
+        "text": "Corticoides ± adrenalina nebulizada si hay estridor"
+      },
+      {
+        "id": "c",
+        "text": "AAS"
+      },
+      {
+        "id": "d",
+        "text": "Intubación siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Dexametasona es estándar.",
+    "pearl": "Virus parainfluenza.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-010",
+    "subjectId": "pedia",
+    "topic": "Urgencias",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Anafilaxia pediátrica. Fármaco:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ceftriaxona"
+      },
+      {
+        "id": "b",
+        "text": "Adrenalina IM"
+      },
+      {
+        "id": "c",
+        "text": "Solo antihistamínico"
+      },
+      {
+        "id": "d",
+        "text": "Suero"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Adrenalina IM en muslo anterolateral ya.",
+    "pearl": "No retrasar por vías.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-011",
+    "subjectId": "pedia",
+    "topic": "Neonatología",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Hipoglucemia neonatal sintomática:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observar"
+      },
+      {
+        "id": "b",
+        "text": "Glucosa IV/enteral según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Insulina"
+      },
+      {
+        "id": "d",
+        "text": "Metformina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Tratar pronto para evitar daño neurológico.",
+    "pearl": "Hijos de madre diabética: riesgo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-012",
+    "subjectId": "pedia",
+    "topic": "Infecciones pediátricas",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Faringoamigdalitis estreptocócica. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Oseltamivir"
+      },
+      {
+        "id": "b",
+        "text": "Penicilina/amoxicilina"
+      },
+      {
+        "id": "c",
+        "text": "Aciclovir"
+      },
+      {
+        "id": "d",
+        "text": "Nistatina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Previene la fiebre reumática.",
+    "pearl": "Centor/McIsaac orientan.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-013",
+    "subjectId": "pedia",
+    "topic": "Vacunas",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Hepatitis B neonatal si madre HBsAg+:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Vacuna + inmunoglobulina precoz"
+      },
+      {
+        "id": "c",
+        "text": "Solo vacuna a los 6 meses"
+      },
+      {
+        "id": "d",
+        "text": "Interferón"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Profilaxis perinatal crítica.",
+    "pearl": "Primeras 12 h.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-014",
+    "subjectId": "pedia",
+    "topic": "Urgencias",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Deshidratación grave por gastroenteritis:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Suero oral forzado en shock"
+      },
+      {
+        "id": "b",
+        "text": "Suero IV isotónico en bolo según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Diurético"
+      },
+      {
+        "id": "d",
+        "text": "AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Shock hipovolémico → IV.",
+    "pearl": "SRO en leve-moderada.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-015",
+    "subjectId": "pedia",
+    "topic": "Crecimiento",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Talla baja familiar. Rasgo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Edad ósea muy retrasada patológica siempre"
+      },
+      {
+        "id": "b",
+        "text": "Padres bajos, velocidad normal, edad ósea ≈ cronológica"
+      },
+      {
+        "id": "c",
+        "text": "GH definitivamente deficitaria"
+      },
+      {
+        "id": "d",
+        "text": "Pubertad ausente siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Distinguir de déficit de GH y retraso constitucional.",
+    "pearl": "Curva parental.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-001",
+    "subjectId": "psiquiatria",
+    "topic": "Depresión",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Depresión mayor moderada-grave. Primera línea frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Benzodiacepina indefinida sola"
+      },
+      {
+        "id": "b",
+        "text": "ISRS + psicoterapia según caso"
+      },
+      {
+        "id": "c",
+        "text": "Haloperidol solo"
+      },
+      {
+        "id": "d",
+        "text": "Litio siempre primero"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "ISRS son primera línea farmacológica habitual.",
+    "pearl": "Evaluar riesgo suicida.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-002",
+    "subjectId": "psiquiatria",
+    "topic": "Depresión",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Síndrome serotoninérgico. Pista:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Rigidez extrema solo por neurolépticos"
+      },
+      {
+        "id": "b",
+        "text": "Hipertermia, hiperreflexia, mioclonías por serotonérgicos"
+      },
+      {
+        "id": "c",
+        "text": "Solo bradicardia"
+      },
+      {
+        "id": "d",
+        "text": "Hipotermia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Exceso de serotonina por interacciones.",
+    "pearl": "Suspender ofensores + soporte.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-003",
+    "subjectId": "psiquiatria",
+    "topic": "Esquizofrenia",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Tratamiento de mantenimiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo benzodiacepinas"
+      },
+      {
+        "id": "b",
+        "text": "Antipsicóticos (orales o depot)"
+      },
+      {
+        "id": "c",
+        "text": "AAS"
+      },
+      {
+        "id": "d",
+        "text": "IECA"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los antipsicóticos reducen recaídas.",
+    "pearl": "Depot si la adherencia es mala.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-004",
+    "subjectId": "psiquiatria",
+    "topic": "Esquizofrenia",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Efecto adverso grave de clozapina a vigilar:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hipotiroidismo puro"
+      },
+      {
+        "id": "b",
+        "text": "Agranulocitosis / neutropenia"
+      },
+      {
+        "id": "c",
+        "text": "Hiperkalemia típica"
+      },
+      {
+        "id": "d",
+        "text": "Ceguera segura"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Controles hematológicos obligatorios.",
+    "pearl": "Más eficaz en resistente.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-005",
+    "subjectId": "psiquiatria",
+    "topic": "Ansiedad",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Ataque de pánico agudo. Manejo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Antipsicótico depot"
+      },
+      {
+        "id": "b",
+        "text": "Benzodiacepina corta ± psicoeducación; ISRS en mantenimiento"
+      },
+      {
+        "id": "c",
+        "text": "Digoxina"
+      },
+      {
+        "id": "d",
+        "text": "Amoxicilina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "BZD alivia el agudo; ISRS previenen.",
+    "pearl": "Descartar causas orgánicas.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-006",
+    "subjectId": "psiquiatria",
+    "topic": "Ansiedad",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "TOC. Tratamiento de elección:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo diacepam a demanda"
+      },
+      {
+        "id": "b",
+        "text": "ISRS a dosis altas ± TCC de exposición"
+      },
+      {
+        "id": "c",
+        "text": "Haloperidol solo de primera"
+      },
+      {
+        "id": "d",
+        "text": "Litio"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "ISRS + TCC son pilares del TOC.",
+    "pearl": "Clomipramina alternativa.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-007",
+    "subjectId": "psiquiatria",
+    "topic": "Trastornos de personalidad",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Trastorno límite. Intervención con evidencia:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo benzodiacepina crónica"
+      },
+      {
+        "id": "b",
+        "text": "Terapia dialéctico-conductual / específicas"
+      },
+      {
+        "id": "c",
+        "text": "Lobotomía"
+      },
+      {
+        "id": "d",
+        "text": "ISRS curan el rasgo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La psicoterapia específica es central.",
+    "pearl": "Evitar polifarmacia.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-008",
+    "subjectId": "psiquiatria",
+    "topic": "Trastornos de personalidad",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Antisocial. Rasgo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Empatía elevada"
+      },
+      {
+        "id": "b",
+        "text": "Desregard por derechos ajenos desde joven"
+      },
+      {
+        "id": "c",
+        "text": "Obsesiones de contaminación"
+      },
+      {
+        "id": "d",
+        "text": "Ánimo eufórico continuo solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Patrón de violación de normas.",
+    "pearl": "Difícil tratamiento; límites claros.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-009",
+    "subjectId": "psiquiatria",
+    "topic": "Urgencias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Agitación psicótica con riesgo. Medida:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Dejar solo en sala"
+      },
+      {
+        "id": "b",
+        "text": "Desescalada ± antipsicótico/BZD según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Contención física como primera sin hablar"
+      },
+      {
+        "id": "d",
+        "text": "AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Seguridad + farmacología juiciosa.",
+    "pearl": "Descartar orgánicos/tóxicos.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-010",
+    "subjectId": "psiquiatria",
+    "topic": "Urgencias",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Síndrome neuroléptico maligno:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hiperreflexia serotoninérgica típica"
+      },
+      {
+        "id": "b",
+        "text": "Rigidez, fiebre, CPK alta por antipsicóticos"
+      },
+      {
+        "id": "c",
+        "text": "Solo diarrea"
+      },
+      {
+        "id": "d",
+        "text": "Hipotermia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Emergencia: suspender neuroléptico + soporte.",
+    "pearl": "Distinto del serotoninérgico.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-011",
+    "subjectId": "psiquiatria",
+    "topic": "Depresión",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Ideación suicida con plan e intención:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alta con cita en 3 meses"
+      },
+      {
+        "id": "b",
+        "text": "Evaluar ingreso / seguridad inmediata"
+      },
+      {
+        "id": "c",
+        "text": "Duplicar ISRS solo en casa sin más"
+      },
+      {
+        "id": "d",
+        "text": "Ignorar"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Riesgo alto → ambiente seguro.",
+    "pearl": "No pactar el secreto del plan.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-012",
+    "subjectId": "psiquiatria",
+    "topic": "Depresión",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Manía aguda. Tratamiento:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ISRS solo"
+      },
+      {
+        "id": "b",
+        "text": "Antipsicótico ± litio/valproato según caso"
+      },
+      {
+        "id": "c",
+        "text": "Metformina"
+      },
+      {
+        "id": "d",
+        "text": "Amoxicilina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Estabilizadores + antipsicóticos.",
+    "pearl": "ISRS pueden precipitar manía.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-013",
+    "subjectId": "psiquiatria",
+    "topic": "Esquizofrenia",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Síntomas negativos:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alucinaciones"
+      },
+      {
+        "id": "b",
+        "text": "Aplanamiento afectivo, abulia, alogia"
+      },
+      {
+        "id": "c",
+        "text": "Delirios de grandeza activos"
+      },
+      {
+        "id": "d",
+        "text": "Agitación"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los negativos predicen discapacidad.",
+    "pearl": "Más difíciles de tratar.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-014",
+    "subjectId": "psiquiatria",
+    "topic": "Ansiedad",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "TEPT. Tratamiento con evidencia:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo BZD crónicas"
+      },
+      {
+        "id": "b",
+        "text": "TCC centrada en trauma / EMDR ± ISRS"
+      },
+      {
+        "id": "c",
+        "text": "Haloperidol depot de primera"
+      },
+      {
+        "id": "d",
+        "text": "Lobotomía"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La psicoterapia centrada en trauma es clave.",
+    "pearl": "Evitar BZD crónicas.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-015",
+    "subjectId": "psiquiatria",
+    "topic": "Urgencias",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Intoxicación grave por litio:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Más litio"
+      },
+      {
+        "id": "b",
+        "text": "Hemodiálisis en casos graves + soporte"
+      },
+      {
+        "id": "c",
+        "text": "Carbón siempre eficaz tras 24 h"
+      },
+      {
+        "id": "d",
+        "text": "Flumazenilo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Diálisis si niveles graves o insuficiencia renal.",
+    "pearl": "Vigilar Na y función renal.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-016",
+    "subjectId": "cardio",
+    "topic": "Insuficiencia cardíaca",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "BNP/NT-proBNP elevado. Utilidad principal:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Diagnostica IAM siempre"
+      },
+      {
+        "id": "b",
+        "text": "Apoya diagnóstico/pronóstico de IC; VPN alto si bajo"
+      },
+      {
+        "id": "c",
+        "text": "Sustituye siempre al ecocardiograma"
+      },
+      {
+        "id": "d",
+        "text": "Indica antibiótico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "BNP ayuda a diferenciar disnea cardíaca.",
+    "pearl": "Falsos positivos en ERC/edad.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-017",
+    "subjectId": "cardio",
+    "topic": "Valvulopatías",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Profilaxis de endocarditis. Indicación típica actual:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Todos los dentales en población general"
+      },
+      {
+        "id": "b",
+        "text": "Solo alto riesgo en procedimientos seleccionados"
+      },
+      {
+        "id": "c",
+        "text": "Nunca"
+      },
+      {
+        "id": "d",
+        "text": "Toda artroscopia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Las indicaciones se restringieron.",
+    "pearl": "Amoxicilina típica si procede.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-016",
+    "subjectId": "neumo",
+    "topic": "EPOC",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Vacunación recomendada clave:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ninguna"
+      },
+      {
+        "id": "b",
+        "text": "Gripe + neumococo (± COVID según calendario)"
+      },
+      {
+        "id": "c",
+        "text": "Fiebre amarilla rutinaria"
+      },
+      {
+        "id": "d",
+        "text": "Rabia"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Las vacunas reducen agudizaciones y mortalidad.",
+    "pearl": "También tosferina/Td según edad.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-016",
+    "subjectId": "digestivo",
+    "topic": "Cirrosis",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Síndrome hepatorrenal. Rasgo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "IRA en cirrótico con ascitis tras descartar otras causas"
+      },
+      {
+        "id": "b",
+        "text": "Litiasis siempre"
+      },
+      {
+        "id": "c",
+        "text": "Infección urinaria sola"
+      },
+      {
+        "id": "d",
+        "text": "Hipopotasemia aislada"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "El tipo 1 es rápido y grave.",
+    "pearl": "Terlipresina + albúmina en seleccionados.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-016",
+    "subjectId": "neuro",
+    "topic": "Ictus",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Escala NIHSS. Uso:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Mide depresión"
+      },
+      {
+        "id": "b",
+        "text": "Cuantifica déficit neurológico en ictus"
+      },
+      {
+        "id": "c",
+        "text": "Mide dolor"
+      },
+      {
+        "id": "d",
+        "text": "Estadiaje de cáncer"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "NIHSS guía decisiones y pronóstico.",
+    "pearl": "0-42 puntos.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-016",
+    "subjectId": "endo",
+    "topic": "Diabetes",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Pie diabético infectado profundo. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo pomada"
+      },
+      {
+        "id": "b",
+        "text": "Desbridamiento + antibiótico + descarga + valoración vascular"
+      },
+      {
+        "id": "c",
+        "text": "Amputación siempre el día 1"
+      },
+      {
+        "id": "d",
+        "text": "Nada"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Enfoque multidisciplinar.",
+    "pearl": "Osteomielitis frecuente.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-016",
+    "subjectId": "nefro",
+    "topic": "ERC",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Acidosis metabólica crónica en ERC. Tratamiento frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ácido clorhídrico"
+      },
+      {
+        "id": "b",
+        "text": "Bicarbonato oral según metas"
+      },
+      {
+        "id": "c",
+        "text": "Insulina sola"
+      },
+      {
+        "id": "d",
+        "text": "AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Corregir acidosis puede enlentecer la progresión.",
+    "pearl": "Meta de HCO3 individualizada.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-016",
+    "subjectId": "infec",
+    "topic": "Antibióticos",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Antibiotic stewardship. Principio:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Máxima amplitud siempre 6 semanas"
+      },
+      {
+        "id": "b",
+        "text": "Desescalar según cultivos y duración adecuada"
+      },
+      {
+        "id": "c",
+        "text": "Nunca hemocultivos"
+      },
+      {
+        "id": "d",
+        "text": "Duplicar siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Usar mejor, no más.",
+    "pearl": "Reduce resistencias.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-016",
+    "subjectId": "heme",
+    "topic": "Coagulación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "CID. Laboratorio:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Plaquetas altas, fibrinógeno alto"
+      },
+      {
+        "id": "b",
+        "text": "Plaquetas bajas, fibrinógeno bajo, dímero alto, tiempos alargados"
+      },
+      {
+        "id": "c",
+        "text": "VCM bajo solo"
+      },
+      {
+        "id": "d",
+        "text": "INR 1.0 fijo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Consumo de factores y plaquetas.",
+    "pearl": "Tratar la causa.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-016",
+    "subjectId": "reuma",
+    "topic": "AR",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Embarazo y AR. Fármaco a evitar:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Prednisona baja"
+      },
+      {
+        "id": "b",
+        "text": "Metotrexato (teratogénico)"
+      },
+      {
+        "id": "c",
+        "text": "Hidroxicloroquina a menudo continua"
+      },
+      {
+        "id": "d",
+        "text": "Paracetamol"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "MTX se suspende meses antes.",
+    "pearl": "Planificar la gestación.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-016",
+    "subjectId": "gine",
+    "topic": "Gestación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Incompatibilidad Rh. Prevención:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nada"
+      },
+      {
+        "id": "b",
+        "text": "Inmunoglobulina anti-D en Rh- según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Transfusión fetal siempre"
+      },
+      {
+        "id": "d",
+        "text": "Vacuna triple"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Anti-D previene la isoimmunización.",
+    "pearl": "Coombs indirecto.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-016",
+    "subjectId": "pedia",
+    "topic": "Urgencias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Cuerpo extraño aspirado. Sospecha:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Asma que no mejora + historia"
+      },
+      {
+        "id": "b",
+        "text": "Historia de atragantamiento + sibilancias unilaterales"
+      },
+      {
+        "id": "c",
+        "text": "Otitis"
+      },
+      {
+        "id": "d",
+        "text": "Celiaquía"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Broncoscopia diagnóstica/terapéutica.",
+    "pearl": "Cacahuete en niños.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-016",
+    "subjectId": "psiquiatria",
+    "topic": "Depresión",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "ISRS. Tiempo habitual hasta respuesta:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2 horas"
+      },
+      {
+        "id": "b",
+        "text": "Varias semanas (2-6)"
+      },
+      {
+        "id": "c",
+        "text": "1 año obligatorio sin reevaluar"
+      },
+      {
+        "id": "d",
+        "text": "Nunca"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Educar expectativas.",
+    "pearl": "Vigilar activación inicial.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-018",
+    "subjectId": "cardio",
+    "topic": "Hipertensión",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Sospechar HTA secundaria si:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "HTA controlada fácil en anciano"
+      },
+      {
+        "id": "b",
+        "text": "HTA resistente, hipopotasemia, soplos, inicio abrupto en joven"
+      },
+      {
+        "id": "c",
+        "text": "IMC 22"
+      },
+      {
+        "id": "d",
+        "text": "Cefalea ocasional"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Buscar causas tratables.",
+    "pearl": "ESA, hiperaldosteronismo, renovascular.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-017",
+    "subjectId": "neumo",
+    "topic": "TEP",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Alta precoz posible si:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Shock"
+      },
+      {
+        "id": "b",
+        "text": "sPESI 0 / bajo riesgo seleccionado"
+      },
+      {
+        "id": "c",
+        "text": "BNP altísimo con fallo de VD"
+      },
+      {
+        "id": "d",
+        "text": "Hemoptisis masiva"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Estratificar riesgo permite ambulatorización.",
+    "pearl": "Anticoagulación oral posible.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-017",
+    "subjectId": "digestivo",
+    "topic": "Hepatitis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "VHC crónico. Objetivo terapéutico actual:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Interferón indefinido"
+      },
+      {
+        "id": "b",
+        "text": "Antivirales de acción directa hasta RVS (cura)"
+      },
+      {
+        "id": "c",
+        "text": "Trasplante siempre"
+      },
+      {
+        "id": "d",
+        "text": "Observar viremia alta sin tratar nunca"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Los AAD curan la mayoría.",
+    "pearl": "Cribar población de riesgo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-017",
+    "subjectId": "neuro",
+    "topic": "Epilepsia",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Conducción y epilepsia. Principio general:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Conducir tras cualquier crisis inmediata"
+      },
+      {
+        "id": "b",
+        "text": "Periodo libre de crisis según normativa local"
+      },
+      {
+        "id": "c",
+        "text": "Nunca informar"
+      },
+      {
+        "id": "d",
+        "text": "FAE prohíbe coche siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La normativa varía; seguridad vial.",
+    "pearl": "Documentar el consejo.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-017",
+    "subjectId": "endo",
+    "topic": "Suprarrenal",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Feocromocitoma. Preparación prequirúrgica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Betabloqueante solo primero"
+      },
+      {
+        "id": "b",
+        "text": "Alfa-bloqueo primero ± luego beta"
+      },
+      {
+        "id": "c",
+        "text": "IECA solo"
+      },
+      {
+        "id": "d",
+        "text": "Diurético de asa solo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Nunca beta solo (crisis hipertensiva).",
+    "pearl": "Metanefrinas diagnostican.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-017",
+    "subjectId": "infec",
+    "topic": "VIH",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "IRIS tras iniciar TAR:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Fracaso virológico puro"
+      },
+      {
+        "id": "b",
+        "text": "Empeoramiento inflamatorio por reconstitución inmune"
+      },
+      {
+        "id": "c",
+        "text": "Alergia alimentaria"
+      },
+      {
+        "id": "d",
+        "text": "Hipotiroidismo"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Tratar infección oportunista; a veces corticoides.",
+    "pearl": "No suspender TAR a la ligera.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-017",
+    "subjectId": "heme",
+    "topic": "Anemias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Anemia de enfermedad crónica:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ferritina baja siempre"
+      },
+      {
+        "id": "b",
+        "text": "Ferritina normal/alta, hierro sérico bajo, VCM normal/bajo"
+      },
+      {
+        "id": "c",
+        "text": "B12 baja siempre"
+      },
+      {
+        "id": "d",
+        "text": "Reticulocitos 15%"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Hepcidina alta bloquea el hierro.",
+    "pearl": "Tratar la enfermedad de base.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-019",
+    "subjectId": "cardio",
+    "topic": "Arritmias",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Ablación de FA. Indicación frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Asintomático sin fármacos intentados"
+      },
+      {
+        "id": "b",
+        "text": "FA sintomática refractaria o preferencia tras discutir opciones"
+      },
+      {
+        "id": "c",
+        "text": "Solo edad >90"
+      },
+      {
+        "id": "d",
+        "text": "Insuficiencia mitral grave no valorada"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La ablación mejora síntomas en seleccionados.",
+    "pearl": "Anticoagulación según CHA2DS2-VASc.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-018",
+    "subjectId": "neumo",
+    "topic": "Asma",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Asma inducida por ejercicio. Medida útil:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Evitar calentamiento"
+      },
+      {
+        "id": "b",
+        "text": "SABA previo al ejercicio ± control de base"
+      },
+      {
+        "id": "c",
+        "text": "Betabloqueante pre-ejercicio"
+      },
+      {
+        "id": "d",
+        "text": "Antibiótico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Prevenir con SABA y optimizar control.",
+    "pearl": "Descartar EIB vs mal control.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-018",
+    "subjectId": "digestivo",
+    "topic": "IBD",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Toxicidad de azatioprina a vigilar:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hipertiroidismo"
+      },
+      {
+        "id": "b",
+        "text": "Mielosupresión / infecciones; TPMT/NUDT15"
+      },
+      {
+        "id": "c",
+        "text": "Hipoglucemia"
+      },
+      {
+        "id": "d",
+        "text": "Hipocalcemia aislada"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Controles hematológicos periódicos.",
+    "pearl": "Interacción con alopurinol.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-018",
+    "subjectId": "neuro",
+    "topic": "Esclerosis múltiple",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Brote óptico. Tratamiento agudo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Observar siempre"
+      },
+      {
+        "id": "b",
+        "text": "Corticoides a dosis altas"
+      },
+      {
+        "id": "c",
+        "text": "Antibiótico"
+      },
+      {
+        "id": "d",
+        "text": "Cirugía"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "La neuritis óptica responde a corticoides IV.",
+    "pearl": "RM órbitas/cerebro.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-018",
+    "subjectId": "endo",
+    "topic": "Diabetes",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "GLP-1. Beneficio adicional frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Aumento de peso"
+      },
+      {
+        "id": "b",
+        "text": "Pérdida de peso + beneficio CV en varios"
+      },
+      {
+        "id": "c",
+        "text": "Hipoglucemia grave muy frecuente en monoterapia"
+      },
+      {
+        "id": "d",
+        "text": "Nefritis"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Útiles en obesidad y alto riesgo CV.",
+    "pearl": "Náuseas iniciales.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-nefro-017",
+    "subjectId": "nefro",
+    "topic": "ERC",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Hiperparatiroidismo secundario. Manejo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Más fósforo libre"
+      },
+      {
+        "id": "b",
+        "text": "Control de P/Ca, vitamina D activa, calcimiméticos según caso"
+      },
+      {
+        "id": "c",
+        "text": "Paratiroidectomía siempre primero"
+      },
+      {
+        "id": "d",
+        "text": "Insulina"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Eje mineral-óseo de la ERC.",
+    "pearl": "PTH elevado.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-018",
+    "subjectId": "infec",
+    "topic": "Antibióticos",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Infección urinaria complicada. Actitud:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3 días de fosfomicina siempre basta"
+      },
+      {
+        "id": "b",
+        "text": "Cultivo + antibiótico según riesgo y foco"
+      },
+      {
+        "id": "c",
+        "text": "Solo zumo de arándanos"
+      },
+      {
+        "id": "d",
+        "text": "Observar fiebre 1 semana"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Complicada requiere enfoque más amplio.",
+    "pearl": "Sonda, hombre, obstrucción = complicada.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-018",
+    "subjectId": "heme",
+    "topic": "Coagulación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Trombofilia hereditaria frecuente a estudiar tras TEV no provocada seleccionada:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Factor V Leiden / protrombina / déficits"
+      },
+      {
+        "id": "b",
+        "text": "HbA1c"
+      },
+      {
+        "id": "c",
+        "text": "TSH sola"
+      },
+      {
+        "id": "d",
+        "text": "Vitamina C"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Estudio selectivo, no indiscriminado.",
+    "pearl": "Historia familiar.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-reuma-017",
+    "subjectId": "reuma",
+    "topic": "LES",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Anticuerpo asociado a bloqueo cardíaco neonatal:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Anti-Ro/SSA"
+      },
+      {
+        "id": "b",
+        "text": "Anti-CCP"
+      },
+      {
+        "id": "c",
+        "text": "ANCA"
+      },
+      {
+        "id": "d",
+        "text": "Anti-Jo1"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Anti-Ro en lupus/Sjögren gestacional.",
+    "pearl": "Monitorización fetal.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-gine-017",
+    "subjectId": "gine",
+    "topic": "Gestación",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Placenta previa sangrante. Actitud inicial:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Tacto vaginal agresivo"
+      },
+      {
+        "id": "b",
+        "text": "Estabilizar, evitar tacto, cesárea según clínica/edad gestacional"
+      },
+      {
+        "id": "c",
+        "text": "Oxitocina a chorro"
+      },
+      {
+        "id": "d",
+        "text": "Misoprostol"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Nunca tacto si sospecha de previa.",
+    "pearl": "Eco diagnostica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-pedia-017",
+    "subjectId": "pedia",
+    "topic": "Infecciones pediátricas",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Exantema súbito (HHV-6). Rasgo:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Fiebre varios días y rash al defervescer"
+      },
+      {
+        "id": "b",
+        "text": "Vesículas en dermatoma"
+      },
+      {
+        "id": "c",
+        "text": "Koplik"
+      },
+      {
+        "id": "d",
+        "text": "Escarlatina con test estreptocócico+"
+      }
+    ],
+    "correctId": "a",
+    "explanation": "Lactantes típicos.",
+    "pearl": "Autolimitado.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-017",
+    "subjectId": "psiquiatria",
+    "topic": "Depresión",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Litio. Control analítico clave:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Solo glucosa"
+      },
+      {
+        "id": "b",
+        "text": "Litio sérico + función renal y tiroidea"
+      },
+      {
+        "id": "c",
+        "text": "PSA"
+      },
+      {
+        "id": "d",
+        "text": "Amilasa semanal siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Ventana terapéutica estrecha.",
+    "pearl": "Toxicidad con deshidratación/AINE.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-cardio-020",
+    "subjectId": "cardio",
+    "topic": "Síndromes coronarios",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Prasugrel/ticagrelor frente a clopidogrel:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Siempre peores"
+      },
+      {
+        "id": "b",
+        "text": "Más potentes; indicados en SCA según perfil de riesgo hemorrágico"
+      },
+      {
+        "id": "c",
+        "text": "Solo en asma"
+      },
+      {
+        "id": "d",
+        "text": "Prohibidos tras stent"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "P2Y12 potentes en SCA.",
+    "pearl": "Contraindicaciones específicas (prasugrel).",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neumo-019",
+    "subjectId": "neumo",
+    "topic": "Neumonías",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Criterio de ingreso CURB-65 incluye:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Color de esputo"
+      },
+      {
+        "id": "b",
+        "text": "Confusión, urea, FR, PA, edad"
+      },
+      {
+        "id": "c",
+        "text": "Solo fiebre"
+      },
+      {
+        "id": "d",
+        "text": "IMC"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Escala práctica de gravedad.",
+    "pearl": "PSI alternativa.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-digestivo-019",
+    "subjectId": "digestivo",
+    "topic": "Páncreas",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Necrosis pancreática infectada. Sospecha:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Mejoría clínica día 2"
+      },
+      {
+        "id": "b",
+        "text": "Empeoramiento tardío + gas/cultivo; antibiótico ± drenaje"
+      },
+      {
+        "id": "c",
+        "text": "Amilasa normal descarta"
+      },
+      {
+        "id": "d",
+        "text": "Solo dieta"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "No antibiótico profiláctico rutinario.",
+    "pearl": "Step-up approach.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-neuro-019",
+    "subjectId": "neuro",
+    "topic": "Parkinson",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Fármaco que empeora Parkinson:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Levodopa"
+      },
+      {
+        "id": "b",
+        "text": "Antidopaminérgicos (metoclopramida, neurolépticos típicos)"
+      },
+      {
+        "id": "c",
+        "text": "Rasagilina"
+      },
+      {
+        "id": "d",
+        "text": "Entacapona"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Evitar bloqueantes dopaminérgicos.",
+    "pearl": "Domperidona relativa excepción periférica.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-endo-019",
+    "subjectId": "endo",
+    "topic": "Tiroides",
+    "year": 2023,
+    "difficulty": 3,
+    "stem": "Oftalmopatía de Graves activa grave:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Más radioyodo inmediato sin más"
+      },
+      {
+        "id": "b",
+        "text": "Corticoides / especialistas; evitar radioyodo en activa grave no preparada"
+      },
+      {
+        "id": "c",
+        "text": "Solo lágrimas sin valoración"
+      },
+      {
+        "id": "d",
+        "text": "Tiroidectomía el mismo día siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Coordinar endocrino y oftalmólogo.",
+    "pearl": "Selenio en leve seleccionado.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-infec-019",
+    "subjectId": "infec",
+    "topic": "Sepsis",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Lactato en sepsis. Utilidad:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Confirma germen"
+      },
+      {
+        "id": "b",
+        "text": "Marcador de hipoperfusión y respuesta a resuscitación"
+      },
+      {
+        "id": "c",
+        "text": "Sustituye cultivos"
+      },
+      {
+        "id": "d",
+        "text": "Indica antivírico"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Reevaluar tras fluidos.",
+    "pearl": "No es diagnóstico aislado.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-heme-019",
+    "subjectId": "heme",
+    "topic": "Transfusión",
+    "year": 2023,
+    "difficulty": 2,
+    "stem": "Plaquetas <10k asintomático. Actitud frecuente:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Nunca transfusión"
+      },
+      {
+        "id": "b",
+        "text": "Transfusión profiláctica según protocolo"
+      },
+      {
+        "id": "c",
+        "text": "Heparina"
+      },
+      {
+        "id": "d",
+        "text": "AAS"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Umbral ~10x10^9 en estables.",
+    "pearl": "Más alto si sangrado/procedimiento.",
+    "source": "puertomir-bank"
+  },
+  {
+    "id": "pm-psiquiatria-018",
+    "subjectId": "psiquiatria",
+    "topic": "Ansiedad",
+    "year": 2023,
+    "difficulty": 1,
+    "stem": "Benzodiacepinas. Riesgo de uso prolongado:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ninguno"
+      },
+      {
+        "id": "b",
+        "text": "Dependencia, tolerancia, caídas, deterioro cognitivo"
+      },
+      {
+        "id": "c",
+        "text": "Curan TOC solas"
+      },
+      {
+        "id": "d",
+        "text": "Aumentan adherencia ISRS siempre"
+      }
+    ],
+    "correctId": "b",
+    "explanation": "Usar corto y con plan de retirada.",
+    "pearl": "Evitar en ancianos si posible.",
+    "source": "puertomir-bank"
+  }
+]
